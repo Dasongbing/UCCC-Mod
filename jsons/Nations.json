@@ -689,7 +689,7 @@
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
 			"[+20]% Production towards any buildings that already exist in the Capital",
-			"[+1 Production, +1 Gold] [in cities connected to the capital]",
+			"[+1 Production, +1 Gold] from each Trade Route",
 			"[-50]% construction time for [Road] improvements"
 		],
 		"cities": [
@@ -1951,7 +1951,7 @@
 			"[+25]% [Science] <while researching [Rocketry]> <hidden from users>",
 			"[+25]% [Science] <while researching [Computers]> <hidden from users>",
 			"[+25]% [Science] <while researching [Mobile Tactics]> <hidden from users>",
-			"[+25]% [Science] <while researching [Advanved Ballistics]> <hidden from users>",
+			"[+25]% [Science] <while researching [Advanced Ballistics]> <hidden from users>",
 			"[+25]% [Science] <while researching [Robotics]> <hidden from users>",
 			"[+25]% [Science] <while researching [Lasers]> <hidden from users>",
 			"[+25]% [Science] <while researching [Nuclear Fusion]> <hidden from users>",
@@ -1976,7 +1976,7 @@
 			"[+25]% Strength <for [Caravel] units> <while researching [Steam Power]> <hidden from users>",
 			"[+25]% Strength <for [Musketman] units> <while researching [Rifling]> <hidden from users>",
 			"[+25]% Strength <for [Privateer] units> <while researching [Combustion]> <hidden from users>",
-			"[+25]% Strength <for [Frigate] units> <while researching [Battleship]> <hidden from users>",
+			"[+25]% Strength <for [Frigate] units> <while researching [Electronics]> <hidden from users>",
 			"[+25]% Strength <for [Lancer] units> <while researching [Combined Arms]> <hidden from users>",
 			"[+25]% Strength <for [Cannon] units> <while researching [Dynamite]> <hidden from users>",
 			"[+25]% Strength <for [Gatling Gun] units> <while researching [Ballistics]> <hidden from users>",
@@ -1994,8 +1994,8 @@
 			"[+25]% Strength <for [Landship] units> <while researching [Combined Arms]> <hidden from users>",
 			"[+25]% Strength <for [Tank] units> <while researching [Lasers]> <hidden from users>",
 			"[+25]% Strength <for [Fighter] units> <while researching [Lasers]> <hidden from users>",
-			"[+25]% Strength <for [Bomber] units> <while researching [Stealth Bomber]> <hidden from users>",
-			"[+25]% Strength <for [Anti-Tank Gun] units> <while researching [Computer]> <hidden from users>"
+			"[+25]% Strength <for [Bomber] units> <while researching [Stealth]> <hidden from users>",
+			"[+25]% Strength <for [Anti-Tank Gun] units> <while researching [Computers]> <hidden from users>"
 		],
 		"cities": [
 			"Gao",

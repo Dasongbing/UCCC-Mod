@@ -29,7 +29,7 @@
 	{
 		"name": "Nobel Prize", //诺贝尔奖
 		"uniques": [
-			"May Paradrop up to [8] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>",
 			"Comment [You can get free tech points and provide production capacity for your city, increasing your stats and times as you progress.]",
 			"Gain [30] [Science]<[1] times><costs [-15 Production] stats><during the [Ancient era]><hidden from users>",
 			"Gain [90] [Science]<[1] times><costs [-30 Production] stats><during the [Classical era]><hidden from users>",

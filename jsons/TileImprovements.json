@@ -51,8 +51,8 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": [
-			"[+1 Culture] <with [1] to [6] neighboring [Moai] tiles> <after discovering [Construction]>",
-			"[+1 Culture] <with [1] to [6] neighboring [Coast] tiles> <after discovering [Construction]>",
+			"[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Moai] tiles>",
+			"[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -113,12 +113,12 @@
 			"[+1 Food] <with [3] to [6] neighboring [Bonus resource] tiles>",
 			"[+1 Gold] <for every adjacent [Luxury resource]>",
 			"Comment [[+1 Production] [for every adjacent [Strategic resource]]，但是每种战略资源只有第一个生效]",
-			"[+1 Production] <with [1] to [6] neighboring [Horses] tiles> <after discovering [Animal Husbandry]> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Iron] tiles> <after discovering [Iron Working]> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Coal] tiles> <after discovering [Industrialization]> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Oil] tiles> <after discovering [Biology]> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Aluminum] tiles> <after discovering [Electricity]> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Uranium] tiles> <after discovering [Atomic Theogy]> <hidden from users>"
+			"[+1 Production] <after discovering [Animal Husbandry]> <with [1] to [6] neighboring [Horses] tiles> <hidden from users>",
+			"[+1 Production] <after discovering [Iron Working]> <with [1] to [6] neighboring [Iron] tiles> <hidden from users>",
+			"[+1 Production] <after discovering [Industrialization]> <with [1] to [6] neighboring [Coal] tiles> <hidden from users>",
+			"[+1 Production] <after discovering [Biology]> <with [1] to [6] neighboring [Oil] tiles> <hidden from users>",
+			"[+1 Production] <after discovering [Electricity]> <with [1] to [6] neighboring [Aluminum] tiles> <hidden from users>",
+			"[+1 Production] <after discovering [Atomic Theory]> <with [1] to [6] neighboring [Uranium] tiles> <hidden from users>"
 		]
 	},
 	{
