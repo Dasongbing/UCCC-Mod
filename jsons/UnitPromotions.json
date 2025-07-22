@@ -90,10 +90,6 @@
         "name": "[Shield Guard] ability", 
         "uniques": ["[+10]% Strength <when defending>"],
     },
-    {
-        "name": "Dancing with the King", 
-        "uniques": ["[+10]% Strength ", ],
-    },
 	{
 		"name": "Rejuvenation", 
 		"uniques": ["[+5] HP when healing"]
