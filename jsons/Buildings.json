@@ -11,7 +11,8 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-			"Indicates the capital city"
+			"Indicates the capital city",
+			"Triggers a [Welcome to [UCCC]!] event"
 		]
 	},
 	{
@@ -696,7 +697,7 @@
 			"production": 10
 		},
 		"uniques": [
-			"Comment [[+1 Production, +1 Science] from every [Production] [in this city]]"
+			"[+1 Production, +1 Science] from every [Production] <in this city>"
 		],
 		"requiredTech": "Currency"
 	},

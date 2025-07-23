@@ -1156,8 +1156,7 @@
 			"[3] Unit Supply per city",
 			"[-66]% maintenance costs <for [Military] units>",
 			"[+1 Science, +1 Production] from all [Production] buildings <during a Golden Age>",
-			"[+10]% Production when constructing [Production] buildings [in all cities]",
-			"[+1 Production] from every [Production] <in cities with a [Trade Association]> <hidden from users>"
+			"[+10]% Production when constructing [Production] buildings [in all cities]"
 		],
 		"cities": [
 			"Berlin",
