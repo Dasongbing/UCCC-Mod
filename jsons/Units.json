@@ -503,9 +503,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": [
-			"Pictish Courage"
-		],
+		"promotions": ["[Pictish Courage]2"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -549,7 +547,7 @@
 		"uniqueTo": "Macedonia",
 		"replaces": "Horseman",
 		"movement": 4,
-		"strength": 13,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Horses",
@@ -2388,7 +2386,7 @@
 		"uniqueTo": "[Macedonia]",
 		"replaces": "Horseman",
 		"movement": 4,
-		"strength": 13,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"requiredResource": "Horses",

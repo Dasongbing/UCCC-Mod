@@ -73,7 +73,7 @@
 		]
 	},
 	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		"name": "[Pictish Courage]2", // only for Pictish Warrior and subsequent upgrades
 		"uniques": [
 			"[+10]% Strength",
 			"No movement cost to pillage",
