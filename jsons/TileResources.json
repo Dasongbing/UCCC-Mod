@@ -50,7 +50,7 @@
 		"terrainsCanBeFoundOn": [
 			"Forest",
 			"Tundra"
-		], // Tundra only if lowland
+		],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {
@@ -90,7 +90,7 @@
 			"Plains",
 			"Flood plains",
 			"Desert"
-		], // Desert only if fresh water
+		],
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
@@ -141,7 +141,6 @@
 		"improvementStats": {"production": 1}
 	},
 	*/
-	// Strategic resources
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
@@ -150,7 +149,7 @@
 			"Plains",
 			"Grassland",
 			"Hill"
-		], // Hill only if plains or grassland
+		],
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {
@@ -374,7 +373,6 @@
 			"abundant": 3
 		}
 	},
-	// Luxury resources
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
@@ -449,7 +447,7 @@
 		]
 	},
 	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Desert",
@@ -591,7 +589,6 @@
 			"Grassland",
 			"Marsh"
 		],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": [
@@ -727,7 +724,7 @@
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
+		"terrainsCanBeFoundOn": ["Jungle","Forest"], 
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation"

@@ -10,7 +10,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
@@ -18,7 +17,6 @@
             {
                 "name": "Aristocracy", //1
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+15]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
@@ -28,7 +26,6 @@
             {
                 "name": "Legalism", //2
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
                 "row": 1,
@@ -37,7 +34,6 @@
             {
                 "name": "Oligarchy", //3
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
                     "[-100]% weight to this choice for AI decisions"
@@ -48,7 +44,6 @@
             {
                 "name": "Landed Elite", //4
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
@@ -58,7 +53,6 @@
             {
                 "name": "Monarchy", //5
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Gold, +1 Happiness] per [2] population [in capital]"
                 ],
                 "row": 3,
@@ -84,14 +78,12 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+1 Culture] [in all cities]",
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+            "[+1 Culture] [in all cities]"
         ],
         "policies": [
             {
                 "name": "Republic",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
@@ -101,7 +93,6 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-25]% construction time for [All] improvements",
                     "Free [Worker] appears",
                     "[-100]% weight to this choice for AI decisions"
@@ -112,7 +103,6 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+50]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears"
                 ],
@@ -125,7 +115,6 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
                 ],
@@ -138,7 +127,6 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "[-100]% weight to this choice for AI decisions"
@@ -168,7 +156,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
@@ -177,7 +164,6 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+15]% Production when constructing [Melee] units [in all cities]",
                     "Free [Great General] appears"
                 ],
@@ -187,7 +173,6 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
@@ -196,7 +181,6 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+50]% XP gained from combat <for [Military] units>"
                 ],
                 "requires": [
@@ -208,7 +192,6 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
                 ],
                 "row": 2,
@@ -217,7 +200,6 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-33]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
@@ -249,7 +231,6 @@
             "Scientific": 0
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "Only available <before adopting [Rationalism]>",
@@ -259,7 +240,6 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Faith] from every [Shrine]",
                     "[+1 Faith] from every [Temple]"
                 ],
@@ -269,7 +249,6 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[50]% of excess happiness converted to [Culture]"
                 ],
                 "row": 1,
@@ -278,8 +257,7 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+10]% [Gold] from every [Temple]",
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+                    "[+10]% [Gold] from every [Temple]"
                 ],
                 "requires": [
                     "Organized Religion"
@@ -290,7 +268,6 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+33]% [Culture] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
@@ -303,7 +280,6 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-10]% Culture cost of adopting new Policies"
                 ],
                 "requires": [
@@ -333,7 +309,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[-25]% City-State Influence degradation",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ],
@@ -341,7 +316,6 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Gifts of Gold to City-States generate [25]% more Influence"
                 ],
                 "row": 1,
@@ -350,7 +324,6 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Resting point for Influence with City-States is increased by [20]"
                 ],
                 "row": 1,
@@ -359,7 +332,6 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
                 ],
                 "requires": [
@@ -371,7 +343,6 @@
             {
                 "name": "Cultural Diplomacy",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
@@ -388,7 +359,6 @@
                     "Aesthetics"
                 ],
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Allied City-States will occasionally gift Great People"
                 ],
                 "row": 3,
@@ -414,14 +384,12 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+25]% [Gold] [in capital]",
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+            "[+25]% [Gold] [in capital]"
         ],
         "policies": [
             {
                 "name": "Naval Tradition",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
                     "Free [Great General] appears"
@@ -434,7 +402,6 @@
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-33]% maintenance on road & railroads",
                     "[+1 Gold] from every [Harbor]",
                     "[+1 Gold] from every [Seaport]"
@@ -445,8 +412,7 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+                    "[+3 Production] [in all coastal cities]"
                 ],
                 "requires": [
                     "Naval Tradition"
@@ -457,7 +423,6 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[Gold] cost of purchasing items in cities [-25]%",
                     "[+1 Science] from every [Mint]",
                     "[+1 Science] from every [Market]",
@@ -473,8 +438,7 @@
             {
                 "name": "Protectionism",
                 "uniques": [
-                    "[+2] Happiness from each type of luxury resource",
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+                    "[+2] Happiness from each type of luxury resource"
                 ],
                 "requires": [
                     "Mercantilism"
@@ -503,7 +467,6 @@
             "Scientific": 10
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+15]% [Science] <while the empire is happy>",
             "Only available <before adopting [Piety]>"
         ],
@@ -511,7 +474,6 @@
             {
                 "name": "Secularism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+2 Science] from every specialist [in all cities]"
                 ],
                 "row": 1,
@@ -520,7 +482,6 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Happiness] from every [University]",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]",
@@ -532,7 +493,6 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+1 Science] from every [Trading post]",
                     "[+17]% [Science] from every [University]"
                 ],
@@ -545,8 +505,7 @@
             {
                 "name": "Sovereignty",
                 "uniques": [
-                    "[+1 Gold] from all [Science] buildings",
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+                    "[+1 Gold] from all [Science] buildings"
                 ],
                 "requires": [
                     "Humanism"
@@ -557,7 +516,6 @@
             {
                 "name": "Scientific Revolution",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Science gained from research agreements [+50]%",
                     "[-100]% weight to this choice for AI decisions"
                 ],
@@ -587,7 +545,6 @@
             "Scientific": 10
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+25]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>"
@@ -597,8 +554,7 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+2 Culture] from every [Wonder]",
-                    "[-100]% weight to this choice for AI decisions",
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>"
+                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1
@@ -606,7 +562,6 @@
             {
                 "name": "Universal Suffrage",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+33]% Strength for cities <when defending>",
                     "[-100]% weight to this choice for AI decisions"
                 ],
@@ -616,7 +571,6 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-50]% Food consumption by specialists [in all cities]"
                 ],
                 "row": 1,
@@ -625,7 +579,6 @@
             {
                 "name": "Free Speech",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[8] units cost no maintenance"
                 ],
                 "requires": [
@@ -637,7 +590,6 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-50]% Unhappiness from [Specialists] [in all cities]"
                 ],
                 "requires": [
@@ -667,7 +619,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
@@ -677,7 +628,6 @@
             {
                 "name": "Populism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+25]% Strength <for [Wounded] units>",
                     "[+100]% weight to this choice for AI decisions"
                 ],
@@ -687,7 +637,6 @@
             {
                 "name": "Militarism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[Gold] cost of purchasing [All] units [-33]%"
                 ],
                 "row": 1,
@@ -696,7 +645,6 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
@@ -710,7 +658,6 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+3 Happiness] from every [Courthouse]",
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[-25]% enemy spy effectiveness [in all cities]"
@@ -724,7 +671,6 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] XP [in all cities]"
                 ],
@@ -755,7 +701,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
             "[+1 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
@@ -764,7 +709,6 @@
             {
                 "name": "United Front",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
                     "[-100]% weight to this choice for AI decisions"
                 ],
@@ -774,7 +718,6 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+25]% [Science] from every [Factory]",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
@@ -784,7 +727,6 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
                 "row": 1,
@@ -796,7 +738,6 @@
                     "Planned Economy"
                 ],
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[-15]% maintenance cost for [all] buildings [in all cities]"
                 ],
                 "row": 2,
@@ -808,7 +749,6 @@
                     "Socialism"
                 ],
                 "uniques": [
-                    "Instantly provides [1] [Austrias] <for [Austria] Civilizations> <hidden from users>",
                     "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"

@@ -51,8 +51,8 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": [
-			"[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Moai] tiles>",
-			"[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Coast] tiles>",
+			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Moai] tiles>",
+			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -108,17 +108,16 @@
 			"Removes removable features when built",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"[+1 Food] <with [1] to [6] neighboring [Bonus resource] tiles>",
-			"[+1 Food] <with [2] to [6] neighboring [Bonus resource] tiles>",
-			"[+1 Food] <with [3] to [6] neighboring [Bonus resource] tiles>",
+			"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",
+			"[+2 Food] <with [2] to [2] neighboring [Bonus resource] tiles>",
+			"[+3 Food] <with [3] to [6] neighboring [Bonus resource] tiles>",
 			"[+1 Gold] <for every adjacent [Luxury resource]>",
-			"Comment [[+1 Production] [for every adjacent [Strategic resource]]，但是每种战略资源只有第一个生效]",
-			"[+1 Production] <after discovering [Animal Husbandry]> <with [1] to [6] neighboring [Horses] tiles> <hidden from users>",
-			"[+1 Production] <after discovering [Iron Working]> <with [1] to [6] neighboring [Iron] tiles> <hidden from users>",
-			"[+1 Production] <after discovering [Industrialization]> <with [1] to [6] neighboring [Coal] tiles> <hidden from users>",
-			"[+1 Production] <after discovering [Biology]> <with [1] to [6] neighboring [Oil] tiles> <hidden from users>",
-			"[+1 Production] <after discovering [Electricity]> <with [1] to [6] neighboring [Aluminum] tiles> <hidden from users>",
-			"[+1 Production] <after discovering [Atomic Theory]> <with [1] to [6] neighboring [Uranium] tiles> <hidden from users>"
+			"[+1 Production] <in tiles adjacent to [Horses] tiles>",
+			"[+1 Production] <in tiles adjacent to [Iron] tiles>",
+			"[+1 Production] <in tiles adjacent to [Coal] tiles>",
+			"[+1 Production] <in tiles adjacent to [Oil] tiles>",
+			"[+1 Production] <in tiles adjacent to [Aluminum] tiles>",
+			"[+1 Production] <in tiles adjacent to [Uranium] tiles>"
 		]
 	},
 	{
@@ -170,7 +169,6 @@
 		],
 		"shortcutKey": "T"
 	},
-	// Resource-specific
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
@@ -197,7 +195,7 @@
 	},
 	{
 		"name": "Offshore Platform",
-		"turnsToBuild": 1, // Allows this to be constructed for city-states
+		"turnsToBuild": 1,
 		"techRequired": "Refrigeration",
 		"uniques": [
 			"Can only be built to improve a resource",
@@ -242,7 +240,7 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"turnsToBuild": 1, // Allows this to be constructed for city-states
+		"turnsToBuild": 1,
 		"terrainsCanBeBuiltOn": [
 			"Coast"
 		],
@@ -255,7 +253,6 @@
 		],
 		"shortcutKey": "F"
 	},
-	// Military improvement
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
@@ -276,7 +273,6 @@
 		],
 		"shortcutKey": "O"
 	},
-	// Transportation
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": [
@@ -324,9 +320,6 @@
 			}
 		]
 	},
-	// Removals
-	// Any improvement that starts with 'Remove ' is automatically changed into
-	// the improvement that removes the terrainfeature after it.
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
@@ -355,7 +348,6 @@
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
-		// Has no tech requirements as it can always be built
 		"uniques": [
 			"Can be built outside your borders",
 			"Excluded from map editor"
@@ -372,7 +364,6 @@
 		],
 		"shortcutKey": "X"
 	},
-	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
@@ -397,7 +388,6 @@
 		],
 		"shortcutKey": "."
 	},
-	// Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
 	{
 		"name": "Repair",
 		"terrainsCanBeBuiltOn": [
@@ -415,7 +405,6 @@
 			}
 		]
 	},
-	// Great Person improvements
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": [
@@ -500,7 +489,6 @@
 			"Will not be replaced by automated units"
 		]
 	},
-	// Unbuildable improvements
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": [

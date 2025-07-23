@@ -27,7 +27,7 @@
 		"unitTypes": []
 	},
 	{
-		"name": "Nobel Prize", //诺贝尔奖
+		"name": "Nobel Prize",
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>",
 			"Comment [You can get free tech points and provide production capacity for your city, increasing your stats and times as you progress.]",
@@ -66,14 +66,7 @@
 		]
 	},
 	{
-		"name": "In The Forest",
-		"uniques": [
-			"Invisible to non-adjacent units <in [Jungle] tiles>",
-			"Invisible to non-adjacent units <in [Forest] tiles>"
-		]
-	},
-	{
-		"name": "[Pictish Courage]2", // only for Pictish Warrior and subsequent upgrades
+		"name": "[Pictish Courage]2",
 		"uniques": [
 			"[+10]% Strength",
 			"No movement cost to pillage",
@@ -81,27 +74,27 @@
 		]
 	},
 	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
+		"name": "Slinger Withdraw",
 		"uniques": [
 			"Withdraws before melee combat <with [40]% chance>"
 		]
 	},
 	{
-		"name": "Indomitable", // 拜占庭
+		"name": "Indomitable",
 		"uniques": [
 			"[+10]% Strength <when defending>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 		]
 	},
 	{
-		"name": "Allegiance", // 荷兰
+		"name": "Allegiance",
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units>",
 			"[+10]% Strength <vs [Ranged] units> <when defending>"
 		]
 	},
 	{
-		"name": "[Elite Cavalry] ability", //突厥
+		"name": "[Elite Cavalry] ability",
 		"uniques": [
 			"[+15]% Strength <when adjacent to a [Great General] unit>"
 		]
@@ -156,7 +149,6 @@
 		"row": 0,
 		"column": 0
 	},
-	// Ranged+Siege
 	{
 		"name": "Accuracy I",
 		"uniques": [
@@ -306,7 +298,6 @@
 		"column": 3,
 		"row": 4
 	},
-	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
 		"uniques": [
@@ -422,7 +413,7 @@
 		"row": 2
 	},
 	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"name": "Besiege",
 		"prerequisites": [
 			"Shock II",
 			"Drill II"
@@ -442,7 +433,7 @@
 		"prerequisites": [
 			"Shock II",
 			"Drill II"
-		], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		],
 		"uniques": [
 			"[+33]% Strength <vs [Mounted] units>",
 			"[-50]% weight to this choice for AI decisions"
@@ -541,7 +532,7 @@
 			"Mounted",
 			"Scout"
 		],
-		"column": 10, // after scout base
+		"column": 10,
 		"row": 1
 	},
 	{
@@ -562,7 +553,6 @@
 		"column": 10,
 		"row": 2
 	},
-	// Scout
 	{
 		"name": "Scouting I",
 		"uniques": [
@@ -637,14 +627,13 @@
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action",
 			"Withdraws before melee combat <with [75]% chance>"
-		], // This number is not based on any source
+		],
 		"unitTypes": [
 			"Scout"
 		],
 		"column": 9,
 		"row": 3
 	},
-	// Water melee
 	{
 		"name": "Boarding Party I",
 		"uniques": [
@@ -737,7 +726,6 @@
 		"column": 12,
 		"row": 5
 	},
-	// Water Ranged
 	{
 		"name": "Targeting I",
 		"uniques": [
@@ -777,7 +765,6 @@
 		"column": 13,
 		"row": 3
 	},
-	// Submarine
 	{
 		"name": "Wolfpack I",
 		"uniques": [
@@ -817,7 +804,6 @@
 		"column": 14,
 		"row": 3
 	},
-	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
 		"uniques": [
@@ -896,7 +882,6 @@
 		"column": 16,
 		"row": 3
 	},
-	// Mixed Water
 	{
 		"name": "Supply",
 		"prerequisites": [
@@ -916,7 +901,6 @@
 		"column": 16,
 		"row": 4
 	},
-	// Bomber
 	{
 		"name": "Siege I",
 		"uniques": [
@@ -973,7 +957,6 @@
 		"column": 17,
 		"row": 4
 	},
-	// Aircraft
 	{
 		"name": "Interception I",
 		"uniques": [
@@ -1142,7 +1125,6 @@
 		"column": 21,
 		"row": 3
 	},
-	// Helicopter
 	{
 		"name": "Mobility I",
 		"uniques": [
@@ -1193,7 +1175,6 @@
 		"column": 23,
 		"row": 2
 	},
-	// Mixed
 	{
 		"name": "Cover I",
 		"uniques": [
@@ -1364,7 +1345,6 @@
 		"column": 25,
 		"row": 2
 	},
-	// Water ranged and air units
 	{
 		"name": "Bombardment I",
 		"uniques": [
@@ -1410,39 +1390,38 @@
 		"column": 26,
 		"row": 3
 	},
-	// Uniques that should be kept on upgrades
 	{
-		"name": "Morale", // Heroic Epic
+		"name": "Morale",
 		"uniques": [
 			"[+15]% Strength"
 		]
 	},
 	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"name": "Great Generals I",
 		"uniques": [
 			"[Great General] is earned [50]% faster"
 		]
 	},
 	{
-		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+		"name": "Great Generals II",
 		"uniques": [
 			"[Great General] is earned [100]% faster"
 		]
 	},
 	{
-		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"name": "Quick Study",
 		"uniques": [
 			"[+50]% XP gained from combat"
 		]
 	},
 	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"name": "Haka War Dance",
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 		]
 	},
 	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
+		"name": "Slinger Withdraw",
 		"uniques": [
 			"Withdraws before melee combat <with [80]% chance>"
 		]
@@ -1454,14 +1433,14 @@
 		]
 	},
 	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		"name": "Pictish Courage",
 		"uniques": [
 			"No movement cost to pillage",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
 		]
 	},
 	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
+		"name": "Home Sweet Home",
 		"uniques": [
 			"[+30]% Strength decreasing with distance from the capital"
 		]
@@ -1561,7 +1540,7 @@
 			"May capture killed [Water] units"
 		]
 	},
-	{ // For barbarian water units
+	{
 		"name": "Unable to pillage tiles",
 		"uniques": [
 			"Unable to pillage tiles"

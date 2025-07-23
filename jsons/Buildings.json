@@ -1,6 +1,4 @@
 [
-	// Ancient Era
-	// Always available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -36,7 +34,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Destroyed when the city is captured"
-		] //"Only available <when religion is enabled>"
+		]
 	},
 	{
 		"name": "Pillar of Ashoka",
@@ -63,7 +61,6 @@
 			"[Military] units gain the [Wolf] promotion"
 		]
 	},
-	// Column 1
 	{
 		"name": "Granary",
 		"food": 2,
@@ -153,7 +150,6 @@
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
-	// Column 2
 	{
 		"name": "Stone Works",
 		"happiness": 1,
@@ -385,10 +381,7 @@
 		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
-		// "Requires [Honor]" in BNW
 	},
-	// Classical Era
-	// Column 3
 	{
 		"name": "Lighthouse",
 		"cost": 75,
@@ -526,7 +519,6 @@
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
-	// Column 4
 	{
 		"name": "Temple",
 		"faith": 2,
@@ -838,8 +830,6 @@
 		"requiredTech": "Iron Working",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
-	// Medieval Era
-	// Column 5
 	{
 		"name": "Garden",
 		"uniques": [
@@ -998,7 +988,6 @@
 			"[+1 Production] from [Iron] tiles [in this city]"
 		]
 	},
-	// Column 6
 	{
 		"name": "Harbor",
 		"cost": 120,
@@ -1151,8 +1140,6 @@
 		],
 		"requiredTech": "Steel"
 	},
-	// Renaissance Era
-	// Column 7
 	{
 		"name": "Observatory",
 		"maintenance": 0,
@@ -1266,7 +1253,6 @@
 		"requiredTech": "Gunpowder",
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
-	// Column 8
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
@@ -1358,8 +1344,6 @@
 		"requiredTech": "Metallurgy",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
-	// Industrial Era
-	// Column 9
 	{
 		"name": "Museum",
 		"culture": 5,
@@ -1454,7 +1438,6 @@
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
-	// Column 10
 	{
 		"name": "Hospital",
 		"food": 5,
@@ -1499,8 +1482,6 @@
 		"requiredBuilding": "Constabulary",
 		"requiredTech": "Electricity"
 	},
-	// Modern Era
-	// Column 11
 	{
 		"name": "Stadium",
 		"happiness": 4,
@@ -1544,7 +1525,7 @@
 			"Only available <when espionage is enabled>",
 			"New spies start with [1] level(s)",
 			"Promotes all spies [1] time(s)",
-			"Gain an extra spy", // Order is significant here
+			"Gain an extra spy",
 			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
@@ -1591,7 +1572,6 @@
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
-	// Column 12
 	{
 		"name": "Research Lab",
 		"science": 4,
@@ -1618,8 +1598,6 @@
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
-	// Atomic Era
-	// Column 13
 	{
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
@@ -1653,7 +1631,6 @@
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
-	// Column 14
 	{
 		"name": "Solar Plant",
 		"production": 5,
@@ -1729,8 +1706,6 @@
 		],
 		"requiredTech": "Computers"
 	},
-	// Information Era
-	// Column 15
 	{
 		"name": "CN Tower",
 		"isWonder": true,
@@ -1781,7 +1756,6 @@
 		],
 		"requiredTech": "Robotics"
 	},
-	// Column 16
 	{
 		"name": "United Nations",
 		"isWonder": true,
@@ -1797,7 +1771,6 @@
 		],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
-	// All Eras
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
@@ -1810,7 +1783,6 @@
 			"Cannot be hurried"
 		]
 	},
-	// Religious buildings
 	{
 		"name": "Cathedral",
 		"cost": 0,
