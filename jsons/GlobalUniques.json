@@ -9,9 +9,17 @@
         "[-33]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations>",
         "[-1] Sight <for [Embarked] units>",
-        "[-1 Happiness] for every known Natural Wonder"
+        "[-1 Happiness] for every known Natural Wonder",
+        /*开局设置*/
+        "Cannot build [Military] units <when [No Military Units] Victory is enabled>",
+        "[+65535] Unit Supply <when [Enable Infinite Supply] Victory is enabled>",
+        "Nullifies [Science] [in all cities] <while researching [Classical era]> <when [Disable [Classical era] and Later Techs] Victory is enabled>",
+        "Nullifies [Science] [in all cities] <while researching [Medieval era]> <when [Disable [Medieval era] and Later Techs] Victory is enabled>",
+        "Nullifies [Science] [in all cities] <while researching [Renaissance era]> <when [Disable [Renaissance era] and Later Techs] Victory is enabled>",
+        "Nullifies [Science] [in all cities] <while researching [Industrial era]> <when [Disable [Industrial era] and Later Techs] Victory is enabled>",
+        "Nullifies [Science] [in all cities] <while researching [Modern era]> <when [Disable [Modern era] and Later Techs] Victory is enabled>"
     ],
-    "unitUniques":[
+    "unitUniques": [
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>"
     ]
 }
