@@ -1421,12 +1421,6 @@
 		]
 	},
 	{
-		"name": "Slinger Withdraw",
-		"uniques": [
-			"Withdraws before melee combat <with [80]% chance>"
-		]
-	},
-	{
 		"name": "Ignore terrain cost",
 		"uniques": [
 			"Ignores terrain cost"
