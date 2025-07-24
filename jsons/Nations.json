@@ -2868,7 +2868,8 @@
 		],
 		"uniqueName": "Habitable zone",
 		"uniques": [
-			"[+1] population [in this city] <upon founding a city> <after turn number [2]>"
+			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
+			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
 		],
 		"cities": [
 			"Pataliputra",
