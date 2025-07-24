@@ -26,8 +26,7 @@
 			"Forest",
 			"Jungle"
 		],
-		"production": 1,
-		"gold": 1,
+		"production": -1,
 		"uniques": [
 			"Removes removable features when built",
 			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
@@ -97,7 +96,8 @@
 	},
 	{
 		"name": "Colony",
-		"gold": 1,
+		"production": -1,
+		"food": -1,
 		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": [
 			"Land",

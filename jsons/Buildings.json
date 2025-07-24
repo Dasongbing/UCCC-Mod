@@ -364,7 +364,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"[+1 Food] from [Strategic resource] tiles [in this city]",
+			"[+1 Food] from [{improved} {Strategic resource}] tiles [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
@@ -489,7 +489,7 @@
 		"name": "Racetrack",
 		"replaces": "Colosseum",
 		"uniqueTo": "Byzantium",
-		"cost": 90,
+		"cost": 120,
 		"maintenance": 1,
 		"happiness": 3,
 		"hurryCostModifier": 25,

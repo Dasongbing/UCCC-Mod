@@ -171,7 +171,7 @@
 		"name": "Bowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 7,
+		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
 		"requiredTech": "Archery",
@@ -365,7 +365,7 @@
 		"unitType": "Archery",
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
-		"movement": 3,
+		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
@@ -474,13 +474,13 @@
 		"uniqueTo": "The Huns",
 		"movement": 2,
 		"strength": 10,
-		"cost": 75,
+		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			"[+300]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[-40]% Strength <vs [Military] units> <when attacking>",
 			"[-33]% Strength <when defending>",
 			"[-1] Sight",
 			"Can only attack [City] units"
@@ -501,6 +501,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
+		"uniques":[
+			"[+15]% Strength <vs [Mounted] units>"
+		],
 		"promotions": [
 			"[Pictish Courage]2"
 		],
@@ -549,7 +552,7 @@
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
