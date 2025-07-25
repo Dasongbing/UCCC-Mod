@@ -7,8 +7,8 @@
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action",
-			"Can instantly construct a [Colony] improvement <[1] times> <by consuming this unit> <for [Spain] Civilizations> <hidden from users>",
-			"Can instantly construct a [Manor] improvement <[1] times> <by consuming this unit> <for [England] Civilizations> <hidden from users>",
+			"Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",
+			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
 			"[-15]% production cost <for [Iroquois] Civilizations> <hidden from users>"
 		],
 		"cost": 70

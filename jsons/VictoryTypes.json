@@ -66,16 +66,6 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
-        "name": "No Human World Wonder Construction",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[No Human Wonder Construction]-[building]]"]
-    },
-    {
-        "name": "No Ai World Wonder Construction",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[No Ai Wonder Construction]-[building]]"]
-    },
-    {
         "name": "No Military Units",
         "hiddenInVictoryScreen": true,
         "milestones": ["Build [[No Military Units]-[building]]"]
@@ -85,34 +75,4 @@
         "hiddenInVictoryScreen": true,
         "milestones": ["Build [[No Wall-type Buildings (Ancient Walls allowed in non-hill cities)]-[building]]"]
     },
-    {
-        "name": "Enable Infinite Supply",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Enable Infinite Supply]-[building]]"]
-    },
-    {
-        "name": "Disable [Classical era] and Later Techs",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Disable [Classical era] and Later Techs]-[building]]"]
-    },
-    {
-        "name": "Disable [Medieval era] and Later Techs",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Disable [Medieval era] and Later Techs]-[building]]"]
-    },
-    {
-        "name": "Disable [Renaissance era] and Later Techs",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Disable [Renaissance era] and Later Techs]-[building]]"]
-    },
-    {
-        "name": "Disable [Industrial era] and Later Techs",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Disable [Industrial era] and Later Techs]-[building]]"]
-    },
-    {
-        "name": "Disable [Modern era] and Later Techs",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Build [[Disable [Modern era] and Later Techs]-[building]]"]
-    }
 ]

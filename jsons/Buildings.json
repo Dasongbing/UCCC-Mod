@@ -1,22 +1,9 @@
 [
 	{
-		"name": "[No Human Wonder Construction]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[No Ai Wonder Construction]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
 		"name": "[No Military Units]-[building]",
 		"uniques": [
 			"Unbuildable",
+			"'Religious Building'"
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -24,48 +11,7 @@
 		"name": "[No Wall-type Buildings (Ancient Walls allowed in non-hill cities)]-[building]",
 		"uniques": [
 			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Enable Infinite Supply]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Disable [Classical era] and Later Techs]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Disable [Medieval era] and Later Techs]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Disable [Renaissance era] and Later Techs]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Disable [Industrial era] and Later Techs]-[building]",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Disable [Modern era] and Later Techs]-[building]",
-		"uniques": [
-			"Unbuildable",
+			"'Religious Building'"
 			"Will not be displayed in Civilopedia"
 		]
 	},
@@ -213,8 +159,6 @@
 			"Great Engineer": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+10]% [Food] [in all cities]",
 			"[+15]% Production when constructing [Archery] units [in this city]",
 			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"
@@ -246,10 +190,6 @@
 		"greatPersonPoints": {
 			"Great Engineer": 1
 		},
-		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>"
-		],
 		"requiredTech": "Calendar",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
@@ -312,8 +252,6 @@
 		"isWonder": true,
 		"requiredTech": "Writing",
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Free Technology",
 			"Gain a free [Library] [in this city]"
 		],
@@ -392,8 +330,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[-25]% construction time for [All] improvements",
 			"[2] free [Worker] units appear"
 		],
@@ -408,8 +344,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]",
 			"[+2 Gold] from [Stone] tiles [in this city]"
@@ -447,8 +381,6 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"
 		],
 		"requiredTech": "Bronze Working",
@@ -476,8 +408,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Must be next to [Coast]",
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>",
@@ -530,11 +460,13 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Persia",
 		"happiness": 1,
-		"maintenance": 4,
+		"maintenance": 0,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Removes extra unhappiness from annexed cities",
-			"Empire enters a [7]-turn Golden Age <(modified by game speed)>"
+			"Empire enters a [5]-turn Golden Age <(modified by game speed)>"
+			"[-4 Gold] <in [Annexed] cities>"
+			"Unsellable"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -548,8 +480,6 @@
 		"isWonder": true,
 		"requiredTech": "Mathematics",
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Gain a free [Garden] [in this city]"
 		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
@@ -592,10 +522,6 @@
 		"greatPersonPoints": {
 			"Great Artist": 1
 		},
-		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>"
-		],
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -696,8 +622,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Free Social Policy"
 		],
 		"requiredTech": "Philosophy",
@@ -853,8 +777,6 @@
 			"Great Engineer": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Must be next to [Desert]",
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
 			"Gain a free [Amphitheater] [in this city]",
@@ -880,8 +802,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [Walls] [in this city] <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is disabled>"
 		],
@@ -910,8 +830,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Water] tiles [in this city]"
 		],
@@ -933,8 +851,6 @@
 		"faith": 3,
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Gain a free [Temple] [in this city]",
 			"Free [Great Prophet] appears",
 			"Only available <when religion is enabled>"
@@ -951,8 +867,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Gain a free [Mosque] [in this city]",
 			"Only available <when religion is enabled>",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
@@ -985,8 +899,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+50]% Golden Age length"
 		],
 		"requiredTech": "Civil Service",
@@ -1013,8 +925,6 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+25]% [Gold] from Trade Routes",
 			"Must have an owned [Mountain] within [2] tiles"
 		],
@@ -1152,8 +1062,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]"
 		],
@@ -1200,8 +1108,6 @@
 			"culture": 20
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [Castle] [in this city]"
 		],
@@ -1227,10 +1133,6 @@
 		"greatPersonPoints": {
 			"Great Merchant": 1
 		},
-		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>"
-		],
 		"isWonder": true,
 		"requiredTech": "Physics",
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
@@ -1281,8 +1183,6 @@
 			"Great Artist": 2
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+25]% [Culture] [in all cities]"
 		],
 		"requiredTech": "Acoustics",
@@ -1320,8 +1220,6 @@
 			"Great Artist": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[-10]% Unhappiness from [Population] [in all cities]"
 		],
 		"requiredTech": "Banking",
@@ -1343,8 +1241,6 @@
 			"Great Artist": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+25]% Great Person generation [in all cities]",
 			"Free Great Person"
 		],
@@ -1359,8 +1255,6 @@
 			"Great Engineer": 2
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Gain a free [Castle] [in this city]"
 		],
@@ -1402,8 +1296,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Empire enters golden age"
 		],
 		"requiredTech": "Architecture",
@@ -1417,8 +1309,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Free [Great Scientist] appears",
 			"Science gained from research agreements [+50]%"
 		],
@@ -1459,8 +1349,6 @@
 		"isWonder": true,
 		"uniques": [
             "Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+25]% City Strength from defensive buildings"
 		],
 		"requiredTech": "Metallurgy",
@@ -1486,8 +1374,6 @@
 		"happiness": 4,
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[2] free [Great Artist] units appear"
 		],
 		"requiredTech": "Archaeology",
@@ -1532,8 +1418,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[Gold] cost of purchasing items in cities [-15]%"
 		],
 		"requiredTech": "Industrialization",
@@ -1558,8 +1442,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Free [Great General] appears",
 			"New [Military] units start with [15] XP [in this city]"
 		],
@@ -1639,8 +1521,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+1 Happiness] per [2] social policies adopted"
 		],
 		"requiredTech": "Radio",
@@ -1682,8 +1562,6 @@
 			"Great Engineer": 2
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+1 Production] from every specialist [in all cities]"
 		],
 		"requiredTech": "Replaceable Parts",
@@ -1699,8 +1577,6 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
 			"Must have an owned [Mountain] within [2] tiles"
 		],
@@ -1728,8 +1604,6 @@
 			"Great Artist": 2
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[-10]% Culture cost of adopting new Policies"
 		],
 		"requiredTech": "Plastics",
@@ -1763,8 +1637,6 @@
 			"Great Engineer": 2
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[-33]% Gold cost of upgrading <for [Military] units>"
 		],
 		"requiredTech": "Combined Arms",
@@ -1803,8 +1675,6 @@
 			"culture": 50
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Free Social Policy",
 			"Must be next to [Coast]"
 		],
@@ -1841,8 +1711,6 @@
 		"name": "Great Firewall",
 		"isWonder": true,
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"[-99]% enemy spy effectiveness [in this city]",
 			"[-25]% enemy spy effectiveness [in all cities]"
@@ -1857,8 +1725,6 @@
 			"Great Merchant": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[+1] population [in all cities]",
 			"[+1 Happiness] [in all cities]",
 			"Gain a free [Broadcast Tower] [in all cities]"
@@ -1883,8 +1749,6 @@
 			"Great Scientist": 1
 		},
 		"uniques": [
-			"Unbuildable <for [Human player] Civilizations> <when [No Human World Wonder Construction] Victory is enabled> <hidden from users>",
-			"Unbuildable <for [AI player] Civilizations> <when [No Ai World Wonder Construction] Victory is enabled> <hidden from users>",
 			"[2] free [Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
 			"Gain a free [Spaceship Factory] [in this city]"

@@ -355,7 +355,8 @@
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
 			"Gain [12] [Gold] <upon being defeated> <(modified by game speed)> <for [Military] units>",
-			"[Gold] cost of purchasing [All] units [-15]%"
+			"[Gold] cost of purchasing [All] units [-15]%",
+			"Comment [每一个工人都有一次建造庄园的机会（不会消耗本身）]"
 		],
 		"cities": [
 			"London",
@@ -507,8 +508,9 @@
 		"uniqueName": "Siberian Riches",
 		"uniques": [
 			"[+1 Production] from every [Strategic resource]",
-			"[+50]% [Strategic] resource production"
-		],
+			"[+50]% [Strategic] resource production <hidden from users>",
+			"Comment [战略资源的产出+50%]"
+				],
 		"cities": [
 			"Moscow",
 			"St. Petersburg",
@@ -915,11 +917,10 @@
 			71
 		],
 		"favoredReligion": "Hinduism",
-		"uniqueName": "Population Growth",
+		"uniqueName": "Crazy Happy World",
 		"uniques": [
-			"[+33]% unhappiness from the number of cities",
-			"[-25]% Unhappiness from [Population] [in all cities]",
-			"[+25]% growth [in all cities] <when below [0] [Happiness]>"
+				"[+25]% [Happiness] [in all cities]",
+				"[+1 Happiness] [in all cities]"
 		],
 		"cities": [
 			"Delhi",
@@ -1083,7 +1084,8 @@
 		"uniques": [
 			"Enables conversion of city production to [Faith]",
 			"Production to [Faith] conversion in cities changed by [300]%",
-			"Comment [​Buildings may be purchased with [Faith] at 200% Production cost (excludes [Religious Building])​]",
+			"Comment [可以用2倍于其正常的生产花费的[Faith]购买非祭祀建筑非奇观的建筑]"
+			"May buy [{non-['Religious Building']} {non-[Wonder]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
 			"May buy [Wonder] buildings with [Faith] for [3] times their normal Production cost",
 			"May buy [Military] units with [Faith] for [2] times their normal Production cost <in this city>",
 			"[Faith] cost of purchasing items in cities [-5]% <for every [[Era number] - 1]>",
@@ -1301,7 +1303,7 @@
 		"uniqueName": "Achaemenid Legacy",
 		"uniques": [
 			"[+20]% Golden Age length",
-			"Empire enters a [5]-turn Golden Age <upon entering a new era>",
+			"Empire enters a [7]-turn Golden Age <upon entering the [Classical era]>",
 			"[+1] Movement <for [All] units> <during a Golden Age>",
 			"[+10]% Strength <for [All] units> <during a Golden Age>"
 		],
@@ -1563,7 +1565,8 @@
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": [
 			"[+1 Production] from every [Natural Wonder]",
-			"[+1 Production] from every [Rare feature]"
+			"[+1 Production] from every [Rare feature]",
+			"Comment [每一个工人都有一次建造殖民地的机会（不会消耗本身）]"
 		],
 		"cities": [
 			"Madrid",
@@ -2181,6 +2184,7 @@
 			"Gain [90] Influence with a [Great Person] gift to a City-State",
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"[Great Person] units gain the [Nobel Prize] promotion"
+			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
 		],
 		"cities": [
 			"Stockholm",

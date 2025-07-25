@@ -1,23 +1,30 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia]] Civilizations>",
+	//正常情况下
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+        "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia]] Civilizations> <if [UCCC Mod Mirror Nation] is not enabled>",
+	//如果启用了UCCC镜像文明mod
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [{non-[Macedonia]} {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+        "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
+	//马其顿的ua
         "[-25]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-33]% growth [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations>",
-        "[-17]% [Production] [in all cities] <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations>",
+        "[-33]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-17]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "[-11]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "[-33]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia]] Civilizations>",
         "[-1] Sight <for [Embarked] units>",
         "[-1 Happiness] for every known Natural Wonder",
         /*开局设置*/
-        "Cannot build [Military] units <when [No Military Units] Victory is enabled>",
-        "[+65535] Unit Supply <when [Enable Infinite Supply] Victory is enabled>",
-        "Nullifies [Science] [in all cities] <while researching [Classical era]> <when [Disable [Classical era] and Later Techs] Victory is enabled>",
-        "Nullifies [Science] [in all cities] <while researching [Medieval era]> <when [Disable [Medieval era] and Later Techs] Victory is enabled>",
-        "Nullifies [Science] [in all cities] <while researching [Renaissance era]> <when [Disable [Renaissance era] and Later Techs] Victory is enabled>",
-        "Nullifies [Science] [in all cities] <while researching [Industrial era]> <when [Disable [Industrial era] and Later Techs] Victory is enabled>",
-        "Nullifies [Science] [in all cities] <while researching [Modern era]> <when [Disable [Modern era] and Later Techs] Victory is enabled>"
+        "Cannot build [Military] units <when [No Military Units] Victory is enabled>"
     ],
     "unitUniques": [
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>"
