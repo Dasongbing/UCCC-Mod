@@ -30,10 +30,7 @@
 		"uniques": [
 			"Removes removable features when built",
 			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
-			"[-99 Gold, -99 Production, -99 Food, -99 Science, -99 Culture, -99 Happiness, -99 Faith]<within [1] tiles of a [City center]> <hidden from users>"
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Manor]>",
-			"[-99 Gold, -99 Production, -99 Food, -99 Science, -99 Culture, -99 Happiness, -99 Faith]<within [2] tiles of a [Manor]> <hidden from users>"
-			"Comment [投机取巧将[Manor]设置在禁用范围内将导致地块没有产出]"
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Tile provides yield without assigned population",
 			"Comment [移除地形带来的产出，包括建造[Petra]带来的收益]",
@@ -116,8 +113,6 @@
 		"uniques": [
 			"Removes removable features when built",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>",
-			"[-99 Gold, -99 Production, -99 Food, -99 Science, -99 Culture, -99 Happiness, -99 Faith]<within [2] tiles of a [Colony]> <hidden from users>"
-			"Comment [投机取巧将[Colony]设置在禁用范围内将导致地块没有产出]"
 			"Adjacent enemy units ending their turn take [5] damage",
 			"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",
 			"[+2 Food] <with [2] to [2] neighboring [Bonus resource] tiles>",

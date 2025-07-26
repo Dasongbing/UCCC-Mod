@@ -66,14 +66,6 @@
 		]
 	},
 	{
-		"name": "[Pictish Courage]2",
-		"uniques": [
-			"[+10]% Strength",
-			"No movement cost to pillage",
-			"[+10]% Strength <when fighting in [Foreign Land] tiles>"
-		]
-	},
-	{
 		"name": "Slinger Withdraw",
 		"uniques": [
 			"Withdraws before melee combat <with [60]% chance>"
@@ -1429,8 +1421,9 @@
 	{
 		"name": "Pictish Courage",
 		"uniques": [
+			"[+10]% Strength",
 			"No movement cost to pillage",
-			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
+			"[+10]% Strength <when fighting in [Foreign Land] tiles>"
 		]
 	},
 	{
@@ -1448,8 +1441,8 @@
 	{
 		"name": "[Mohawk Warrior] ability",
 		"uniques": [
-			"[+33]% Strength <when fighting in [Forest] tiles>",
-			"[+33]% Strength <when fighting in [Jungle] tiles>"
+			"[+25]% Strength <when fighting in [Forest] tiles>",
+			"[+25]% Strength <when fighting in [Jungle] tiles>"
 		]
 	},
 	{

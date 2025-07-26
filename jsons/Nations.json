@@ -672,9 +672,9 @@
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
 			"Gain [200] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
-			"[+1 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
-			"[+1 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
-			"[+2 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
+			"[+2 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
+			"[+2 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
+			"[+4 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
 			"[+10]% Strength <for [Military] units> <after founding a religion>"
 		],
 		"cities": [
@@ -921,7 +921,7 @@
 		"uniques": [
 				"[+114514]% [Happiness] [in all cities]",
 				"[+1 Happiness] [in all cities]",
-				"[+1 Happiness] [in all cities] <upon entering the [Medieval era]>",
+				"[+1 Happiness] [in all cities] <starting from the [Medieval era]>",
 		],
 		"cities": [
 			"Delhi",
