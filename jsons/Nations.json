@@ -354,7 +354,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
-			"Gain [12] [Gold] <upon being defeated> <(modified by game speed)> <for [Military] units>",
+			"[Military] units gain the [Ying] promotion <hidden from users>",
+			"Comment [军事单位一旦死亡令文明获得12[Gold]（随游戏速度变化）]"
 			"[Gold] cost of purchasing [All] units [-15]%",
 			"Comment [每一个工人都有一次建造庄园的机会（不会消耗本身）]"
 		],
@@ -919,7 +920,7 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Crazy Happy World",
 		"uniques": [
-				"[+114514]% [Happiness] [in all cities]",
+				"[+5]% growth [in all cities]",
 				"[+1 Happiness] [in all cities]",
 				"[+1 Happiness] [in all cities] <starting from the [Medieval era]>",
 		],
@@ -2109,7 +2110,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
 		"uniques": [
-			"[-4] Happiness from each type of luxury resource",
+			"[-3] Happiness from each type of luxury resource",
 			"[+2 Happiness, +2 Gold] from [{improved} {Luxury resource}] tiles [in this city]",
 			"[+1 Happiness, +1 Gold] from [{improved} {Bonus resource}] tiles [in this city]"
 		],

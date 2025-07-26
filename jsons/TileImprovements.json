@@ -29,6 +29,7 @@
 		"production": 1,
 		"uniques": [
 			"Removes removable features when built",
+			"Improves [Strategic resource] resource in this tile"
 			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Manor]>",
 			"Adjacent enemy units ending their turn take [5] damage",
@@ -112,6 +113,7 @@
 		],
 		"uniques": [
 			"Removes removable features when built",
+			"Improves [Strategic resource] resource in this tile"
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",

@@ -481,9 +481,7 @@
 		"uniques": [
 			"[+100]% Strength <vs cities> <when attacking>",
 			"[-40]% Strength <vs [Military] units> <when attacking>",
-			"[-33]% Strength <when defending>",
 			"[-1] Sight",
-			"Can only attack [City] units"
 		],
 		"promotions": [
 			"Cover I"
