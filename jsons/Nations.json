@@ -1973,6 +1973,3834 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
 		"uniques": [
+			"[Military] units gain the [Viking rage] promotion",
+			"No movement cost to pillage <for [Melee] units>"
+		],
+		"cities": [
+			"Copenhagen",
+			"Aarhus",
+			"Kaupang",
+			"Ribe",
+			"Viborg",
+			"Tunsberg",
+			"Roskilde",
+			"Hedeby",
+			"Oslo",
+			"Jelling",
+			"Truso",
+			"Bergen",
+			"Faeroerne",
+			"Reykjavik",
+			"Trondheim",
+			"Godthab",
+			"Helluland",
+			"Lillehammer",
+			"Markland",
+			"Elsinore",
+			"Sarpsborg",
+			"Odense",
+			"Aalborg",
+			"Stavanger",
+			"Vorbasse",
+			"Schleswig",
+			"Kristiansand",
+			"Halogaland",
+			"Randers",
+			"Fredrikstad",
+			"Kolding",
+			"Horsens",
+			"Tromsoe",
+			"Vejle",
+			"Koge",
+			"Sandnes",
+			"Holstebro",
+			"Slagelse",
+			"Drammen",
+			"Hillerod",
+			"Sonderborg",
+			"Skien",
+			"Svendborg",
+			"Holbaek",
+			"Hjorring",
+			"Fladstrand",
+			"Haderslev",
+			"Ringsted",
+			"Skrive"
+		],
+		"spyNames": [
+			"Jørgen",
+			"Mette",
+			"Henrik",
+			"Niels",
+			"Helle",
+			"Frederik",
+			"Ida",
+			"Thea",
+			"Freja",
+			"Morten"
+		]
+	},
+	{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"startBias": [
+			"Avoid [Jungle]",
+			"Avoid [Forest]"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Attila the Hun",
+		"outerColor": [
+			180,
+			178,
+			164
+		],
+		"innerColor": [
+			70,
+			0,
+			4
+		],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniques": [
+			"[+1 Production] from every [Pasture]",
+			"Cities are razed [2] times as fast",
+			"[+50]% [Science] <while researching [Animal Husbandry]>",
+			"\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": [
+			"Attila's Court"
+		],
+		"spyNames": [
+			"Balamber",
+			"Uldin",
+			"Donatus",
+			"Charato",
+			"Octar",
+			"Bleda",
+			"Ellac",
+			"Dengizik",
+			"Hildico",
+			"Gudrun"
+		]
+	},
+	{
+		"name": "The Netherlands",
+		"leaderName": "William of Orange",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "William of Orange",
+		"outerColor": [
+			216,
+			120,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Dutch East India Company",
+		"uniques": [
+			"[-3] Happiness from each type of luxury resource",
+			"[+2 Happiness, +2 Gold] from [{improved} {Luxury resource}] tiles [in this city]",
+			"[+1 Happiness, +1 Gold] from [{improved} {Bonus resource}] tiles [in this city]"
+		],
+		"cities": [
+			"Amsterdam",
+			"Rotterdam",
+			"Utrecht",
+			"Groningen",
+			"Breda",
+			"Nijmegen",
+			"The Hague",
+			"Haarlem",
+			"Arnhem",
+			"Zutphen",
+			"Maastricht",
+			"Tilburg",
+			"Eindhoven",
+			"Dordrecht",
+			"Leiden",
+			"'s Hertogenbosch",
+			"Almere",
+			"Alkmaar",
+			"Brielle",
+			"Vlissingen",
+			"Apeldoorn",
+			"Enschede",
+			"Amersfoort",
+			"Zwolle",
+			"Venlo",
+			"Uden",
+			"Grave",
+			"Delft",
+			"Gouda",
+			"Nieuwstadt",
+			"Weesp",
+			"Coevorden",
+			"Kerkrade"
+		],
+		"spyNames": [
+			"Joost",
+			"Hendrika",
+			"Marten",
+			"Anke",
+			"Guus",
+			"Mr. X",
+			"Dr. Grijs",
+			"Willem",
+			"Thijs",
+			"Neef"
+		]
+	},
+	{
+		"name": "Sweden",
+		"leaderName": "Gustavus Adolphus",
+		"startBias": [
+			"Tundra"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Gustavus Adolphus",
+		"outerColor": [
+			8,
+			8,
+			166
+		],
+		"innerColor": [
+			249,
+			247,
+			3
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Nobel Prize",
+		"uniques": [
+		    "[+10]% Great Person generation [in all cities]",
+		    "[Great General] is earned [10]% faster",
+		    "[-10]% Faith cost of generating Great Prophet equivalents",
+			"When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"[Great Person] units gain the [Nobel Prize] promotion"
+			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
+		],
+		"cities": [
+			"Stockholm",
+			"Sigtuna",
+			"Helsinki",
+			"Birka",
+			"Uppsala",
+			"Gothenburg",
+			"Turku",
+			"Malmö",
+			"Linköping",
+			"Kalmar",
+			"Skara",
+			"Västerås",
+			"Jönköping",
+			"Visby",
+			"Falun",
+			"Norrköping",
+			"Gävle",
+			"Halmstad",
+			"Karlskrona",
+			"Hudiksvall",
+			"Örebro",
+			"Umeå",
+			"Karlstad",
+			"Helsingborg",
+			"Härnösand",
+			"Vadstena",
+			"Lund",
+			"Västervik",
+			"Enköping",
+			"Skövde",
+			"Eskilstuna",
+			"Luleå",
+			"Lidköping",
+			"Södertälje",
+			"Mariestad",
+			"Östersund",
+			"Borås",
+			"Sundsvall",
+			"Vimmerby",
+			"Köping",
+			"Mora",
+			"Arboga",
+			"Växjö",
+			"Gränna",
+			"Kiruna",
+			"Borgholm",
+			"Strängnäs",
+			"Sveg"
+		],
+		"spyNames": [
+			"Leif",
+			"Ingegard",
+			"Sören",
+			"Ragnhild",
+			"Lars",
+			"Lina",
+			"Herr Grå",
+			"Magnus",
+			"Vilma",
+			"Kusin"
+		]
+	},
+	{
+		"name": "Austria",
+		"leaderName": "Maria Theresa",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Maria Theresa",
+		"outerColor": [
+			234,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Arts Center",
+		"uniques": [
+			"Comment [When constructing a [Culture] building or world wonder, gain [Culture] equal to [30]% of its Production cost]",
+			"Gain [12] [Culture] <(modified by game speed)> <upon constructing [Monument] [in all cities]> <hidden from users>",
+			"Gain [30] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]> <hidden from users>",
+			"Gain [60] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in all cities]> <hidden from users>",
+			"Gain [90] [Culture] <(modified by game speed)> <upon constructing [Museum] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Temple of Artemis] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Great Library] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Pyramids] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Mausoleum of Halicarnassus] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Statue of Zeus] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Great Lighthouse] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Hanging Gardens] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Terracotta Army] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [The Oracle] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Petra] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Great Wall] [in all cities]> <hidden from users>",
+			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Colossus] [in all cities]> <hidden from users>",
+			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
+			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Chichen Itza] [in all cities]> <hidden from users>",
+			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Machu Picchu] [in all cities]> <hidden from users>",
+			"Gain [120] [Culture] <(modified by game speed)><upon constructing [Angkor Wat] [in all cities]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Alhambra] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Sistine Chapel] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Forbidden Palace] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Leaning Tower of Pisa] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Himeji Castle] [in all cities]> <hidden from users>",
+			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Taj Mahal] [in all cities]> <hidden from users>",
+			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Porcelain Tower] [in all cities]> <hidden from users>",
+			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Kremlin] [in all cities]> <hidden from users>",
+			"Gain [225] [Culture] <(modified by game speed)><upon constructing [The Louvre] [in all cities]> <hidden from users>",
+			"Gain [225] [Culture] <(modified by game speed)><upon constructing [Big Ben] [in all cities]> <hidden from users>",
+			"Gain [225] [Culture] <(modified by game speed)><upon constructing [Brandenburg Gate] [in all cities]> <hidden from users>",
+			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Eiffel Tower] [in all cities]> <hidden from users>",
+			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Statue of Liberty] [in all cities]> <hidden from users>",
+			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Neuschwanstein] [in all cities]> <hidden from users>",
+			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Cristo Redentor] [in all cities]> <hidden from users>",
+			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Pentagon] [in all cities]> <hidden from users>",
+			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Sydney Opera House] [in all cities]> <hidden from users>",
+			"Gain [375] [Culture] <(modified by game speed)><upon constructing [CN Tower] [in all cities]> <hidden from users>"
+		],
+		"cities": [
+			"Vienna",
+			"Salzburg",
+			"Graz",
+			"Linz",
+			"Klagenfurt",
+			"Bregenz",
+			"Innsbruck",
+			"Kitzbühel",
+			"St. Pölten",
+			"Eisenstadt",
+			"Villach",
+			"Zwettl",
+			"Traun",
+			"Wels",
+			"Dornbirn",
+			"Feldkirch",
+			"Amstetten",
+			"Bad Ischl",
+			"Wolfsberg",
+			"Kufstein",
+			"Leoben",
+			"Klosterneuburg",
+			"Leonding",
+			"Kapfenberg",
+			"Hallein",
+			"Bischofshofen",
+			"Waidhofen",
+			"Saalbach",
+			"Lienz",
+			"Steyr"
+		],
+		"spyNames": [
+			"Ferdinand",
+			"Johanna",
+			"Franz-Josef",
+			"Astrid",
+			"Anna",
+			"Hubert",
+			"Alois",
+			"Natter",
+			"Georg",
+			"Arnold"
+		]
+	},
+	{
+		"name": "Carthage",
+		"leaderName": "Dido",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Dido",
+		"outerColor": [
+			205,
+			205,
+			205
+		],
+		"innerColor": [
+			81,
+			0,
+			137
+		],
+		"favoredReligion": "Islam",
+		"uniqueName": "Phoenician Heritage",
+		"uniques": [
+			"Gain a free [Harbor] [in all coastal cities]",
+			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"
+		],
+		"cities": [
+			"Carthage",
+			"Utique",
+			"Hippo Regius",
+			"Gades",
+			"Saguntum",
+			"Carthago Nova",
+			"Panormus",
+			"Lilybaeum",
+			"Hadrumetum",
+			"Zama Regia",
+			"Karalis",
+			"Malaca",
+			"Leptis Magna",
+			"Hippo Diarrhytus",
+			"Motya",
+			"Sulci",
+			"Leptis Parva",
+			"Tharros",
+			"Soluntum",
+			"Lixus",
+			"Oea",
+			"Theveste",
+			"Ibossim",
+			"Thapsus",
+			"Aleria",
+			"Tingis",
+			"Abyla",
+			"Sabratha",
+			"Rusadir",
+			"Baecula",
+			"Saldae"
+		],
+		"spyNames": [
+			"Hamilcar",
+			"Mago",
+			"Baalhaan",
+			"Sophoniba",
+			"Yzebel",
+			"Similce",
+			"Kandaulo",
+			"Zinnridi",
+			"Gisgo",
+			"Fierelus"
+		]
+	},
+	{
+		"name": "Byzantium",
+		"leaderName": "Theodora",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Theodora",
+		"outerColor": [
+			114,
+			162,
+			233
+		],
+		"innerColor": [
+			61,
+			0,
+			109
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Patriarchate of Constantinople",
+		"uniques": [
+			"May choose [1] additional belief(s) of any type when [founding] a religion",
+			"[+1 Faith] [in all cities]",
+			"[+1 Faith] [in all cities] <after founding a Pantheon> <hidden from users>",
+			"Comment [[+1 Faith] [in all cities] <before founding a Pantheon>]"
+		],
+		"cities": [
+			"Constantinople",
+			"Adrianople",
+			"Nicaea",
+			"Antioch",
+			"Varna",
+			"Ohrid",
+			"Nicomedia",
+			"Trebizond",
+			"Cherson",
+			"Sardica",
+			"Ani",
+			"Dyrrachium",
+			"Edessa",
+			"Chalcedon",
+			"Naissus",
+			"Bari",
+			"Iconium",
+			"Prilep",
+			"Samosata",
+			"Kars",
+			"Nicopolis",
+			"Theodosiopolis",
+			"Tyana",
+			"Gaza",
+			"Kerkyra",
+			"Phoenice",
+			"Selymbria",
+			"Sillyon",
+			"Chrysopolis",
+			"Vodena",
+			"Caesarea",
+			"Traianoupoli",
+			"Constantia",
+			"Athens",
+			"Patra",
+			"Korinthos"
+		],
+		"spyNames": [
+			"Basil",
+			"Nikophoros",
+			"Demetrios",
+			"Philippos",
+			"Theophylaktos",
+			"Simonis",
+			"Zoe",
+			"Ioanno",
+			"Xene",
+			"Euphrosyne"
+		]
+	},
+	{
+		"name": "Celts",
+		"leaderName": "Boudicca",
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Boudicca",
+		"outerColor": [
+			12,
+			75,
+			25
+		],
+		"innerColor": [
+			157,
+			172,
+			255
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Druidic Lore",
+		"uniques": [
+			"[+1 Faith] [in all cities] <in tiles adjacent to [{unimproved} {Forest}] tiles>",
+			"Earn [30]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"cities": [
+			"Edinburgh",
+			"Dublin",
+			"Cardiff",
+			"Truro",
+			"Nantes",
+			"Douglas",
+			"Glasgow",
+			"Cork",
+			"Aberystwyth",
+			"Penzance",
+			"Rennes",
+			"Ramsey",
+			"Inverness",
+			"Limerick",
+			"Swansea",
+			"St. Ives",
+			"Brest",
+			"Peel",
+			"Aberdeen",
+			"Belfast",
+			"Caernarfon",
+			"Newquay",
+			"Saint-Nazaire",
+			"Castletown",
+			"Stirling",
+			"Galway",
+			"Conwy",
+			"St. Austell",
+			"Saint-Malo",
+			"Onchan",
+			"Dundee",
+			"Londonderry",
+			"Llanfairpwllgwyngyll",
+			"Falmouth",
+			"Lorient"
+		],
+		"spyNames": [
+			"Crìsdean",
+			"Siobhán",
+			"Seamus",
+			"Ffion",
+			"Pádraig",
+			"Deirdre",
+			"Mr. Quinn",
+			"Éadaoin",
+			"Alwyn",
+			"Col Ceathar"
+		]
+	},
+	{
+		"name": "Ethiopia",
+		"leaderName": "Haile Selassie",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Haile Selassie",
+		"outerColor": [
+			18,
+			66,
+			22
+		],
+		"innerColor": [
+			255,
+			56,
+			56
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Spirit of Adwa",
+		"uniques": [
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>"
+		],
+		"cities": [
+			"Addis Ababa",
+			"Harar",
+			"Adwa",
+			"Lalibela",
+			"Gondar",
+			"Axum",
+			"Dire Dawa",
+			"Bahir Dar",
+			"Adama",
+			"Mek'ele",
+			"Awasa",
+			"Jimma",
+			"Jijiga",
+			"Dessie",
+			"Debre Berhan",
+			"Shashamane",
+			"Debre Zeyit",
+			"Sodo",
+			"Hosaena",
+			"Nekemte",
+			"Asella",
+			"Dila",
+			"Adigrat",
+			"Debre Markos",
+			"Kombolcha",
+			"Debre Tabor",
+			"Sebeta",
+			"Shire",
+			"Ambo",
+			"Negele Arsi",
+			"Gambela",
+			"Ziway",
+			"Weldiya"
+		],
+		"spyNames": [
+			"Mulu Ken",
+			"Wendimu",
+			"Li'ol",
+			"Demeke",
+			"Mulu Alem",
+			"Abebech",
+			"Zema",
+			"Mihret",
+			"Kebedech",
+			"Alemnesh"
+		]
+	},
+	{
+		"name": "The Maya",
+		"leaderName": "Pacal",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+		"outerColor": [
+			198,
+			141,
+			99
+		],
+		"innerColor": [
+			24,
+			63,
+			66
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Long Count",
+		"uniques": [
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Philosophy]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
+		],
+		"cities": [
+			"Palenque",
+			"Tikal",
+			"Chichen Itza",
+			"Uxmal",
+			"Tulum",
+			"Copan",
+			"Coba",
+			"El Mirador",
+			"Calakmul",
+			"Edzna",
+			"Lamanai",
+			"Izapa",
+			"Uaxactun",
+			"Comalcalco",
+			"Piedras Negras",
+			"Cancuen",
+			"Yaxha",
+			"Quirigua",
+			"Q'umarkaj",
+			"Nakbe",
+			"Cerros",
+			"Xunantunich",
+			"Takalik Abaj",
+			"Cival",
+			"San Bartolo",
+			"Altar de Sacrificios",
+			"Seibal",
+			"Caracol",
+			"Naranjo",
+			"Dos Pilas",
+			"Mayapan",
+			"Ixinche",
+			"Zaculeu",
+			"Kabah"
+		],
+		"spyNames": [
+			"Camazotz",
+			"Coyopa",
+			"Gukumatz",
+			"Hunahpu",
+			"Huracan",
+			"Ixchel",
+			"Ixtab",
+			"Kukulkán",
+			"Xbalanque",
+			"Zipacna"
+		]
+	},
+	{
+		"name": "Macedonia",
+		"leaderName": "Alexander",
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Domination",
+		"outerColor": [
+			92,
+			60,
+			83
+		],
+		"innerColor": [
+			220,
+			190,
+			92
+		],
+		"uniqueName": "Conquer until the end of the world",
+		"uniques": [
+			"Comment [[Unhappiness] penalties reduced by [66]%​]"
+		],
+		"cities": [
+			"Pella",
+			"Vergina",
+			"Amphipolis",
+			"Larissa",
+			"Ambracia",
+			"Methoni",
+			"Olynthus",
+			"Potidea",
+			"Philippopolis",
+			"Alexandropolis",
+			"Alexandria",
+			"Alexandria Latmus",
+			"Alexandria Issus",
+			"Alexandria Ariana",
+			"Alexandria Prophthasia",
+			"Alexandria Arachosia",
+			"Alexandria Eschate",
+			"Alexandria Oxus",
+			"Alexandria Margiana",
+			"Alexandria Bucephalous",
+			"Alexandria Hyphasis",
+			"Alexandria Indus",
+			"Alexandria Orietai",
+			"Alexandria Carmania",
+			"Alexandria Susiana",
+			"Alexandria Opiania",
+			"Alexandria Troas"
+		],
+		"spyNames": [
+			"Jason",
+			"Helena",
+			"Alexa",
+			"Cletus",
+			"Kassandra",
+			"Andres",
+			"Desdemona",
+			"Anthea",
+			"Aeneas",
+			"Leander"
+		]
+	},
+	{
+		"name": "Hittites",
+		"leaderName": "Muwatallis",
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Domination",
+		"outerColor": [
+			199,
+			176,
+			97
+		],
+		"innerColor": [
+			92,
+			43,
+			43
+		],
+		"uniqueName": "Bronze and Iron",
+		"uniques": [
+			"Instantly gain [1] [Gold] <upon turn end> <for every [Owned [Mine] Tiles]>",
+			"[-25]% construction time for [Mine] improvements"
+		],
+		"cities": [
+			"Hattusa",
+			"Nesa",
+			"Kussara",
+			"Tuwanuwa",
+			"Hupisna",
+			"Purushanda",
+			"Samuha",
+			"Lusna",
+			"Alacohoyuk",
+			"Sapinuwa",
+			"Tunip",
+			"Kadesh",
+			"Aleppo",
+			"Alalakh",
+			"Ullama",
+			"Nenassa",
+			"Nerik",
+			"Landa",
+			"Hakpis",
+			"Arinna",
+			"Hanhana",
+			"Gaziura",
+			"Sarissa",
+			"Kummani",
+			"Catalhoyuk",
+			"Ankuwa",
+			"Karhoyuk",
+			"Alisarhoyuk",
+			"Zippalanda"
+		],
+		"spyNames": [
+			"Ibrahim",
+			"Bayezid",
+			"Sokollu",
+			"Mahmut",
+			"Uveys",
+			"Roxelana",
+			"Safiye",
+			"Hafsa",
+			"Kosem",
+			"Nurbanu"
+		]
+	},
+	{
+		"name": "Maurya",
+		"leaderName": "Ashoka",
+		"startBias": [
+			"Avoid [Coast]"
+		],
+		"preferredVictoryType": "Domination",
+		"outerColor": [
+			216,
+			103,
+			12
+		],
+		"innerColor": [
+			76,
+			31,
+			7
+		],
+		"uniqueName": "Habitable zone",
+		"uniques": [
+			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
+			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
+		],
+		"cities": [
+			"Pataliputra",
+			"Sarnath",
+			"Ujjain",
+			"Mathura",
+			"Indraprastha",
+			"Suvarnagiri",
+			"Tamralipti",
+			"Varanasi",
+			"Lumbini",
+			"Toshali",
+			"Sanchi",
+			"Kausambi",
+			"Amaravati",
+			"Lauriya-Araraj",
+			"Bodh Gaya",
+			"Sopara",
+			"Lalitapatna",
+			"Jaugada",
+			"Sannathi",
+			"Lauriya-Nandangarh",
+			"Yerragudi",
+			"Dhauli",
+			"Meerut",
+			"Taxila",
+			"Kapilvastu",
+			"Shabazgarhi",
+			"Mahaan Sehra",
+			"Pattala",
+			"Kopasi",
+			"Kalsi"
+		],
+		"spyNames": [
+			"Janamejaya",
+			"Vaisampayana",
+			"Arjuna",
+			"Bhishma",
+			"Ashvattama",
+			"Yudhisthira",
+			"Dritharashtra",
+			"Saraswati",
+			"Sadhvi",
+			"Kali"
+		]
+	},
+	{
+		"name": "Turk",
+		"leaderName": "Bumin",
+		"personality": "Turk",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Domination",
+		"outerColor": [
+			217,
+			217,
+			217
+		],
+		"innerColor": [
+			174,
+			107,
+			42
+		],
+		"favoredReligion": "Judaism",
+		"uniqueName": "Wolf of the Prairie",
+		"uniques": [
+			"[+1 Production] from every [Camp]",
+			"\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": [
+			"Qutaghan"
+		],
+		"spyNames": [
+			"Tiki",
+			"Hotu Matua",
+			"Rongo-ma-tane",
+			"Kupe",
+			"Haloti",
+			"Degei",
+			"Babamik",
+			"Kulu Lau",
+			"Nangananga",
+			"Turua"
+		]
+	},
+	{
+		"name": "Cree",
+		"leaderName": "Poundmaker",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+		"outerColor": [
+			0,
+			128,
+			128
+		],
+		"innerColor": [
+			255,
+			224,
+			102
+		],
+		"uniqueName": "Nîhithaw",
+		"uniques": [
+			"[+1 Food] from [Forest] tiles without [Bonus resource] [in all cities]",
+			"[+1 Production] from [Jungle] tiles without [Bonus resource] [in all cities]"
+		],
+		"cities": [
+			"Xandar",
+			"Hala",
+			"Kree-Lar",
+			"New Hala",
+			"M'Kraan",
+			"Tivan",
+			"Skrull",
+			"Pama",
+			"Kree-Em",
+			"Kree-Tor",
+			"Kree-Tus",
+			"Kotati",
+			"Mynar",
+			"Cassandra",
+			"Galador",
+			"Morpheus",
+			"Kree-Met",
+			"Azuros",
+			"Hala-Vak",
+			"Quarra"
+		]
+	},
+	{
+		"name": "Brussels",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			127,
+			177,
+			236
+		],
+		"cities": [
+			"Brussels"
+		]
+	},
+	{
+		"name": "Bucharest",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			113,
+			227,
+			114
+		],
+		"cities": [
+			"Bucharest"
+		]
+	},
+	{
+		"name": "Florence",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			18,
+			188,
+			221
+		],
+		"cities": [
+			"Florence"
+		]
+	},
+	{
+		"name": "Kabul",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			121,
+			226,
+			0
+		],
+		"cities": [
+			"Kabul"
+		]
+	},
+	{
+		"name": "Kathmandu",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			186,
+			18,
+			202
+		],
+		"cities": [
+			"Kathmandu"
+		]
+	},
+	{
+		"name": "Kuala Lumpur",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			222,
+			237,
+			59
+		],
+		"cities": [
+			"Kuala Lumpur"
+		]
+	},
+	{
+		"name": "Milan",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			225,
+			194,
+			129
+		],
+		"cities": [
+			"Milan"
+		]
+	},
+	{
+		"name": "Monaco",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			193,
+			84,
+			255
+		],
+		"cities": [
+			"Monaco"
+		]
+	},
+	{
+		"name": "Prague",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			97,
+			242
+		],
+		"cities": [
+			"Prague"
+		]
+	},
+	{
+		"name": "Yerevan",
+		"cityStateType": "Cultured",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			225,
+			194,
+			129
+		],
+		"cities": [
+			"Yerevan"
+		]
+	},
+	{
+		"name": "Cape Town",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			217,
+			158,
+			78
+		],
+		"cities": [
+			"Cape Town"
+		]
+	},
+	{
+		"name": "Helsinki",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			178,
+			102
+		],
+		"cities": [
+			"Helsinki"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Manila",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			113,
+			227,
+			114
+		],
+		"cities": [
+			"Manila"
+		]
+	},
+	{
+		"name": "Mogadishu",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			127,
+			177,
+			236
+		],
+		"cities": [
+			"Mogadishu"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Mombasa",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			121,
+			226,
+			0
+		],
+		"cities": [
+			"Mombasa"
+		]
+	},
+	{
+		"name": "Quebec City",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			97,
+			242
+		],
+		"cities": [
+			"Quebec City"
+		]
+	},
+	{
+		"name": "Ragusa",
+		"cityStateType": "Maritime",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			163,
+			181
+		],
+		"cities": [
+			"Ragusa"
+		]
+	},
+	{
+		"name": "Rio de Janeiro",
+		"cityStateType": "Maritime",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			211,
+			220,
+			103
+		],
+		"cities": [
+			"Rio de Janeiro"
+		]
+	},
+	{
+		"name": "Sydney",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			97,
+			242
+		],
+		"cities": [
+			"Sydney"
+		]
+	},
+	{
+		"name": "Ur",
+		"cityStateType": "Maritime",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			167,
+			16,
+			216
+		],
+		"cities": [
+			"Ur"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Vancouver",
+		"cityStateType": "Maritime",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			193,
+			84,
+			255
+		],
+		"cities": [
+			"Vancouver"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Venice",
+		"cityStateType": "Maritime",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			153,
+			204,
+			255
+		],
+		"cities": [
+			"Venice"
+		]
+	},
+	{
+		"name": "Antwerp",
+		"cityStateType": "Mercantile",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			193,
+			84,
+			255
+		],
+		"cities": [
+			"Antwerp"
+		]
+	},
+	{
+		"name": "Cahokia",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"cities": [
+			"Cahokia"
+		]
+	},
+	{
+		"name": "Colombo",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			167,
+			162,
+			216
+		],
+		"cities": [
+			"Colombo"
+		]
+	},
+	{
+		"name": "Genoa",
+		"cityStateType": "Mercantile",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			163,
+			181
+		],
+		"cities": [
+			"Genoa"
+		]
+	},
+	{
+		"name": "Hong Kong",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			52,
+			97,
+			242
+		],
+		"cities": [
+			"Hong Kong"
+		]
+	},
+	{
+		"name": "Singapore",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			246,
+			253,
+			160
+		],
+		"cities": [
+			"Singapore"
+		]
+	},
+	{
+		"name": "Tyre",
+		"cityStateType": "Mercantile",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			121,
+			226,
+			0
+		],
+		"cities": [
+			"Tyre"
+		]
+	},
+	{
+		"name": "Zanzibar",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			127,
+			177,
+			236
+		],
+		"cities": [
+			"Zanzibar"
+		]
+	},
+	{
+		"name": "Zurich",
+		"cityStateType": "Mercantile",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			172,
+			172,
+			172
+		],
+		"cities": [
+			"Zurich"
+		]
+	},
+	{
+		"name": "Almaty",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			217,
+			158,
+			78
+		],
+		"cities": [
+			"Almaty"
+		]
+	},
+	{
+		"name": "Belgrade",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			121,
+			226,
+			0
+		],
+		"cities": [
+			"Belgrade"
+		]
+	},
+	{
+		"name": "Budapest",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			217,
+			158,
+			78
+		],
+		"cities": [
+			"Budapest"
+		]
+	},
+	{
+		"name": "Dublin",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			211,
+			180,
+			113
+		],
+		"cities": [
+			"Dublin"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Edinburgh",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			0,
+			102,
+			102
+		],
+		"cities": [
+			"Edinburgh"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Hanoi",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			167,
+			162,
+			216
+		],
+		"cities": [
+			"Hanoi"
+		]
+	},
+	{
+		"name": "M'Banza-Kongo",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			18,
+			188,
+			221
+		],
+		"cities": [
+			"M'Banza-Kongo"
+		],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Sidon",
+		"cityStateType": "Militaristic",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			186,
+			18,
+			202
+		],
+		"cities": [
+			"Sidon"
+		]
+	},
+	{
+		"name": "Valletta",
+		"cityStateType": "Militaristic",
+		"startBias": [
+			"Coast"
+		],
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			222,
+			237,
+			59
+		],
+		"cities": [
+			"Valletta"
+		]
+	},
+	{
+		"name": "Bratislava",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"cities": [
+			"Bratislava"
+		]
+	},
+	{
+		"name": "Geneva",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			51,
+			97,
+			242
+		],
+		"cities": [
+			"Geneva"
+		]
+	},
+	{
+		"name": "Jerusalem",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"cities": [
+			"Jerusalem"
+		]
+	},
+	{
+		"name": "La Venta",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			18,
+			188,
+			221
+		],
+		"cities": [
+			"La Venta"
+		]
+	},
+	{
+		"name": "Lhasa",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			113,
+			227,
+			114
+		],
+		"cities": [
+			"Lhasa"
+		]
+	},
+	{
+		"name": "Vatican City",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			246,
+			253,
+			160
+		],
+		"cities": [
+			"Vatican City"
+		]
+	},
+	{
+		"name": "Wittenberg",
+		"cityStateType": "Religious",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			167,
+			162,
+			216
+		],
+		"cities": [
+			"Wittenberg"
+		]
+	},
+	{
+		"name": "Barbarians",
+		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
+			185,
+			12,
+			12
+		],
+		"uniques": [
+			"Can only heal by pillaging",
+			"Excluded from map editor",
+			"[Water] units gain the [Unable to pillage tiles] promotion"
+		]
+	}
+]			"Arbela",
+			"Nuzi",
+			"Arrapkha",
+			"Tutub",
+			"Shaduppum",
+			"Rapiqum",
+			"Mashkan Shapir",
+			"Tuttul",
+			"Ramad",
+			"Ana",
+			"Haradum",
+			"Agrab",
+			"Uqair",
+			"Gubba",
+			"Hafriyat",
+			"Nagar",
+			"Shubat Enlil",
+			"Urhai",
+			"Urkesh",
+			"Awan",
+			"Riblah",
+			"Tayma"
+		],
+		"spyNames": [
+			"Rim-Sin II",
+			"Smerdis",
+			"Ilum-ma-ili",
+			"Peshgaldaramesh",
+			"Ur-zigurumaš",
+			"Semiramis",
+			"Em",
+			"Ishtar",
+			"Bilit Taauth",
+			"Aruru"
+		]
+	},
+	{
+		"name": "Greece",
+		"leaderName": "Alexander",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Alexander",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			65,
+			141,
+			254
+		],
+		"uniqueName": "Hellenic League",
+		"uniques": [
+		    "[-20]% Unhappiness from [Population] [in all non-occupied cities]",
+			"Each city founded increases culture cost of policies [50]% less than normal"
+		],
+		"cities": [
+			"Athens",
+			"Sparta",
+			"Corinth",
+			"Argos",
+			"Knossos",
+			"Mycenae",
+			"Pharsalos",
+			"Ephesus",
+			"Halicarnassus",
+			"Rhodes",
+			"Eretria",
+			"Pergamon",
+			"Miletos",
+			"Megara",
+			"Phocaea",
+			"Sicyon",
+			"Tiryns",
+			"Samos",
+			"Mytilene",
+			"Chios",
+			"Paros",
+			"Elis",
+			"Syracuse",
+			"Herakleia",
+			"Gortyn",
+			"Chalkis",
+			"Pylos",
+			"Pella",
+			"Naxos",
+			"Larissa",
+			"Apollonia",
+			"Messene",
+			"Orchomenos",
+			"Ambracia",
+			"Kos",
+			"Knidos",
+			"Amphipolis",
+			"Patras",
+			"Lamia",
+			"Nafplion",
+			"Apolyton"
+		],
+		"spyNames": [
+			"Jason",
+			"Helena",
+			"Alexa",
+			"Cletus",
+			"Kassandra",
+			"Andres",
+			"Desdemona",
+			"Anthea",
+			"Aeneas",
+			"Leander"
+		]
+	},
+	{
+		"name": "China",
+		"leaderName": "Wu Zetian",
+		"preferredVictoryType": "Scientific",
+		"personality": "Wu Zetian",
+		"outerColor": [
+			9,
+			112,
+			84
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"uniqueName": "Art of War",
+		"uniques": [
+			"Great General provides double combat bonus",
+			"[Great General] is earned [50]% faster"
+		],
+		"cities": [
+			"Beijing",
+			"Shanghai",
+			"Guangzhou",
+			"Nanjing",
+			"Xian",
+			"Chengdu",
+			"Hangzhou",
+			"Tianjin",
+			"Macau",
+			"Shandong",
+			"Kaifeng",
+			"Ningbo",
+			"Baoding",
+			"Yangzhou",
+			"Harbin",
+			"Chongqing",
+			"Luoyang",
+			"Kunming",
+			"Taipei",
+			"Shenyang",
+			"Taiyuan",
+			"Tainan",
+			"Dalian",
+			"Lijiang",
+			"Wuxi",
+			"Suzhou",
+			"Maoming",
+			"Shaoguan",
+			"Yangjiang",
+			"Heyuan",
+			"Huangshi",
+			"Yichang",
+			"Yingtian",
+			"Xinyu",
+			"Xinzheng",
+			"Handan",
+			"Dunhuang",
+			"Gaoyu",
+			"Nantong",
+			"Weifang",
+			"Xikang"
+		],
+		"spyNames": [
+			"Li",
+			"Chen",
+			"Zhang",
+			"Liu",
+			"Yang",
+			"Huang",
+			"Zhao",
+			"Wu",
+			"Zhou",
+			"Sun"
+		]
+	},
+	{
+		"name": "Egypt",
+		"leaderName": "Ramesses II",
+		"startBias": [
+			"Avoid [Jungle]",
+			"Avoid [Forest]"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Ramesses II",
+		"outerColor": [
+			255,
+			252,
+			3
+		],
+		"innerColor": [
+			83,
+			0,
+			208
+		],
+		"uniqueName": "Monument Builders",
+		"uniques": [
+			"[+20]% Production when constructing [All] wonders [in all cities]",
+			"[-10]% Unhappiness from [Population] [in this city] <in cities with a [Burial Tomb]>",
+			"[+1 Faith] from every [World Wonder] <in cities with a [Burial Tomb]> <hidden from users>",
+			"[+1 Faith] from every [Faith] <in cities with a [Burial Tomb]> <hidden from users>"
+		],
+		"cities": [
+			"Thebes",
+			"Memphis",
+			"Heliopolis",
+			"Elephantine",
+			"Alexandria",
+			"Pi-Ramesses",
+			"Giza",
+			"Byblos",
+			"Akhetaten",
+			"Hieraconpolis",
+			"Abydos",
+			"Asyut",
+			"Avaris",
+			"Lisht",
+			"Buto",
+			"Edfu",
+			"Pithom",
+			"Busiris",
+			"Kahun",
+			"Athribis",
+			"Mendes",
+			"Elashmunein",
+			"Tanis",
+			"Bubastis",
+			"Oryx",
+			"Sebennytus",
+			"Akhmin",
+			"Karnak",
+			"Luxor",
+			"El Kab",
+			"Armant",
+			"Balat",
+			"Ellahun",
+			"Hawara",
+			"Dashur",
+			"Damanhur",
+			"Abusir",
+			"Herakleopolis",
+			"Akoris",
+			"Benihasan",
+			"Badari",
+			"Hermopolis",
+			"Amrah",
+			"Koptos",
+			"Ombos",
+			"Naqada",
+			"Semna",
+			"Soleb"
+		],
+		"spyNames": [
+			"Refaat",
+			"Heba",
+			"Salah",
+			"Ahmed",
+			"Zakaria",
+			"Bastet",
+			"Ma'at",
+			"Nebhet",
+			"Tefenet",
+			"Neuth"
+		]
+	},
+	{
+		"name": "England",
+		"leaderName": "Elizabeth",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Elizabeth",
+		"outerColor": [
+			109,
+			2,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Sun Never Sets",
+		"uniques": [
+			"[Military] units gain the [Ying] promotion <hidden from users>",
+			"Comment [军事单位一旦死亡令文明获得12[Gold]（随游戏速度变化）]"
+			"[Gold] cost of purchasing [All] units [-15]%",
+			"Comment [每一个工人都有一次建造庄园的机会（不会消耗本身）]"
+		],
+		"cities": [
+			"London",
+			"York",
+			"Nottingham",
+			"Hastings",
+			"Canterbury",
+			"Coventry",
+			"Warwick",
+			"Newcastle",
+			"Oxford",
+			"Liverpool",
+			"Dover",
+			"Brighton",
+			"Norwich",
+			"Leeds",
+			"Reading",
+			"Birmingham",
+			"Richmond",
+			"Exeter",
+			"Cambridge",
+			"Gloucester",
+			"Manchester",
+			"Bristol",
+			"Leicester",
+			"Carlisle",
+			"Ipswich",
+			"Portsmouth",
+			"Berwick",
+			"Bath",
+			"Mumbles",
+			"Southampton",
+			"Sheffield",
+			"Salisbury",
+			"Colchester",
+			"Plymouth",
+			"Lancaster",
+			"Blackpool",
+			"Winchester",
+			"Hull"
+		],
+		"spyNames": [
+			"James",
+			"Scarlett",
+			"Mycroft",
+			"Charlotte",
+			"Gwendolyn",
+			"Mr. Eks",
+			"Dr. Grey",
+			"Andrew",
+			"Scott",
+			"Anne"
+		]
+	},
+	{
+		"name": "France",
+		"leaderName": "Napoleon",
+		"preferredVictoryType": "Cultural",
+		"personality": "Napoleon",
+		"outerColor": [
+			38,
+			98,
+			255
+		],
+		"innerColor": [
+			239,
+			236,
+			148
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Ancien Régime",
+		"uniques": [
+			"[+2 Culture] [in all cities] <before discovering [Steam Power]>",
+			"Comment [For each city founded or each social policy adopted, the cost of subsequent social policies increases permanently by [2]%, but up to [10]%]",
+			"[+2]% Culture cost of adopting new Policies <for every [[Cities] + [Adopted [All] Policies] + 5 - abs[[Cities] + [Adopted [All] Policies] - 5]]> <hidden from users>"
+		],
+		"cities": [
+			"Paris",
+			"Orleans",
+			"Lyon",
+			"Troyes",
+			"Tours",
+			"Marseille",
+			"Chartres",
+			"Avignon",
+			"Rouen",
+			"Grenoble",
+			"Dijon",
+			"Amiens",
+			"Cherbourg",
+			"Poitiers",
+			"Toulouse",
+			"Bayonne",
+			"Strasbourg",
+			"Brest",
+			"Bordeaux",
+			"Rennes",
+			"Nice",
+			"Saint Etienne",
+			"Nantes",
+			"Reims",
+			"Le Mans",
+			"Montpellier",
+			"Limoges",
+			"Nancy",
+			"Lille",
+			"Caen",
+			"Toulon",
+			"Le Havre",
+			"Lourdes",
+			"Cannes",
+			"Aix-En-Provence",
+			"La Rochelle",
+			"Bourges",
+			"Calais"
+		],
+		"spyNames": [
+			"Jean-Paul",
+			"Martine",
+			"Lucien",
+			"François",
+			"Augustine",
+			"Monsieur X",
+			"Dr. Dupont",
+			"Vipère",
+			"Yvette",
+			"Renard"
+		]
+	},
+	{
+		"name": "Russia",
+		"leaderName": "Catherine",
+		"startBias": [
+			"Tundra"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Catherine",
+		"outerColor": [
+			239,
+			180,
+			0
+		],
+		"innerColor": [
+			0,
+			0,
+			0
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Siberian Riches",
+		"uniques": [
+			"[+1 Production] from every [Strategic resource]",
+			"[+50]% [Strategic] resource production <hidden from users>",
+			"Comment [战略资源的产出+50%]"
+				],
+		"cities": [
+			"Moscow",
+			"St. Petersburg",
+			"Novgorod",
+			"Rostov",
+			"Yaroslavl",
+			"Yekaterinburg",
+			"Yakutsk",
+			"Vladivostok",
+			"Smolensk",
+			"Orenburg",
+			"Krasnoyarsk",
+			"Khabarovsk",
+			"Bryansk",
+			"Tver",
+			"Novosibirsk",
+			"Magadan",
+			"Murmansk",
+			"Irkutsk",
+			"Chita",
+			"Samara",
+			"Arkhangelsk",
+			"Chelyabinsk",
+			"Tobolsk",
+			"Vologda",
+			"Omsk",
+			"Astrakhan",
+			"Kursk",
+			"Saratov",
+			"Tula",
+			"Vladimir",
+			"Perm",
+			"Voronezh",
+			"Pskov",
+			"Starayarussa",
+			"Kostoma",
+			"Nizhniy Novgorod",
+			"Suzdal",
+			"Magnitogorsk"
+		],
+		"spyNames": [
+			"Alexei",
+			"Lena",
+			"Dmitry",
+			"Anastasia",
+			"Tatiana",
+			"Boris",
+			"Doktor Seriy",
+			"Mikhail",
+			"Natacha",
+			"Zmeya"
+		]
+	},
+	{
+		"name": "Rome",
+		"leaderName": "Augustus Caesar",
+		"startBias": [
+			"Avoid [Tundra]",
+			"Avoid [Desert]"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Augustus Caesar",
+		"outerColor": [
+			70,
+			0,
+			118
+		],
+		"innerColor": [
+			240,
+			199,
+			0
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Glory of Rome",
+		"uniques": [
+			"[+20]% Production towards any buildings that already exist in the Capital",
+			"[+1 Production, +1 Gold] from each Trade Route",
+			"[-50]% construction time for [Road] improvements"
+		],
+		"cities": [
+			"Rome",
+			"Antium",
+			"Cumae",
+			"Neapolis",
+			"Ravenna",
+			"Arretium",
+			"Mediolanum",
+			"Arpinum",
+			"Circei",
+			"Setia",
+			"Satricum",
+			"Ardea",
+			"Ostia",
+			"Velitrae",
+			"Viroconium",
+			"Tarentum",
+			"Brundisium",
+			"Caesaraugusta",
+			"Caesarea",
+			"Palmyra",
+			"Signia",
+			"Aquileia",
+			"Clusium",
+			"Sutrium",
+			"Cremona",
+			"Placentia",
+			"Hispalis",
+			"Artaxata",
+			"Aurelianorum",
+			"Nicopolis",
+			"Agrippina",
+			"Verona",
+			"Corfinium",
+			"Treverii",
+			"Sirmium",
+			"Augustadorum",
+			"Curia",
+			"Interrama",
+			"Adria"
+		],
+		"spyNames": [
+			"Flavius",
+			"Regula",
+			"Servius",
+			"Lucia",
+			"Cornelius",
+			"Licina",
+			"Canus",
+			"Serpens",
+			"Agrippa",
+			"Brutus"
+		]
+	},
+	{
+		"name": "Arabia",
+		"leaderName": "Harun al-Rashid",
+		"startBias": [
+			"Desert"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Harun al-Rashid",
+		"outerColor": [
+			43,
+			88,
+			46
+		],
+		"innerColor": [
+			146,
+			221,
+			10
+		],
+		"favoredReligion": "Islam",
+		"uniqueName": "Worship Allah",
+		"uniques": [
+			"Comment [When constructing a [Faith] building, gain [Faith] equal to [50]% of its Production cost]",
+			"Gain [20] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
+			"Gain [50] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
+			"Gain [92] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
+			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
+			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
+			"Gain [200] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
+			"[+2 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
+			"[+2 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
+			"[+4 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
+			"[+10]% Strength <for [Military] units> <after founding a religion>"
+		],
+		"cities": [
+			"Mecca",
+			"Medina",
+			"Damascus",
+			"Baghdad",
+			"Najran",
+			"Kufah",
+			"Basra",
+			"Khurasan",
+			"Anjar",
+			"Fustat",
+			"Aden",
+			"Yamama",
+			"Muscat",
+			"Mansura",
+			"Bukhara",
+			"Fez",
+			"Shiraz",
+			"Merw",
+			"Balkh",
+			"Mosul",
+			"Aydab",
+			"Bayt",
+			"Suhar",
+			"Taif",
+			"Hama",
+			"Tabuk",
+			"Sana'a",
+			"Shihr",
+			"Tripoli",
+			"Tunis",
+			"Kairouan",
+			"Algiers",
+			"Oran"
+		],
+		"spyNames": [
+			"Solhofaat",
+			"Khenzeer",
+			"Zarafah",
+			"Temsaah",
+			"Abyadh",
+			"Mostafa",
+			"Yusuf",
+			"Waddah",
+			"Sameera",
+			"Gamal"
+		]
+	},
+	{
+		"name": "America",
+		"leaderName": "George Washington",
+		"preferredVictoryType": "Scientific",
+		"personality": "George Washington",
+		"outerColor": [
+			28,
+			51,
+			119
+		],
+		"innerColor": [
+			255,
+			255,
+			255
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Manifest Destiny",
+		"uniques": [
+			"[+1 Science] from every [Natural Wonder]",
+			"[+1 Science, +1 Culture] from every [Rare feature]",
+			"[+1 Culture] from every [Jungle]",
+			"Reveal up to [All] [Natural Wonder] within a [99] tile radius",
+			"Reveal up to [All] [Rare feature] within a [99] tile radius",
+			"Reveal up to [All] [Jungle] within a [99] tile radius"
+		],
+		"cities": [
+			"Washington",
+			"New York",
+			"Boston",
+			"Philadelphia",
+			"Atlanta",
+			"Chicago",
+			"Seattle",
+			"San Francisco",
+			"Los Angeles",
+			"Houston",
+			"Portland",
+			"St. Louis",
+			"Miami",
+			"Buffalo",
+			"Detroit",
+			"New Orleans",
+			"Baltimore",
+			"Denver",
+			"Cincinnati",
+			"Dallas",
+			"Memphis",
+			"Cleveland",
+			"Kansas City",
+			"San Diego",
+			"Richmond",
+			"Las Vegas",
+			"Phoenix",
+			"Albuquerque",
+			"Minneapolis",
+			"Pittsburgh",
+			"Oakland",
+			"Tampa Bay",
+			"Orlando",
+			"Tacoma",
+			"Santa Fe",
+			"Olympia",
+			"Hunt Valley",
+			"Springfield",
+			"Palo Alto",
+			"Centralia",
+			"Spokane",
+			"Jacksonville",
+			"Savannah",
+			"Charleston",
+			"San Antonio",
+			"Birmingham",
+			"Anchorage",
+			"Sacramento",
+			"Reno",
+			"Salt Lake City",
+			"Boise",
+			"Milwaukee",
+			"Santa Cruz",
+			"Little Rock"
+		],
+		"spyNames": [
+			"Cousin",
+			"Felix",
+			"Dennis",
+			"Edward",
+			"Prof. Rex",
+			"Eliza",
+			"Mary",
+			"Virginia",
+			"Scarlett",
+			"Barbara"
+		]
+	},
+	{
+		"name": "Japan",
+		"leaderName": "Oda Nobunaga",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
+		"outerColor": [
+			255,
+			255,
+			255
+		],
+		"innerColor": [
+			184,
+			0,
+			0
+		],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Bushido",
+		"uniques": [
+			"No damage penalty for wounded units <for [non-[Air]] units>",
+			"[Military] units gain the [Broken jade] promotion"
+		],
+		"cities": [
+			"Kyoto",
+			"Osaka",
+			"Tokyo",
+			"Satsuma",
+			"Kagoshima",
+			"Nara",
+			"Nagoya",
+			"Izumo",
+			"Nagasaki",
+			"Yokohama",
+			"Shimonoseki",
+			"Matsuyama",
+			"Sapporo",
+			"Hakodate",
+			"Ise",
+			"Toyama",
+			"Fukushima",
+			"Suo",
+			"Bizen",
+			"Echizen",
+			"Izumi",
+			"Omi",
+			"Echigo",
+			"Kozuke",
+			"Sado",
+			"Kobe",
+			"Nagano",
+			"Hiroshima",
+			"Takayama",
+			"Akita",
+			"Fukuoka",
+			"Aomori",
+			"Kamakura",
+			"Kochi",
+			"Naha",
+			"Sendai",
+			"Gifu",
+			"Yamaguchi",
+			"Ota",
+			"Tottori"
+		],
+		"spyNames": [
+			"Akaishi",
+			"Oki",
+			"Hattori",
+			"Morozumi",
+			"Momochi",
+			"Kawashima",
+			"Orin",
+			"Sakanishi",
+			"Kaede",
+			"Mochizuki"
+		]
+	},
+	{
+		"name": "India",
+		"leaderName": "Gandhi",
+		"startBias": [
+			"Grassland"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Gandhi",
+		"outerColor": [
+			14,
+			113,
+			4
+		],
+		"innerColor": [
+			255,
+			163,
+			71
+		],
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Crazy Happy World",
+		"uniques": [
+				"[+5]% growth [in all cities]",
+				"[+1 Happiness] [in all cities]",
+				"[+1 Happiness] [in all cities] <starting from the [Medieval era]>",
+		],
+		"cities": [
+			"Delhi",
+			"Mumbai",
+			"Vijayanagara",
+			"Pataliputra",
+			"Varanasi",
+			"Agra",
+			"Calcutta",
+			"Lahore",
+			"Bangalore",
+			"Hyderabad",
+			"Madurai",
+			"Ahmedabad",
+			"Kolhapur",
+			"Prayaga",
+			"Ayodhya",
+			"Indraprastha",
+			"Mathura",
+			"Ujjain",
+			"Gulbarga",
+			"Jaunpur",
+			"Rajagriha",
+			"Sravasti",
+			"Tiruchirapalli",
+			"Thanjavur",
+			"Bodhgaya",
+			"Kushinagar",
+			"Amaravati",
+			"Gaur",
+			"Gwalior",
+			"Jaipur",
+			"Karachi"
+		],
+		"spyNames": [
+			"Ashok",
+			"Shanx",
+			"Hormis",
+			"Sanjeev",
+			"Ananda",
+			"Rani",
+			"Parvati",
+			"Mukta",
+			"Karishma",
+			"Jyotsna"
+		]
+	},
+	{
+		"name": "Germany",
+		"leaderName": "Otto von Bismarck",
+		"preferredVictoryType": "Scientific",
+		"personality": "Otto von Bismarck",
+		"outerColor": [
+			179,
+			178,
+			184
+		],
+		"innerColor": [
+			37,
+			43,
+			33
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Furor Teutonicus",
+		"uniques": [
+			"[3] Unit Supply per city",
+			"[-66]% maintenance costs <for [Military] units>",
+			"[+1 Science, +1 Production] from all [Production] buildings <during a Golden Age>",
+			"[+10]% Production when constructing [Production] buildings [in all cities]"
+		],
+		"cities": [
+			"Berlin",
+			"Hamburg",
+			"Munich",
+			"Cologne",
+			"Frankfurt",
+			"Essen",
+			"Dortmund",
+			"Stuttgart",
+			"Düsseldorf",
+			"Bremen",
+			"Hannover",
+			"Duisburg",
+			"Leipzig",
+			"Dresden",
+			"Bonn",
+			"Bochum",
+			"Bielefeld",
+			"Karlsruhe",
+			"Gelsenkirchen",
+			"Wiesbaden",
+			"Münster",
+			"Rostock",
+			"Chemnitz",
+			"Braunschweig",
+			"Halle",
+			"Mönchengladbach",
+			"Kiel",
+			"Wuppertal",
+			"Freiburg",
+			"Hagen",
+			"Erfurt",
+			"Kaiserslautern",
+			"Kassel",
+			"Oberhausen",
+			"Hamm",
+			"Saarbrücken",
+			"Krefeld",
+			"Pirmasens",
+			"Potsdam",
+			"Solingen",
+			"Osnabrück",
+			"Ludwigshafen",
+			"Leverkusen",
+			"Oldenburg",
+			"Neuss",
+			"Mülheim",
+			"Darmstadt",
+			"Herne",
+			"Würzburg",
+			"Recklinghausen",
+			"Göttingen",
+			"Wolfsburg",
+			"Koblenz",
+			"Hildesheim",
+			"Erlangen"
+		],
+		"spyNames": [
+			"Johann",
+			"Marlene",
+			"Wilhelm",
+			"Eva",
+			"Heinz",
+			"Horst",
+			"Carl",
+			"Viper",
+			"Albrecht",
+			"Anton"
+		]
+	},
+	{
+		"name": "The Ottomans",
+		"leaderName": "Suleiman I",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Suleiman I",
+		"outerColor": [
+			245,
+			248,
+			185
+		],
+		"innerColor": [
+			18,
+			84,
+			30
+		],
+		"favoredReligion": "Islam",
+		"uniqueName": "Stars with The Moon",
+		"uniques": [
+			"Enables conversion of city production to [Faith]",
+			"Production to [Faith] conversion in cities changed by [300]%",
+			"Comment [可以用2倍于其正常的生产花费的[Faith]购买非祭祀建筑非奇观的建筑]"
+			"May buy [{non-['Religious Building']} {non-[Wonder]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
+			"May buy [Wonder] buildings with [Faith] for [3] times their normal Production cost",
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost <in this city>",
+			"[Faith] cost of purchasing items in cities [-5]% <for every [[Era number] - 1]>",
+			"[+2 Faith] from every [Scientist] <in cities with a [The Ottomans' Temple]> <hidden from users>"
+		],
+		"cities": [
+			"Istanbul",
+			"Edirne",
+			"Ankara",
+			"Bursa",
+			"Konya",
+			"Samsun",
+			"Gaziantep",
+			"Diyarbakır",
+			"Izmir",
+			"Kayseri",
+			"Malatya",
+			"Mersin",
+			"Antalya",
+			"Zonguldak",
+			"Denizli",
+			"Ordu",
+			"Muğla",
+			"Eskişehir",
+			"Inebolu",
+			"Sinop",
+			"Adana",
+			"Artvin",
+			"Bodrum",
+			"Eregli",
+			"Silifke",
+			"Sivas",
+			"Amasya",
+			"Marmaris",
+			"Trabzon",
+			"Erzurum",
+			"Urfa",
+			"Izmit",
+			"Afyonkarahisar",
+			"Bitlis",
+			"Yalova"
+		],
+		"spyNames": [
+			"Ibrahim",
+			"Bayezid",
+			"Sokollu",
+			"Mahmut",
+			"Uveys",
+			"Roxelana",
+			"Safiye",
+			"Hafsa",
+			"Kosem",
+			"Nurbanu"
+		]
+	},
+	{
+		"name": "Korea",
+		"leaderName": "Sejong",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Sejong",
+		"outerColor": [
+			27,
+			33,
+			96
+		],
+		"innerColor": [
+			255,
+			0,
+			0
+		],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+		"uniques": [
+			"Comment [When constructing a [Science] building, gain [Science] equal to [20]% of its Production cost]",
+			"[+2 Science] from every specialist [in all cities]",
+			"[+2 Science] from every [Great Improvement]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital",
+			"Gain [30] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]> <hidden from users>",
+			"Gain [64] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]> <hidden from users>",
+			"Gain [80] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]> <hidden from users> ",
+			"Gain [120] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]> <hidden from users>",
+			"Gain [200] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]> <hidden from users>"
+		],
+		"cities": [
+			"Seoul",
+			"Busan",
+			"Jeonju",
+			"Daegu",
+			"Pyongyang",
+			"Kaesong",
+			"Suwon",
+			"Gwangju",
+			"Gangneung",
+			"Hamhung",
+			"Wonju",
+			"Ulsan",
+			"Changwon",
+			"Andong",
+			"Gongju",
+			"Haeju",
+			"Cheongju",
+			"Mokpo",
+			"Dongducheon",
+			"Geoje",
+			"Suncheon",
+			"Jinju",
+			"Sangju",
+			"Rason",
+			"Gyeongju",
+			"Chungju",
+			"Sacheon",
+			"Gimje",
+			"Anju"
+		],
+		"spyNames": [
+			"Kim",
+			"Park",
+			"Han",
+			"Na",
+			"Kong",
+			"Yu",
+			"Ahn",
+			"Da",
+			"Eun"
+		]
+	},
+	{
+		"name": "Iroquois",
+		"leaderName": "Hiawatha",
+		"startBias": [
+			"Forest"
+		],
+		"preferredVictoryType": "Scientific",
+		"personality": "Hiawatha",
+		"outerColor": [
+			54,
+			72,
+			72
+		],
+		"innerColor": [
+			246,
+			205,
+			137
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Great Warpath",
+		"uniques": [
+			"Comment [[-15]% production cost​ of [[Worker] and [Settler]] unit]"
+		],
+		"cities": [
+			"Onondaga",
+			"Osininka",
+			"Grand River",
+			"Akwesasme",
+			"Buffalo Creek",
+			"Brantford",
+			"Montreal",
+			"Genesse River",
+			"Canandaigua Lake",
+			"Lake Simcoe",
+			"Salamanca",
+			"Gowanda",
+			"Cuba",
+			"Akron",
+			"Kanesatake",
+			"Ganienkeh",
+			"Cayuga Castle",
+			"Chondote",
+			"Canajoharie",
+			"Nedrow",
+			"Oneida Lake",
+			"Kanonwalohale",
+			"Green Bay",
+			"Southwold",
+			"Mohawk Valley",
+			"Schoharie",
+			"Bay of Quinte",
+			"Kanawale",
+			"Kanatsiokareke",
+			"Tyendinaga",
+			"Hahta"
+		],
+		"spyNames": [
+			"Onatah",
+			"Oneida",
+			"Oshadagea",
+			"Otetiani",
+			"Genesee",
+			"Dadgayadoh",
+			"Otwtiani",
+			"Kateri",
+			"Onondakai",
+			"Honanyawus"
+		]
+	},
+	{
+		"name": "Persia",
+		"leaderName": "Darius I",
+		"preferredVictoryType": "Scientific",
+		"personality": "Darius I",
+		"outerColor": [
+			153,
+			5,
+			3
+		],
+		"innerColor": [
+			244,
+			232,
+			54
+		],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Achaemenid Legacy",
+		"uniques": [
+			"[+20]% Golden Age length",
+			"Empire enters a [7]-turn Golden Age <upon entering the [Classical era]>",
+			"[+1] Movement <for [All] units> <during a Golden Age>",
+			"[+10]% Strength <for [All] units> <during a Golden Age>"
+		],
+		"cities": [
+			"Persepolis",
+			"Parsagadae",
+			"Susa",
+			"Ecbatana",
+			"Tarsus",
+			"Gordium",
+			"Bactra",
+			"Sardis",
+			"Ergili",
+			"Dariushkabir",
+			"Ghulaman",
+			"Zohak",
+			"Istakhr",
+			"Jinjan",
+			"Borazjan",
+			"Herat",
+			"Dakyanus",
+			"Bampur",
+			"Turengtepe",
+			"Rey",
+			"Shiraz",
+			"Thuspa",
+			"Hasanlu",
+			"Gabae",
+			"Merv",
+			"Behistun",
+			"Kandahar",
+			"Altintepe",
+			"Bunyan",
+			"Charsadda",
+			"Uratyube",
+			"Dura Europos",
+			"Aleppo",
+			"Qatna",
+			"Kabul",
+			"Capisa",
+			"Kyreskhata",
+			"Marakanda",
+			"Peshawar",
+			"Van",
+			"Pteira",
+			"Arshada",
+			"Artakaona",
+			"Aspabota",
+			"Autiyara",
+			"Bagastana",
+			"Baxtri",
+			"Darmasa",
+			"Daphnai",
+			"Drapsaka",
+			"Eion",
+			"Gandutava",
+			"Gaugamela",
+			"Harmozeia",
+			"Ekatompylos",
+			"Izata",
+			"Kampada",
+			"Kapisa",
+			"Karmana",
+			"Kounaxa",
+			"Kuganaka",
+			"Nautaka",
+			"Paishiyauvada",
+			"Patigrbana",
+			"Phrada"
+		],
+		"spyNames": [
+			"Azi",
+			"Dabir",
+			"Firuz",
+			"Gaspar",
+			"Shahzad",
+			"Aga",
+			"Marjane",
+			"Peri",
+			"Sartaj ",
+			"Yasmin"
+		]
+	},
+	{
+		"name": "Polynesia",
+		"leaderName": "Kamehameha I",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Kamehameha I",
+		"outerColor": [
+			217,
+			89,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			75
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Wayfinding",
+		"uniques": [
+			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+			"[+1] Sight <for [Embarked] units>",
+			"[Melee] units gain the [Haka War Dance] promotion"
+		],
+		"cities": [
+			"Honolulu",
+			"Samoa",
+			"Tonga",
+			"Nuku Hiva",
+			"Raiatea",
+			"Aotearoa",
+			"Tahiti",
+			"Hilo",
+			"Te Wai Pounamu",
+			"Rapa Nui",
+			"Tuamotu",
+			"Rarotonga",
+			"Tuvalu",
+			"Tubuai",
+			"Mangareva",
+			"Oahu",
+			"Kiritimati",
+			"Ontong Java",
+			"Niue",
+			"Rekohu",
+			"Rakahanga",
+			"Bora Bora",
+			"Kailua",
+			"Uvea",
+			"Futuna",
+			"Rotuma",
+			"Tokelau",
+			"Lahaina",
+			"Bellona",
+			"Mungava",
+			"Tikopia",
+			"Emae",
+			"Kapingamarangi",
+			"Takuu",
+			"Nukuoro",
+			"Sikaiana",
+			"Anuta",
+			"Nuguria",
+			"Pileni",
+			"Nukumanu"
+		],
+		"spyNames": [
+			"Tiki",
+			"Hotu Matua",
+			"Rongo-ma-tane",
+			"Kupe",
+			"Haloti",
+			"Degei",
+			"Babamik",
+			"Kulu Lau",
+			"Nangananga",
+			"Turua"
+		]
+	},
+	{
+		"name": "Siam",
+		"leaderName": "Ramkhamhaeng",
+		"startBias": [
+			"Avoid [Forest]"
+		],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Ramkhamhaeng",
+		"outerColor": [
+			245,
+			230,
+			55
+		],
+		"innerColor": [
+			177,
+			8,
+			3
+		],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Father Governs Children",
+		"uniques": [
+			"Comment [[+3]% [Yield] from every [Culture]]",
+			"[+3]% [Culture] from every [Culture] <hidden from users>",
+			"[+3]% [Production] from every [Culture] <hidden from users>",
+			"[+3]% [Science] from every [Culture] <hidden from users>",
+			"[+3]% [Faith] from every [Culture] <hidden from users>",
+			"[+3]% [Gold] from every [Culture] <hidden from users>",
+			"[+3]% [Happiness] from every [Culture] <hidden from users>",
+			"[+3]% [Food] from every [Culture] <hidden from users>"
+		],
+		"cities": [
+			"Sukhothai",
+			"Si Satchanalai",
+			"Muang Saluang",
+			"Lampang",
+			"Phitsanulok",
+			"Kamphaeng Pet",
+			"Nakhom Chum",
+			"Vientiane",
+			"Nakhon Si Thammarat",
+			"Martaban",
+			"Nakhon Sawan",
+			"Chainat",
+			"Luang Prabang",
+			"Uttaradit",
+			"Chiang Thong",
+			"Phrae",
+			"Nan",
+			"Tak",
+			"Suphanburi",
+			"Hongsawadee",
+			"Thawaii",
+			"Ayutthaya",
+			"Taphan Hin",
+			"Uthai Thani",
+			"Lap Buri",
+			"Ratchasima",
+			"Ban Phai",
+			"Loci",
+			"Khon Kaen",
+			"Surin"
+		],
+		"spyNames": [
+			"Aran",
+			"Chanarong",
+			"Kiet",
+			"Niran",
+			"Virote",
+			"Kulap",
+			"Mayuree",
+			"Phueng",
+			"Ratana",
+			"Tola"
+		]
+	},
+	{
+		"name": "Spain",
+		"leaderName": "Isabella",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Isabella",
+		"outerColor": [
+			84,
+			26,
+			26
+		],
+		"innerColor": [
+			255,
+			168,
+			168
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Seven Cities of Gold",
+		"uniques": [
+			"[+1 Production] from every [Natural Wonder]",
+			"[+1 Production] from every [Rare feature]",
+			"Comment [每一个工人都有一次建造殖民地的机会（不会消耗本身）]"
+		],
+		"cities": [
+			"Madrid",
+			"Barcelona",
+			"Seville",
+			"Cordoba",
+			"Toledo",
+			"Santiago",
+			"Salamanca",
+			"Murcia",
+			"Valencia",
+			"Zaragoza",
+			"Pamplona",
+			"Vitoria",
+			"Santander",
+			"Oviedo",
+			"Jaen",
+			"Logroño",
+			"Valladolid",
+			"Palma",
+			"Teruel",
+			"Almeria",
+			"Leon",
+			"Zamora",
+			"Mida",
+			"Lugo",
+			"Alicante",
+			"Càdiz",
+			"Eiche",
+			"Alcorcon",
+			"Burgos",
+			"Vigo",
+			"Badajoz",
+			"La Coruña",
+			"Guadalquivir",
+			"Bilbao",
+			"San Sebastian",
+			"Granada",
+			"Mérida",
+			"Huelva",
+			"Ibiza",
+			"Las Palmas",
+			"Tenerife"
+		],
+		"spyNames": [
+			"Rodrigo",
+			"Esmeralda",
+			"Leon",
+			"Mathilda",
+			"Ramona",
+			"Señor X",
+			"Topolino",
+			"Serpiente",
+			"Garcia",
+			"El Lobo"
+		]
+	},
+	{
+		"name": "Songhai",
+		"leaderName": "Askia",
+		"startBias": [
+			"Avoid [Tundra]"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Askia",
+		"outerColor": [
+			214,
+			145,
+			19
+		],
+		"innerColor": [
+			90,
+			0,
+			10
+		],
+		"favoredReligion": "Islam",
+		"uniqueName": "River Warlord",
+		"uniques": [
+			"[+25]% [Science] <while researching [technologies that unlock new military units]>",
+			"Comment [[+25]% Strength for units when researching their upgrade technologies]",
+			"[+25]% Strength <for [Warrior] units> <while researching [Iron Working]> <hidden from users>",
+			"[+25]% Strength <for [Archer] units> <while researching [Construction]> <hidden from users>",
+			"[+25]% Strength <for [Trireme] units> <while researching [Astronomy]> <hidden from users>",
+			"[+25]% Strength <for [Chariot Archer] units> <while researching [Chivalry]> <hidden from users>",
+			"[+25]% Strength <for [Spearman] units> <while researching [Civil Service]> <hidden from users>",
+			"[+25]% Strength <for [Galley] units> <while researching [Compass]> <hidden from users>",
+			"[+25]% Strength <for [Horseman] units> <while researching [Chivalry]> <hidden from users>",
+			"[+25]% Strength <for [Catapult] units> <while researching [Physics]> <hidden from users>",
+			"[+25]% Strength <for [Composite Bowman] units> <while researching [Machinery]> <hidden from users>",
+			"[+25]% Strength <for [Swordsman] units> <while researching [Steel]> <hidden from users>",
+			"[+25]% Strength <for [Pikeman] units> <while researching [Metallurgy]> <hidden from users>",
+			"[+25]% Strength <for [Galleass] units> <while researching [Navigation]> <hidden from users>",
+			"[+25]% Strength <for [Mandekalu Cavalry] units> <while researching [Military Science]> <hidden from users>",
+			"[+25]% Strength <for [Crossbowman] units> <while researching [Industrialization]> <hidden from users>",
+			"[+25]% Strength <for [Trebuchet] units> <while researching [Chemistry]> <hidden from users>",
+			"[+25]% Strength <for [Longswordsman] units> <while researching [Gunpowder]> <hidden from users>",
+			"[+25]% Strength <for [Caravel] units> <while researching [Steam Power]> <hidden from users>",
+			"[+25]% Strength <for [Musketman] units> <while researching [Rifling]> <hidden from users>",
+			"[+25]% Strength <for [Privateer] units> <while researching [Combustion]> <hidden from users>",
+			"[+25]% Strength <for [Frigate] units> <while researching [Electronics]> <hidden from users>",
+			"[+25]% Strength <for [Lancer] units> <while researching [Combined Arms]> <hidden from users>",
+			"[+25]% Strength <for [Cannon] units> <while researching [Dynamite]> <hidden from users>",
+			"[+25]% Strength <for [Gatling Gun] units> <while researching [Ballistics]> <hidden from users>",
+			"[+25]% Strength <for [Rifleman] units> <while researching [Replaceable Parts]> <hidden from users>",
+			"[+25]% Strength <for [Cavalry] units> <while researching [Combustion]> <hidden from users>",
+			"[+25]% Strength <for [Ironclad] units> <while researching [Combustion]> <hidden from users>",
+			"[+25]% Strength <for [Artillery] units> <while researching [Rocketry]> <hidden from users>",
+			"[+25]% Strength <for [Submarine] units> <while researching [Telecommunications]> <hidden from users>",
+			"[+25]% Strength <for [Great War Infantry] units> <while researching [Plastics]> <hidden from users>",
+			"[+25]% Strength <for [Triplane] units> <while researching [Radar]> <hidden from users>",
+			"[+25]% Strength <for [Great War Bomber] units> <while researching [Radar]> <hidden from users>",
+			"[+25]% Strength <for [Infantry] units> <while researching [Mobile Tactics]> <hidden from users>",
+			"[+25]% Strength <for [Machine Gun] units> <while researching [Mobile Tactics]> <hidden from users>",
+			"[+25]% Strength <for [Anti-Aircraft Gun] units> <while researching [Rocketry]> <hidden from users>",
+			"[+25]% Strength <for [Landship] units> <while researching [Combined Arms]> <hidden from users>",
+			"[+25]% Strength <for [Tank] units> <while researching [Lasers]> <hidden from users>",
+			"[+25]% Strength <for [Fighter] units> <while researching [Lasers]> <hidden from users>",
+			"[+25]% Strength <for [Bomber] units> <while researching [Stealth]> <hidden from users>",
+			"[+25]% Strength <for [Anti-Tank Gun] units> <while researching [Computers]> <hidden from users>"
+		],
+		"cities": [
+			"Gao",
+			"Tombouctu",
+			"Jenne",
+			"Taghaza",
+			"Tondibi",
+			"Kumbi Saleh",
+			"Kukia",
+			"Walata",
+			"Tegdaoust",
+			"Argungu",
+			"Gwandu",
+			"Kebbi",
+			"Boussa",
+			"Motpi",
+			"Bamako",
+			"Wa",
+			"Kayes",
+			"Awdaghost",
+			"Ouadane",
+			"Dakar",
+			"Tadmekket",
+			"Tekedda",
+			"Kano",
+			"Agadez",
+			"Niamey",
+			"Torodi",
+			"Ouatagouna",
+			"Dori",
+			"Bamba",
+			"Segou"
+		],
+		"spyNames": [
+			"Ahmadou",
+			"Ayub",
+			"Badru",
+			"Bokhari",
+			"Guedado",
+			"Adhiambo",
+			"Chinaka",
+			"Laila",
+			"Mariama",
+			"Oni"
+		]
+	},
+	{
+		"name": "Mongolia",
+		"leaderName": "Genghis Khan",
+		"startBias": [
+			"Plains"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Genghis Khan",
+		"outerColor": [
+			81,
+			0,
+			9
+		],
+		"innerColor": [
+			255,
+			120,
+			0
+		],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniques": [
+			"[+1] Movement <for [Mounted] units>",
+			"[+15]% Strength <for [Mounted] units>",
+			"[-1] Movement <for [Chariot Archer] units>",
+			"[Military] units gain the [Horseback] promotion"
+		],
+		"cities": [
+			"Karakorum",
+			"Beshbalik",
+			"Turfan",
+			"Hsia",
+			"Old Sarai",
+			"New Sarai",
+			"Tabriz",
+			"Tiflis",
+			"Otrar",
+			"Sanchu",
+			"Kazan",
+			"Almarikh",
+			"Ulaanbaatar",
+			"Hovd",
+			"Darhan",
+			"Dalandzadgad",
+			"Mandalgovi",
+			"Choybalsan",
+			"Erdenet",
+			"Tsetserieg",
+			"Baruun-Urt",
+			"Ereen",
+			"Batshireet",
+			"Choyr",
+			"Ulaangom",
+			"Tosontsengel",
+			"Altay",
+			"Uliastay",
+			"Bayanhongor",
+			"Har-Ayrag",
+			"Nalayh",
+			"Tes"
+		],
+		"spyNames": [
+			"Asashōryū",
+			"Tömöriin",
+			"Zevegiin",
+			"Jigjidiin",
+			"Enkhbat",
+			"Mönkhbayar",
+			"Gündegmaa",
+			"Ssima",
+			"Batachikhan",
+			"Chulunny"
+		]
+	},
+	{
+		"name": "Aztecs",
+		"leaderName": "Montezuma I",
+		"startBias": [
+			"Jungle"
+		],
+		"preferredVictoryType": "Domination",
+		"personality": "Montezuma I",
+		"outerColor": [
+			139,
+			32,
+			23
+		],
+		"innerColor": [
+			134,
+			238,
+			214
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Sacrificial Captives",
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"cities": [
+			"Tenochtitlan",
+			"Teotihuacan",
+			"Tlatelolco",
+			"Texcoco",
+			"Tlaxcala",
+			"Calixtlahuaca",
+			"Xochicalco",
+			"Tlacopan",
+			"Atzcapotzalco",
+			"Tzintzuntzan",
+			"Malinalco",
+			"Tula",
+			"Tamuin",
+			"Teayo",
+			"Cempoala",
+			"Chalco",
+			"Tlalmanalco",
+			"Ixtapaluca",
+			"Huexotla",
+			"Tepexpan",
+			"Tepetlaoxtoc",
+			"Chiconautla",
+			"Zitlaltepec",
+			"Coyotepec",
+			"Tequixquiac",
+			"Jilotzingo",
+			"Tlapanaloya",
+			"Tultitan",
+			"Ecatepec",
+			"Coatepec",
+			"Chalchiuites",
+			"Chiauhita",
+			"Chapultepec",
+			"Itzapalapa",
+			"Ayotzinco",
+			"Iztapam"
+		],
+		"spyNames": [
+			"Metztli",
+			"Xitllali",
+			"Chimalli",
+			"Quauhtli",
+			"Teyacapan",
+			"Yaotl",
+			"Coatl",
+			"Huitzilin",
+			"Itzli",
+			"Tepin"
+		]
+	},
+	{
+		"name": "Inca",
+		"leaderName": "Pachacuti",
+		"startBias": [
+			"Hill"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pachacuti",
+		"outerColor": [
+			255,
+			184,
+			33
+		],
+		"innerColor": [
+			3,
+			115,
+			86
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Great Andean Road",
+		"uniques": [
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"[-50]% maintenance on road & railroads",
+			"No Maintenance costs for improvements in [Hill] tiles"
+		],
+		"cities": [
+			"Cuzco",
+			"Tiwanaku",
+			"Machu",
+			"Ollantaytambo",
+			"Corihuayrachina",
+			"Huamanga",
+			"Rumicucho",
+			"Vilcabamba",
+			"Vitcos",
+			"Andahuaylas",
+			"Ica",
+			"Arequipa",
+			"Nasca",
+			"Atico",
+			"Juli",
+			"Chuito",
+			"Chuquiapo",
+			"Huanuco Pampa",
+			"Tamboccocha",
+			"Huaras",
+			"Riobamba",
+			"Caxamalca",
+			"Sausa",
+			"Tambo Colorado",
+			"Huaca",
+			"Tumbes",
+			"Chan Chan",
+			"Sipan",
+			"Pachacamac",
+			"Llactapata",
+			"Pisac",
+			"Kuelap",
+			"Pajaten",
+			"Chucuito",
+			"Choquequirao"
+		],
+		"spyNames": [
+			"Amaru",
+			"Apichu",
+			"Pariapichiu",
+			"Puma",
+			"Quenti",
+			"Suyuntu",
+			"Uturuncu",
+			"Purutu",
+			"Ozcollo"
+		]
+	},
+	{
+		"name": "Denmark",
+		"leaderName": "Harald Bluetooth",
+		"startBias": [
+			"Coast"
+		],
+		"preferredVictoryType": "Cultural",
+		"personality": "Harald Bluetooth",
+		"outerColor": [
+			51,
+			25,
+			0
+		],
+		"innerColor": [
+			255,
+			255,
+			102
+		],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Viking Fury",
+		"uniques": [
 			"[+1] Movement <for [Embarked] units>",
 			"[1] Movement point cost to disembark <for [All] units>",
 			"[Military] units gain the [Viking rage] promotion",
