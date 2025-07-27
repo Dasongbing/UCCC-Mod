@@ -29,7 +29,12 @@
 		"production": 1,
 		"uniques": [
 			"Removes removable features when built",
-			"Improves [Strategic resource] resource in this tile"
+			"Improves [Horses] resource in this tile",
+			"Improves [Iron] resource in this tile",
+			"Improves [Coal] resource in this tile",
+			"Improves [Oil] resource in this tile",
+			"Improves [Aluminum] resource in this tile",
+			"Improves [Uranium] resource in this tile",
 			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Manor]>",
 			"Adjacent enemy units ending their turn take [5] damage",
@@ -108,12 +113,15 @@
 		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": [
 			"Land",
-			"Forest",
-			"Jungle"
 		],
 		"uniques": [
 			"Removes removable features when built",
-			"Improves [Strategic resource] resource in this tile"
+			"Improves [Horses] resource in this tile",
+			"Improves [Iron] resource in this tile",
+			"Improves [Coal] resource in this tile",
+			"Improves [Oil] resource in this tile",
+			"Improves [Aluminum] resource in this tile",
+			"Improves [Uranium] resource in this tile",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",
