@@ -106,11 +106,8 @@
 		],
 		"uniqueName": "Hellenic League",
 		"uniques": [
-			"[-50]% City-State Influence degradation",
-			"City-State Influence recovers at twice the normal rate",
-			"City-State territory always counts as friendly territory",
-			"[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-			"Each city founded increases culture cost of policies [33]% less than normal"
+		    "[-20]% Unhappiness from [Population] [in all non-occupied cities]",
+			"Each city founded increases culture cost of policies [50]% less than normal"
 		],
 		"cities": [
 			"Athens",
@@ -664,7 +661,7 @@
 			10
 		],
 		"favoredReligion": "Islam",
-		"uniqueName": "Trade Caravans",
+		"uniqueName": "Worship Allah",
 		"uniques": [
 			"Comment [When constructing a [Faith] building, gain [Faith] equal to [50]% of its Production cost]",
 			"Gain [20] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
@@ -1755,9 +1752,8 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": [
-			"[+30]% Strength <vs [City-States]>",
 			"[+1] Movement <for [Mounted] units>",
-			"[+10]% Strength <for [Mounted] units>",
+			"[+15]% Strength <for [Mounted] units>",
 			"[-1] Movement <for [Chariot Archer] units>",
 			"[Military] units gain the [Horseback] promotion"
 		],
@@ -2183,7 +2179,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
 		"uniques": [
-			"Gain [90] Influence with a [Great Person] gift to a City-State",
+		    "[+10]% Great Person generation [in all cities]",
+		    "[Great General] is earned [10]% faster",
+		    "[-10]% Faith cost of generating Great Prophet equivalents",
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"[Great Person] units gain the [Nobel Prize] promotion"
 			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
@@ -2270,7 +2268,7 @@
 			255
 		],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Diplomatic Marriage",
+		"uniqueName": "Arts Center",
 		"uniques": [
 			"Comment [When constructing a [Culture] building or world wonder, gain [Culture] equal to [30]% of its Production cost]",
 			"Gain [12] [Culture] <(modified by game speed)> <upon constructing [Monument] [in all cities]> <hidden from users>",
