@@ -1145,10 +1145,6 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": [
-			"No defensive terrain bonus",
-			"Ignores Zone of Control"
-		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},

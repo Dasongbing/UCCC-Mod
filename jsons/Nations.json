@@ -1973,9 +1973,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
 		"uniques": [
-			"[+1] Movement <for [Embarked] units>",
-			"[1] Movement point cost to disembark <for [All] units>",
 			"[Military] units gain the [Viking rage] promotion",
+			"Comment [[Viking rage]让军事单位拥有攻击时摧毁目标地块地块设施的能力]",
 			"No movement cost to pillage <for [Melee] units>"
 		],
 		"cities": [

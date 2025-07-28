@@ -586,7 +586,7 @@
 		"cost": 40,
 		"faith": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -645,7 +645,7 @@
 		"name": "Organ Chapel",
 		"replaces": "Amphitheater",
 		"uniqueTo": "Denmark",
-		"culture": 5,
+		"culture": 3,
 		"specialistSlots": {
 			"Artist": 1
 		},
@@ -653,7 +653,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Automatically built in all cities where it is buildable"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
