@@ -2,7 +2,7 @@
 	{
 		"name": "Broken jade",
 		"uniques": [
-			"Comment [ [+1]% Strength for [Military] units upon losing every [4] HP , and the max is 20% Strength ]",
+			"Comment [[+1]% Strength for [Military] units upon losing every [4] HP, and the max is 20% Strength]",
 			"[+1]% Strength <when below [97] HP> <when above [92] HP> <when attacking> <hidden from users>",
 			"[+2]% Strength <when below [93] HP> <when above [88] HP> <when attacking> <hidden from users>",
 			"[+3]% Strength <when below [89] HP> <when above [84] HP> <when attacking> <hidden from users>",
