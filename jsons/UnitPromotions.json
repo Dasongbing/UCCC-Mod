@@ -74,8 +74,8 @@
 	{
 		"name": "Indomitable",
 		"uniques": [
-			"[+10]% Strength <when defending>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[+5]% Strength <when defending>",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles"
 		]
 	},
 	{
