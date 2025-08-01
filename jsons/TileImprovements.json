@@ -23,6 +23,7 @@
 		"uniqueTo": "England",
 		"terrainsCanBeBuiltOn": [
 			"Land",
+			"Hill"
 		],
 		"production": 1,
 		"uniques": [
@@ -55,7 +56,7 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
-			"Land"
+			"Land",
 		],
 		"turnsToBuild": 5,
 		"uniques": [
@@ -110,6 +111,7 @@
 		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": [
 			"Land",
+			"Hill"
 		],
 		"uniques": [
 			"Removes removable features when built",
