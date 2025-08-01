@@ -1974,7 +1974,6 @@
 		"uniqueName": "Viking Fury",
 		"uniques": [
 			"[Military] units gain the [Viking rage] promotion",
-			"Comment [[Viking rage]让军事单位拥有攻击时摧毁目标地块地块设施的能力]",
 			"No movement cost to pillage <for [Melee] units>"
 		],
 		"cities": [
@@ -2740,7 +2739,7 @@
 		],
 		"uniqueName": "Conquer until the end of the world",
 		"uniques": [
-			"Comment [[Unhappiness] penalties reduced by [66]%​]"
+			"Comment [[Unhappiness] penalties reduced by [50]%​]"
 		],
 		"cities": [
 			"Pella",
