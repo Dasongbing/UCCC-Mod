@@ -58,15 +58,16 @@
 			"Land",
 			"Water"
 		],
-		"culture": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"uniques": [
-			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Moai] tiles>",
+		    "[+1 Culture] <after discovering [Masonry]> <in tiles adjacent to [Moai] tiles>"
+		    "[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Moai] tiles>",
+		    "[+1 Culture] <after discovering [Construction]> <with [2] to [6] neighboring [Moai] tiles>",
 			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"techRequired": "Agriculture",
+		"techRequired": "Mining",
 		"shortcutKey": "M"
 	},
 	{
