@@ -55,13 +55,11 @@
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
-			"Land",
-			"Water"
+			"Land"
 		],
 		"turnsToBuild": 5,
 		"uniques": [
-		    "[+1 Culture] <after discovering [Masonry]> <in tiles adjacent to [Moai] tiles>"
-		    "[+1 Culture] <after discovering [Construction]> <with [1] to [6] neighboring [Moai] tiles>",
+		    "[+1 Culture] <after discovering [Masonry]> <in tiles adjacent to [Moai] tiles>",
 		    "[+1 Culture] <after discovering [Construction]> <with [2] to [6] neighboring [Moai] tiles>",
 			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
