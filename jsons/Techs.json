@@ -82,6 +82,7 @@
 				],
 				"uniques": [
 					"[+100]% weight to this choice for AI decisions",
+					"Enables embarkation for land units",
 					"technologies that unlock new military units <hidden from users>"
 				],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
@@ -166,7 +167,6 @@
 					"Sailing"
 				],
 				"uniques": [
-					"Enables embarkation for land units",
 					"technologies that unlock new military units <hidden from users>"
 				],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
