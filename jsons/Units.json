@@ -234,7 +234,7 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
-			"May create improvements on water resources",
+			"Can instantly construct a [Fishing Boats] improvement <for [4] movement> <[4] times> <after which this unit is consumed>",
 			"Uncapturable",
 			"Automation is a primary action"
 		]
@@ -254,6 +254,19 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
+        {
+       	 "name": "Galley",
+      	  "unitType": "Ranged Water",
+     	   "movement": 3,
+    	    "strength": 7,
+   	     "rangedStrength": 9,
+   	    "cost": 56,
+  	     "requiredTech": "Optics",
+   	     "obsoleteTech": "Compass",
+ 	       "upgradesTo": "Galleass",
+  	      "uniques": ["Cannot enter ocean tiles"],
+  	      "attackSound": "arrow"
+        },
 	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
@@ -291,7 +304,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Galley",
+		"name": "Barbarians Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
@@ -641,7 +654,7 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
 		"movement": 3,
-		"strength": 14,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
@@ -651,6 +664,7 @@
 		],
 		"uniques": [
 			"Can move after attacking",
+			"May travel on Water tiles without embarking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
@@ -862,23 +876,12 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cossack",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Russia",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Cossack] ability"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -1519,6 +1522,23 @@
 		],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+
 	{
 		"name": "Ironclad",
 		"unitType": "Melee Water",
