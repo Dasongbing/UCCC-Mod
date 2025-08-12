@@ -23,7 +23,6 @@
 		"uniqueTo": "England",
 		"terrainsCanBeBuiltOn": [
 			"Land",
-			"Hill"
 		],
 		"production": 1,
 		"uniques": [
@@ -57,16 +56,17 @@
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
 			"Land",
+			"Water"
 		],
-		"turnsToBuild": 5,
+		"culture": 1,
+		"turnsToBuild": 4,
 		"uniques": [
-		    "[+1 Culture] <after discovering [Masonry]> <in tiles adjacent to [Moai] tiles>",
-		    "[+1 Culture] <after discovering [Construction]> <with [2] to [6] neighboring [Moai] tiles>",
+			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Moai] tiles>",
 			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"techRequired": "Mining",
+		"techRequired": "Agriculture",
 		"shortcutKey": "M"
 	},
 	{
@@ -111,7 +111,6 @@
 		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": [
 			"Land",
-			"Hill"
 		],
 		"uniques": [
 			"Removes removable features when built",
@@ -263,9 +262,11 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
+			"Can be built outside your borders",
+			"Gain control over [Water] tiles in a [1]-tile radius",
 			"[+1 Gold] <after discovering [Compass]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+15 Gold]"
 		],
 		"shortcutKey": "F"
 	},
