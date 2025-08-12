@@ -2,7 +2,7 @@
 	{
 		"name": "Broken jade",
 		"uniques": [
-			"Comment [[+1]% Strength for [Military] units upon losing every [4] HP, and the max is 20% Strength]",
+			"Comment [ [+1]% Strength for [Military] units upon losing every [4] HP , and the max is 20% Strength ]",
 			"[+1]% Strength <when below [97] HP> <when above [92] HP> <when attacking> <hidden from users>",
 			"[+2]% Strength <when below [93] HP> <when above [88] HP> <when attacking> <hidden from users>",
 			"[+3]% Strength <when below [89] HP> <when above [84] HP> <when attacking> <hidden from users>",
@@ -31,14 +31,14 @@
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>",
 			"Comment [You can get free tech points and provide production capacity for your city, increasing your stats and times as you progress.]",
-			"Gain [30] [Science]<[1] times><for [2] movement><costs [-15 Production] stats><during the [Ancient era]><hidden from users>",
-			"Gain [90] [Science]<[1] times><for [2] movement><costs [-30 Production] stats><during the [Classical era]><hidden from users>",
-			"Gain [250] [Science]<[1] times><for [2] movement><costs [-60 Production] stats><during the [Medieval era]><hidden from users>",
-			"Gain [350] [Science]<[2] times><for [2] movement><costs [-90 Production] stats><during the [Renaissance era]><hidden from users>",
-			"Gain [600] [Science]<[2] times><for [2] movement><costs [-120 Production] stats><during the [Industrial era]><hidden from users>",
-			"Gain [1000] [Science]<[3] times><for [2] movement><costs [-150 Production] stats><during the [Modern era]><hidden from users>",
-			"Gain [2000] [Science]<[3] times><for [2] movement><costs [-180 Production] stats><during the [Atomic era]><hidden from users>",
-			"Gain [3500] [Science]<[4] times><for [2] movement><costs [-210 Production] stats><during the [Information era]><hidden from users>"
+			"Gain [30] [Science]<[1] times><costs [-15 Production] stats><during the [Ancient era]><hidden from users>",
+			"Gain [90] [Science]<[1] times><costs [-30 Production] stats><during the [Classical era]><hidden from users>",
+			"Gain [250] [Science]<[1] times><costs [-60 Production] stats><during the [Medieval era]><hidden from users>",
+			"Gain [350] [Science]<[2] times><costs [-90 Production] stats><during the [Renaissance era]><hidden from users>",
+			"Gain [600] [Science]<[2] times><costs [-120 Production] stats><during the [Industrial era]><hidden from users>",
+			"Gain [1000] [Science]<[3] times><costs [-150 Production] stats><during the [Modern era]><hidden from users>",
+			"Gain [2000] [Science]<[3] times><costs [-180 Production] stats><during the [Atomic era]><hidden from users>",
+			"Gain [3500] [Science]<[4] times><costs [-210 Production] stats><during the [Information era]><hidden from users>"
 		]
 	},
 	{
@@ -74,8 +74,8 @@
 	{
 		"name": "Indomitable",
 		"uniques": [
-			"[+5]% Strength <when defending>",
-			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[+10]% Strength <when defending>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 		]
 	},
 	{
