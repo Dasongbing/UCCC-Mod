@@ -123,12 +123,15 @@
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
-			"Coast"
+			"Coast",
+			"Ocean"
 		],
 		"food": 1,
+		"production": -1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
+			"Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>"
+			"Generated on every [13] tiles <in [{Featureless} {Ocean}] tiles>"
 		]
 	},
 	/*
@@ -624,12 +627,16 @@
 		"name": "Whales",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Coast"
+			"Coast",
+			"Ocean"
 		],
 		"food": 1,
+		"production": -1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
+			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
+			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
 			"Generated with weight [35] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [10] <in [Hill] Regions>",
@@ -643,11 +650,15 @@
 		"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Coast"
+			"Coast",
+			"Ocean"
 		],
+		"production": -1,
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"uniques": [
+			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
+			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
 			"Generated with weight [20] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
@@ -720,26 +731,20 @@
 			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"
 		]
 	},
-	/*
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], 
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation"
-	},
-	*/
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Coast"
+			"Coast",
+			"Ocean"
 		],
 		"food": 1,
+		"production": -1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
+			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
+			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
 			"Generated with weight [30] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
