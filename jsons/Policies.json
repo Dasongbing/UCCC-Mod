@@ -156,9 +156,8 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+
         ],
         "policies": [
             {
@@ -192,7 +191,9 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
+            "Notified of new Barbarian encampments"
                 ],
                 "row": 2,
                 "column": 5
