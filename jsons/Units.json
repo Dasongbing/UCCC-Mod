@@ -6,6 +6,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
+			"Can build [Naval Camp] improvements on tiles",
 			"Automation is a primary action",
 			"Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",
 			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
@@ -21,6 +22,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
+			"Can build [Naval Camp] improvements on tiles",
 			"Automation is a primary action",
 			"Ignores terrain cost"
 		],
@@ -254,6 +256,26 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Carthaginian Sailors",
+		"unitType": "Sword",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"No defensive terrain bonus"
+			"May travel on Water tiles without embarking",
+			"Never appears as a Barbarian unit",
+			"Can upgrade to [Horseman]"
+		],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
         {
        	 "name": "Galley",
       	  "unitType": "Ranged Water",
@@ -267,42 +289,6 @@
   	      "uniques": ["Cannot enter ocean tiles"],
   	      "attackSound": "arrow"
         },
-	{
-		"name": "Quinquereme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 13,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": [
-			"Cannot enter ocean tiles",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Dromon",
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "Sailing",
-		"uniques": [
-			"Cannot enter ocean tiles",
-			"[+50]% Strength <vs [Water] units>",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"
-	},
 	{
 		"name": "Barbarians Galley",
 		"unitType": "Melee Water",
@@ -649,30 +635,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "African Forest Elephant",
-		"unitType": "Mounted",
-		"uniqueTo": "Carthage",
-		"replaces": "Horseman",
-		"movement": 3,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"promotions": [
-			"Great Generals II"
-		],
-		"uniques": [
-			"Can move after attacking",
-			"May travel on Water tiles without embarking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "elephant"
-	},
-	{
 		"name": "Cataphract",
 		"unitType": "Mounted",
 		"uniqueTo": "Byzantium",
@@ -692,30 +654,6 @@
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
-		"name": "Hussar",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia",
-			"[+1] Sight"
-		],
-		"promotions": [
-			"[Hussar] ability"
-		],
 		"attackSound": "horse"
 	},
 	{
@@ -1179,23 +1117,6 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Turtle Ship",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 36,
-		"cost": 120,
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-			"Cannot enter ocean tiles",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
 		"name": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1220,21 +1141,6 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Janissary",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"attackSound": "shot"
-	},
-	{
 		"name": "Minuteman",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
@@ -1250,22 +1156,6 @@
 		],
 		"promotions": [
 			"Drill I"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Tercio",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 26,
-		"cost": 160,
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
 		],
 		"attackSound": "shot"
 	},
@@ -1286,16 +1176,13 @@
 	{
 		"name": "Sea Beggar",
 		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Netherlands",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"uniques": [
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
 		"promotions": [
 			"Coastal Raider I",
 			"Coastal Raider II",

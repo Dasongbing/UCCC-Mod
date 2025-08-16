@@ -17,7 +17,7 @@
             {
                 "name": "Aristocracy", //1
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+2 Production] [in capital]",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 2,
@@ -36,7 +36,6 @@
                 "uniques": [
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 2,
                 "column": 5
@@ -71,11 +70,11 @@
         "name": "Liberty",
         "era": "Ancient era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
         },
         "uniques": [
             "[+1 Culture] [in all cities]"
@@ -95,7 +94,6 @@
                 "uniques": [
                     "[-25]% construction time for [All] improvements",
                     "Free [Worker] appears",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 4
@@ -129,7 +127,6 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "requires": [
                     "Citizenship"
@@ -156,8 +153,92 @@
             "Scientific": 5
         },
         "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                    "Comment [允许建造 [Honor Monument]]",
+                    "Comment [[Honor Monument] : [+1 Culture] 并给予 2 点 [Great General] 点数]",
+                    "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"
+                    "Gain a free [Honor Monument] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                    "Free [Great General] appears"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                ],
+                "requires": [
+                    "Warrior Code"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Prepare for War",//枕戈待战
+                "uniques": [
+                    "[+1 Production] [in all cities with a garrison]",
+                    "[2] Unit Supply per city"
+                ],
 
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+                    "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+25]% XP gained from combat <for [Military] units>"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Military Training",//厉兵秣马
+                "uniques": [
+                    "Comment [[Barracks] [-25]% production cost]"
+                    "Comment [[Armory] [-25]% production cost]"
+                    "Comment [[Military Academy] [-25]% production cost]"
+                    "Comment [Military gains 1 XP upon ending a turn in your Land tile]"
+                ],
+                "requires": [
+                    "Prepare for War"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "Empire enters a [4]-turn Golden Age <upon conquering a city>"
+                    "[+1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Military Academy]",
+                ]
+            }
+        ]
+    },
+/*    {
+        "name": "Honor",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+                    "[+2 Culture] [in capital] <when at war>"
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Culture]"
+                    "Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
         ],
         "policies": [
             {
@@ -173,6 +254,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                    "[+15]% Production when constructing [Ranged] units [in all cities]",
                 ],
                 "row": 1,
                 "column": 3
@@ -180,7 +262,8 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>"
+                    "[-50]% maintenance costs <for [Military] units>"
+                    "[2] Unit Supply per city"
                 ],
                 "requires": [
                     "Warrior Code"
@@ -191,9 +274,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [75]% of killed [Military] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
+                    "[+1 Food, +1 Production] [in all cities with a garrison]"
                 ],
                 "row": 2,
                 "column": 5
@@ -201,11 +282,10 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "Comment [[Barracks] [-50]% production cost]"
+                    "Comment [[Armory] [-50]% production cost]"
+                    "Comment [[Military Academy] [-50]% production cost]"
+                    "Comment [[Courthouse] [-10]% production cost]"
                 ],
                 "requires": [
                     "Discipline"
@@ -216,33 +296,33 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "Empire enters a [4]-turn Golden Age <upon conquering a city>"
+                    "[+1 Happiness] from every [Walls]",
                 ]
             }
         ]
-    },
+    }, */
     {
         "name": "Piety",
         "era": "Classical era",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 0
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
         },
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "Only available <before adopting [Rationalism]>",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]"
+                    "[+2 Faith] from every [Shrine]"
                 ],
                 "row": 1,
                 "column": 2
@@ -259,6 +339,7 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+10]% [Gold] from every [Temple]"
+                    "[+10]% [Gold] from every [Shrine]"
                 ],
                 "requires": [
                     "Organized Religion"
@@ -269,7 +350,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+33]% [Culture] [in all cities with a world wonder]",
+                    "[+15]% [Culture] [in all cities]",
+                    "[+15]% [Culture] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
                 "requires": [
@@ -305,7 +387,7 @@
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
-            "Diplomatic": 10,
+            "Diplomatic": 5,
             "Domination": 5,
             "Scientific": 5
         },
@@ -461,15 +543,14 @@
         "name": "Rationalism",
         "era": "Renaissance era",
         "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>"
         ],
         "policies": [
             {
@@ -486,7 +567,6 @@
                     "[+1 Happiness] from every [University]",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]",
-                    "[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 4
@@ -518,7 +598,6 @@
                 "name": "Scientific Revolution",
                 "uniques": [
                     "Science gained from research agreements [+50]%",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "requires": [
                     "Free Thought"
@@ -540,10 +619,10 @@
         "era": "Industrial era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 10,
+            "Cultural": 5,
             "Diplomatic": 5,
             "Domination": 5,
-            "Scientific": 10
+            "Scientific": 5
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
@@ -555,7 +634,6 @@
                 "name": "Constitution",
                 "uniques": [
                     "[+2 Culture] from every [Wonder]",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1
@@ -564,7 +642,6 @@
                 "name": "Universal Suffrage",
                 "uniques": [
                     "[+33]% Strength for cities <when defending>",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 3
@@ -616,7 +693,7 @@
             "Neutral": 5,
             "Cultural": 5,
             "Diplomatic": 5,
-            "Domination": 10,
+            "Domination": 5,
             "Scientific": 5
         },
         "uniques": [
@@ -630,7 +707,6 @@
                 "name": "Populism",
                 "uniques": [
                     "[+25]% Strength <for [Wounded] units>",
-                    "[+100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 2
@@ -711,7 +787,6 @@
                 "name": "United Front",
                 "uniques": [
                     "Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-                    "[-100]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 1

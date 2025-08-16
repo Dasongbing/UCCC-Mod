@@ -33,6 +33,12 @@
 			"Improves [Oil] resource in this tile",
 			"Improves [Aluminum] resource in this tile",
 			"Improves [Uranium] resource in this tile",
+			"[-1 Production] from [Horses] tiles",
+			"[-1 Production] from [Iron] tiles",
+			"[-1 Production] from [Coal] tiles",
+			"[-3 Production] from [Oil] tiles",
+			"[-1 Production] from [Aluminum] tiles",
+			"[-1 Production] from [Uranium] tiles",
 			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Manor]>",
 			"Adjacent enemy units ending their turn take [5] damage",
@@ -82,25 +88,6 @@
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
-		],
-		"techRequired": "Agriculture",
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Polder",
-		"uniqueTo": "The Netherlands",
-		"food": 1,
-		"terrainsCanBeBuiltOn": [
-			"Marsh",
-			"Flood plains"
-		],
-		"turnsToBuild": 7,
-		"uniques": [
-			"[+1 Production, +2 Gold] <after discovering [Currency]>",
-			"Pillaging this improvement yields approximately [+18 Gold]",
-			"Cannot be built on [Grassland] tiles",
-			"[+1 Food] from [Marsh] tiles",
-			"[+1 Food] from [Flood plains] tiles"
 		],
 		"techRequired": "Agriculture",
 		"shortcutKey": "F"
@@ -562,13 +549,27 @@
 		],
 		"uniques": [
 			"Unpillagable",
-			"Unbuildable",
-			"Excluded from map editor"
+			"Unbuildable"
 		],
 		"civilopediaText": [
 			{
 				"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"
 			}
+		]
+	},
+	{
+		"name": "Naval Camp",//海军营地
+		"terrainsCanBeBuiltOn": [
+			"Water"
+		],
+		"turnsToBuild": 7,
+		"techRequired": "Optics",
+		"uniques": [
+			"Unbuildable <in tiles not adjacent to [Land] tiles>",
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [25]%",
+			"Comment [Heals 5 HP for All units in this tile upon turn end]",
+			"Costs [1] [Gold] per turn"
 		]
 	}
 ]

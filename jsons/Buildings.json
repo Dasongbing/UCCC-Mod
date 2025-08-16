@@ -56,6 +56,20 @@
 		]
 	},
 	{
+		"name": "Honor Monument",//纪功柱
+		"culture": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"greatPersonPoints": {
+			"Great General": 2
+		},
+		"uniques": [
+			"Destroyed when the city is captured"
+			"Only available <after adopting [Honor]>"
+		]
+	},
+	{
 		"name": "Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Ethiopia",
@@ -370,6 +384,7 @@
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
+			"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -380,6 +395,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 			"[+1 Food] from [{improved} {Strategic resource}] tiles [in this city]",
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
@@ -1158,6 +1174,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": [
+			"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1448,6 +1465,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
 		"uniques": [
+			"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],

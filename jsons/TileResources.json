@@ -804,5 +804,18 @@
 			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
 		]
+	},
+	{
+		"name": "Coral",//珊瑚
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [
+			"Coast"
+		],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {
+			"culture": 1
+		},
 	}
 ]

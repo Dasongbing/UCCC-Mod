@@ -27,9 +27,14 @@
         "Cannot build [Military] units <when [No Military Units] Victory is enabled>"
 	//海洋调整，金币移动到这里了
 	"[+1 Gold]<for every [9] [Owned [Water] Tiles]>",
-	"[+1 Gold]<for every [6] [Owned [Fishing Boats] Tiles]>"
+	"[+1 Gold]<for every [6] [Owned [Fishing Boats] Tiles]>",
+	"[+100]% Strength <for [Embarked] units> <when defending> <in [Shoal] tiles>",
+	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
     ],
     "unitUniques": [
-        "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>"
+        "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
+        "[This Unit] heals [5] HP <for [All] units> <in [Naval Camp] tiles> <upon turn end>"
+	//荣誉的能力
+        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
     ]
 }

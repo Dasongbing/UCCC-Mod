@@ -801,7 +801,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
+	},
 	/*
 	{
 		"name": "King Solomon's Mines",
@@ -843,4 +843,60 @@
 		"weight": 10
 	}
 */
+    {
+		"name": "Reef",//礁石
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean", "Coast"],
+		"production": 2,
+		"movementCost": 3,
+		"overrideStats": true,
+		"unbuildable": true,
+		"impassable": false,
+		"uniques": [
+		"Always Fertility [-2] for Map Generation",
+		"Units ending their turn on this terrain take [25] damage"]
+	},
+	{
+		"name": "Shoal",//浅滩
+		"type": "TerrainFeature",
+		"occursOn": ["Coast"],
+		"movementCost": 9,
+		"food": 2,
+		"defenceBonus": -0.6,
+		"overrideStats": true,
+		"unbuildable": true,
+		"impassable": false,
+		"uniques": [
+		"Always Fertility [-3] for Map Generation",
+		"Must be adjacent to [3] to [6] [Land] tiles",
+		"Rare feature",
+		"Comment [+100% Strength for Embarked units when defending in this tile]"]
+	},
+	{
+		"name": "Islet",//孤岛
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean", "Coast"],
+		"movementCost": 6,
+		"unbuildable": true,
+		"impassable": false,
+		"uniques": [
+		"Always Fertility [0] for Map Generation",
+		"Has an elevation of [1] for visibility calculations",
+		"Rare feature",
+		"Rough terrain",
+		"Comment [+100% Strength for Embarked units when defending in this tile]"]
+	},
+	{
+		"name": "Wreck",//沉船
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean", "Coast"],
+		"gold": 2,
+		"unbuildable": true,
+		"impassable": false,
+		"uniques": [
+		"Always Fertility [-3] for Map Generation",
+		"Must be adjacent to [1] to [6] [Ocean] tiles",
+		"Must be adjacent to [1] to [6] [Coast] tiles",
+		"Rare feature",]
+	},
 ]
