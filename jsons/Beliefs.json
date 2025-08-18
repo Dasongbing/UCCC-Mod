@@ -34,7 +34,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Food] [in this city]"
-            "[+1 Food] from every [Food]"
+            "[+1 Production] [in cities following this religion] <in cities with at least [5] [Population]>"
         ]
     },
     {
@@ -72,7 +72,7 @@
         "name": "God of War",
         "type": "Pantheon",
         "uniques": [
-             "[+1 Faith] [in all cities with a garrison]"
+             "[+1 Faith, +1 Gold] [in all cities with a garrison]"
         ]
     },
     {
@@ -86,7 +86,7 @@
         "name": "Goddess of Love",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Happiness] [in cities following this religion] <in cities with at least [3] [Population]>"
+            "[+1 Happiness] [in cities following this religion] <in cities with at least [4] [Population]>"
             "[+1 Faith] [in cities following this religion] <in cities with at least [6] [Population]>"
         ]
     },
@@ -424,16 +424,16 @@
         "name": "Advocacy Work",
         "type": "Founder",
         "uniques": [
-            "[+2 Production] for each global city following this religion"
+            "[+2 Production] [in cities following this religion]"
         ]
     },
     {
         "name": "Feed the World",
         "type": "Founder",
         "uniques": [
-            "[+1 Food] for each global city following this religion",
-            "[+1 Food] from every [Shrine]",
-            "[+1 Food] from every [Temple]"
+            "[+1 Food] [in cities following this religion]",
+            "[+1 Food] from every [Shrine] <in cities following our religion>",
+            "[+1 Food] from every [Temple] <in cities following our religion>"
         ]
     },
     {

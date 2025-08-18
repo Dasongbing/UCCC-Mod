@@ -16,11 +16,11 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
         "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
 	//马其顿的ua
-        "[-25]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-33]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-17]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-11]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-33]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-35]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-53]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-27]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-17]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-53]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "[-1] Sight <for [Embarked] units>",
         "[-1 Happiness] for every known Natural Wonder",
         /*开局设置*/
@@ -28,6 +28,7 @@
 	//海洋调整，金币移动到这里了
 	"[+1 Gold]<for every [9] [Owned [Water] Tiles]>",
 	"[+1 Gold]<for every [6] [Owned [Fishing Boats] Tiles]>",
+	//海洋地块的加成
 	"[+100]% Strength <for [Embarked] units> <when defending> <in [Shoal] tiles>",
 	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
 	//美国适应自主政策
@@ -35,7 +36,9 @@
     ],
     "unitUniques": [
  //       "Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
+	//马其顿加成
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
+	//海军营地加成
         "[This Unit] heals [5] HP <for [All] units> <in [Naval Camp] tiles> <upon turn end>"
 	//荣誉的能力
         "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 

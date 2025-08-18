@@ -153,10 +153,11 @@
             "Scientific": 5
         },
         "uniques": [
-                    "Comment [允许建造 [Honor Monument]]",
-                    "Comment [[Honor Monument] : [+1 Culture] 并给予 2 点 [Great General] 点数]",
-                    "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"
-                    "Gain a free [Honor Monument] [in capital]"
+/*                    "Comment [允许建造 [Honor Monument]]",
+                    "Comment [[Honor Monument] : [+1 Culture] 并给予 1 点 [Great General] 点数]",
+                    "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"*/
+                    "[Great General] is earned [25]% faster"
+                    "[+1 Culture] [in cities without a [Monument]]"
         ],
         "policies": [
             {

@@ -353,7 +353,8 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
-			"[+20]% Strength <when defending>"
+			"[+10]% Strength <when defending>"
+			"[+10]% Strength <when defending> <when above [0] [Iron]>"
 		],
 		"attackSound": "arrow"
 	},
@@ -594,7 +595,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": [
-			"[Hussar] ability"
+			"Medal of Inheritance"
 		],
 		"uniques": [
 			"Can move after attacking",

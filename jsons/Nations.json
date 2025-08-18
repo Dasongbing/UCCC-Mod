@@ -263,7 +263,7 @@
 		"uniqueName": "Monument Builders",
 		"uniques": [
 			"[+20]% Production when constructing [All] wonders [in all cities]",
-			"[-10]% Unhappiness from [Population] [in this city] <in cities with a [Burial Tomb]>",
+			"[+1 Happiness] from every [Temple] <in cities with a [Burial Tomb]> <hidden from users>"
 			"[+1 Faith] from every [World Wonder] <in cities with a [Burial Tomb]> <hidden from users>",
 			"[+1 Faith] from every [Faith] <in cities with a [Burial Tomb]> <hidden from users>"
 		],
@@ -662,17 +662,16 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Worship Allah",
 		"uniques": [
-			"Comment [When constructing a [Faith] building, gain [Faith] equal to [50]% of its Production cost]",
-			"Gain [20] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
-			"Gain [50] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
-			"Gain [92] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
-			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
-			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
-			"Gain [200] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
+			"Comment [When constructing a [Faith] building, gain [Faith] equal to [40]% of its Production cost]",
+			"Gain [16] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
+			"Gain [40] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
+			"Gain [74] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
+			"Gain [120] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
+			"Gain [120] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
+			"Gain [160] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
 			"[+2 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
 			"[+2 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
 			"[+4 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
-			"[+10]% Strength <for [Military] units> <after founding a religion>"
 		],
 		"cities": [
 			"Mecca",
@@ -747,6 +746,7 @@
 			"Reveal up to [All] [Rare feature] within a [99] tile radius",
 			"Reveal up to [All] [Jungle] within a [99] tile radius",
 			"Cannot build [Settler] units"
+			"[+700]% Gold cost of upgrading <for [Pioneer] units> <hidden from users>"
 		],
 		"cities": [
 			"Washington",
@@ -1087,7 +1087,6 @@
 			"May buy [{non-['Religious Building']} {non-[Wonder]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
 			"May buy [Wonder] buildings with [Faith] for [3] times their normal Production cost",
 			"May buy [Military] units with [Faith] for [2] times their normal Production cost <in this city>",
-			"[Faith] cost of purchasing items in cities [-5]% <for every [[Era number] - 1]>",
 			"[+2 Faith] from every [Scientist] <in cities with a [The Ottomans' Temple]> <hidden from users>"
 		],
 		"cities": [
@@ -2269,46 +2268,46 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Arts Center",
 		"uniques": [
-			"Comment [When constructing a [Culture] building or world wonder, gain [Culture] equal to [30]% of its Production cost]",
-			"Gain [12] [Culture] <(modified by game speed)> <upon constructing [Monument] [in all cities]> <hidden from users>",
-			"Gain [30] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]> <hidden from users>",
-			"Gain [60] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in all cities]> <hidden from users>",
-			"Gain [90] [Culture] <(modified by game speed)> <upon constructing [Museum] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Temple of Artemis] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Great Library] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Pyramids] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Mausoleum of Halicarnassus] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Statue of Zeus] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [The Great Lighthouse] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Hanging Gardens] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Terracotta Army] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [The Oracle] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Petra] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Great Wall] [in all cities]> <hidden from users>",
-			"Gain [55] [Culture] <(modified by game speed)><upon constructing [Colossus] [in all cities]> <hidden from users>",
-			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
-			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Chichen Itza] [in all cities]> <hidden from users>",
-			"Gain [90] [Culture] <(modified by game speed)><upon constructing [Machu Picchu] [in all cities]> <hidden from users>",
-			"Gain [120] [Culture] <(modified by game speed)><upon constructing [Angkor Wat] [in all cities]> <hidden from users>",
-			"Gain [75] [Culture] <(modified by game speed)><upon constructing [Alhambra] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Sistine Chapel] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Forbidden Palace] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Leaning Tower of Pisa] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Himeji Castle] [in all cities]> <hidden from users>",
-			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Taj Mahal] [in all cities]> <hidden from users>",
-			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Porcelain Tower] [in all cities]> <hidden from users>",
-			"Gain [200] [Culture] <(modified by game speed)><upon constructing [Kremlin] [in all cities]> <hidden from users>",
-			"Gain [225] [Culture] <(modified by game speed)><upon constructing [The Louvre] [in all cities]> <hidden from users>",
-			"Gain [225] [Culture] <(modified by game speed)><upon constructing [Big Ben] [in all cities]> <hidden from users>",
-			"Gain [225] [Culture] <(modified by game speed)><upon constructing [Brandenburg Gate] [in all cities]> <hidden from users>",
-			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Eiffel Tower] [in all cities]> <hidden from users>",
-			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Statue of Liberty] [in all cities]> <hidden from users>",
-			"Gain [319] [Culture] <(modified by game speed)><upon constructing [Neuschwanstein] [in all cities]> <hidden from users>",
-			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Cristo Redentor] [in all cities]> <hidden from users>",
-			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Pentagon] [in all cities]> <hidden from users>",
-			"Gain [375] [Culture] <(modified by game speed)><upon constructing [Sydney Opera House] [in all cities]> <hidden from users>",
-			"Gain [375] [Culture] <(modified by game speed)><upon constructing [CN Tower] [in all cities]> <hidden from users>"
+			"Comment [When constructing a [Culture] building or world wonder, gain [Culture] equal to [20]% of its Production cost]",
+			"Gain [8] [Culture] <(modified by game speed)> <upon constructing [Monument] [in all cities]> <hidden from users>",
+			"Gain [20] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]> <hidden from users>",
+			"Gain [40] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in all cities]> <hidden from users>",
+			"Gain [60] [Culture] <(modified by game speed)> <upon constructing [Museum] [in all cities]> <hidden from users>",
+			"Gain [100] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Temple of Artemis] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Great Library] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Pyramids] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Mausoleum of Halicarnassus] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Statue of Zeus] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Great Lighthouse] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Hanging Gardens] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Terracotta Army] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [The Oracle] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Petra] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Great Wall] [in all cities]> <hidden from users>",
+			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Colossus] [in all cities]> <hidden from users>",
+			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
+			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Chichen Itza] [in all cities]> <hidden from users>",
+			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Machu Picchu] [in all cities]> <hidden from users>",
+			"Gain [80] [Culture] <(modified by game speed)><upon constructing [Angkor Wat] [in all cities]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Alhambra] [in all cities]> <hidden from users>",
+			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Sistine Chapel] [in all cities]> <hidden from users>",
+			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Forbidden Palace] [in all cities]> <hidden from users>",
+			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Leaning Tower of Pisa] [in all cities]> <hidden from users>",
+			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Himeji Castle] [in all cities]> <hidden from users>",
+			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Taj Mahal] [in all cities]> <hidden from users>",
+			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Porcelain Tower] [in all cities]> <hidden from users>",
+			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Kremlin] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [The Louvre] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Big Ben] [in all cities]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Brandenburg Gate] [in all cities]> <hidden from users>",
+			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Eiffel Tower] [in all cities]> <hidden from users>",
+			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Statue of Liberty] [in all cities]> <hidden from users>",
+			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Neuschwanstein] [in all cities]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Cristo Redentor] [in all cities]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Pentagon] [in all cities]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Sydney Opera House] [in all cities]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)><upon constructing [CN Tower] [in all cities]> <hidden from users>"
 		],
 		"cities": [
 			"Vienna",
@@ -2670,7 +2669,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
 		"uniques": [
-			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Philosophy]. Each bonus person can only be chosen once.",
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
 		],
 		"cities": [
@@ -2741,7 +2740,7 @@
 		],
 		"uniqueName": "Conquer until the end of the world",
 		"uniques": [
-			"Comment [[Unhappiness] penalties reduced by [66]%​]"
+			"Comment [[Unhappiness] penalties reduced by [53]%​]"
 		],
 		"cities": [
 			"Pella",
@@ -2804,8 +2803,9 @@
 		],
 		"uniqueName": "Bronze and Iron",
 		"uniques": [
-			"Instantly gain [1] [Gold] <upon turn end> <for every [Owned [Mine] Tiles]>",
-			"[-25]% construction time for [Mine] improvements"
+			"Discover [Iron Working] <upon turn end> <while researching [Iron Working]>"
+//			"Instantly gain [1] [Gold] <upon turn end> <for every [Owned [Mine] Tiles]>",
+//			"[-25]% construction time for [Mine] improvements"
 		],
 		"cities": [
 			"Hattusa",
