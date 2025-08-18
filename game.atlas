@@ -6,21 +6,21 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Babel Library
   rotate: false
-  xy: 736, 712
+  xy: 764, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Carthage Horbor
   rotate: false
-  xy: 844, 712
+  xy: 420, 219
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Carthage Palace
   rotate: false
-  xy: 952, 712
+  xy: 872, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -30,6 +30,13 @@ BuildingIcons/College
   xy: 412, 820
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Honor Monument
+  rotate: false
+  xy: 1048, 654
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Ise Shrine
@@ -48,21 +55,21 @@ BuildingIcons/Lion's Gate
   index: -1
 BuildingIcons/Mekewap
   rotate: false
-  xy: 192, 68
+  xy: 628, 684
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Music Bazaar
   rotate: false
-  xy: 1708, 712
+  xy: 1628, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Organ Chapel
   rotate: false
-  xy: 420, 416
+  xy: 328, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -76,14 +83,14 @@ BuildingIcons/Pillar of Ashoka
   index: -1
 BuildingIcons/Racetrack
   rotate: false
-  xy: 212, 412
+  xy: 212, 204
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rock Temple
   rotate: false
-  xy: 420, 200
+  xy: 528, 208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -97,28 +104,28 @@ BuildingIcons/Royal Military Academy
   index: -1
 BuildingIcons/Scandinavian Workshop
   rotate: false
-  xy: 528, 524
+  xy: 628, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sundial
   rotate: false
-  xy: 528, 416
+  xy: 608, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Ottomans' Temple
   rotate: false
-  xy: 212, 204
+  xy: 420, 612
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Trade Association
   rotate: false
-  xy: 528, 308
+  xy: 1844, 676
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -146,14 +153,14 @@ ImprovementIcons/Colony
   index: -1
 ImprovementIcons/Manor
   rotate: false
-  xy: 1492, 712
+  xy: 1412, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Naval Camp
   rotate: false
-  xy: 420, 524
+  xy: 1736, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -167,35 +174,35 @@ NationIcons/Cree
   index: -1
 NationIcons/Hittites
   rotate: false
-  xy: 1276, 712
+  xy: 1196, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Macedonia
   rotate: false
-  xy: 1384, 712
+  xy: 1304, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/[Macedonia]
   rotate: false
-  xy: 1384, 712
+  xy: 1304, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shield Guard
   rotate: false
-  xy: 1384, 712
+  xy: 1304, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/[Shield Guard]
   rotate: false
-  xy: 1384, 712
+  xy: 1304, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -209,28 +216,28 @@ NationIcons/Maurya
   index: -1
 NationIcons/Turk
   rotate: false
-  xy: 412, 632
+  xy: 420, 424
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 PolicyIcons/Military Training
   rotate: false
-  xy: 1600, 712
+  xy: 1520, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Prepare for War
   rotate: false
-  xy: 420, 308
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 1024, 644
+  xy: 980, 644
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -244,7 +251,7 @@ TileSets/HexaRealm/Tiles/Coral
   index: -1
 TileSets/HexaRealm/Tiles/Fish2
   rotate: false
-  xy: 1168, 712
+  xy: 1088, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -258,63 +265,63 @@ TileSets/HexaRealm/Tiles/Fish3
   index: -1
 TileSets/HexaRealm/Tiles/Islet
   rotate: false
-  xy: 528, 244
+  xy: 514, 144
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp
   rotate: false
-  xy: 406, 136
+  xy: 436, 77
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 528, 180
+  xy: 586, 144
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean Current
   rotate: false
-  xy: 736, 648
+  xy: 336, 32
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean+Islet
   rotate: false
-  xy: 808, 648
+  xy: 764, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 880, 648
+  xy: 836, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Shoal
   rotate: false
-  xy: 952, 648
+  xy: 908, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wreck
   rotate: false
-  xy: 328, 126
+  xy: 436, 141
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
   index: -1
 UnitIcons/Carthaginian Sailors
   rotate: false
-  xy: 1060, 712
+  xy: 980, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -356,8 +363,29 @@ UnitIcons/[Hetairoi]
   index: -1
 UnitIcons/Okihtcitaw
   rotate: false
-  xy: 600, 684
+  xy: 192, 68
   size: 128, 128
   orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Pioneer
+  rotate: false
+  xy: 212, 412
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Allegiance
+  rotate: false
+  xy: 420, 327
+  size: 100, 89
+  orig: 100, 89
+  offset: 0, 0
+  index: -1
+UnitIcons/Baldwin Templar Order
+  rotate: false
+  xy: 420, 327
+  size: 100, 89
+  orig: 100, 89
   offset: 0, 0
   index: -1

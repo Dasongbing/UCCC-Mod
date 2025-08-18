@@ -161,7 +161,6 @@
 		"techs": [
 			{
 				"name": "Optics",
-				"cost": 85,
 				"row": 1,
 				"prerequisites": [
 					"Sailing"
@@ -265,7 +264,8 @@
 					"Bronze Working"
 				],
 				"uniques": [
-					"[-50]% weight to this choice for AI decisions"
+					"[-50]% weight to this choice for AI decisions",
+					"technologies that unlock new military units <hidden from users>"
 				],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			}
@@ -336,7 +336,6 @@
 		"techs": [
 			{
 				"name": "Compass",
-				"cost": 375,
 				"row": 1,
 				"prerequisites": [
 					"Optics",

@@ -30,8 +30,11 @@
 	"[+1 Gold]<for every [6] [Owned [Fishing Boats] Tiles]>",
 	"[+100]% Strength <for [Embarked] units> <when defending> <in [Shoal] tiles>",
 	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
+	//美国适应自主政策
+        "[+50]% Production when constructing [Pioneer] units [in capital] <after adopting [Collective Rule]>",
     ],
     "unitUniques": [
+ //       "Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
         "[This Unit] heals [5] HP <for [All] units> <in [Naval Camp] tiles> <upon turn end>"
 	//荣誉的能力

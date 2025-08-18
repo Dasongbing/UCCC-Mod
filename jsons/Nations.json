@@ -745,7 +745,8 @@
 			"[+1 Culture] from every [Jungle]",
 			"Reveal up to [All] [Natural Wonder] within a [99] tile radius",
 			"Reveal up to [All] [Rare feature] within a [99] tile radius",
-			"Reveal up to [All] [Jungle] within a [99] tile radius"
+			"Reveal up to [All] [Jungle] within a [99] tile radius",
+			"Cannot build [Settler] units"
 		],
 		"cities": [
 			"Washington",
@@ -1234,7 +1235,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
 		"uniques": [
-			"Comment [[-15]% production cost​ of [[Worker] and [Settler]] unit]"
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
 		"cities": [
 			"Onondaga",

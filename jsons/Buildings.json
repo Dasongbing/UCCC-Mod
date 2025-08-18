@@ -62,7 +62,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"greatPersonPoints": {
-			"Great General": 2
+			"Great General": 1
 		},
 		"uniques": [
 			"Destroyed when the city is captured"
@@ -212,6 +212,7 @@
 	{
 		"name": "Stonehenge",
 		"faith": 5,
+		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {
 			"Great Engineer": 1
@@ -409,7 +410,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"
+			"[+20]% Strength <for [All] units> <vs cities>"
 		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -694,7 +695,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
-			"[+25]% Great Person generation [in this city]",
+			"Free Great Person",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Drama and Poetry"
@@ -1093,8 +1094,8 @@
 		},
 		"isWonder": true,
 		"uniques": [
-			"[-25]% Culture cost of natural border growth [in all cities]",
-			"[-25]% Gold cost of acquiring tiles [in all cities]"
+			"[-45]% Culture cost of natural border growth [in all cities]",
+			"[-45]% Gold cost of acquiring tiles [in all cities]"
 		],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"

@@ -27,6 +27,23 @@
 		"unitTypes": []
 	},
 	{
+		"name": "Pioneer GO!",
+		"uniques": [
+            		"Founds a new city <[1] times>",
+		],
+		"unitTypes": []
+	},
+/*	{
+		"name": "全职高手",
+		"uniques": [
+            		"Can upgrade to [Horseman]",
+            		"Can upgrade to [Swordsman]",
+            		"Can upgrade to [Chariot Archer]",
+            		"Can upgrade to [Spearman]",
+		],
+		"unitTypes": []
+	},*/
+	{
 		"name": "Nobel Prize",
 		"uniques": [
 			"May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>",

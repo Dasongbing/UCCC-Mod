@@ -635,8 +635,8 @@
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
-			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
+			"Generated on every [210] tiles <in [{Featureless} {Coast}] tiles>"
+			"Generated on every [150] tiles <in [{Featureless} {Ocean}] tiles>"
 			"Generated with weight [35] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [10] <in [Hill] Regions>",
@@ -657,8 +657,8 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
-			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
+			"Generated on every [210] tiles <in [{Featureless} {Coast}] tiles>"
+			"Generated on every [150] tiles <in [{Featureless} {Ocean}] tiles>"
 			"Generated with weight [20] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
@@ -743,8 +743,8 @@
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": [
-			"Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
-			"Generated on every [120] tiles <in [{Featureless} {Ocean}] tiles>",
+			"Generated on every [210] tiles <in [{Featureless} {Coast}] tiles>"
+			"Generated on every [150] tiles <in [{Featureless} {Ocean}] tiles>"
 			"Generated with weight [30] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
@@ -811,11 +811,15 @@
 		"terrainsCanBeFoundOn": [
 			"Coast"
 		],
+		"production": -1,
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {
 			"culture": 1
 		},
+/*		"uniques": [
+			"Occurs on latitudes from [1] to [3] percent of distance equator to pole"
+		]*/
 	}
 ]

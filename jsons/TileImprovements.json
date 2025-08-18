@@ -62,7 +62,6 @@
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
 			"Land",
-			"Water"
 		],
 		"culture": 1,
 		"turnsToBuild": 4,

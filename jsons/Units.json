@@ -10,7 +10,6 @@
 			"Automation is a primary action",
 			"Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",
 			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
-			"[-15]% production cost <for [Iroquois] Civilizations> <hidden from users>"
 		],
 		"cost": 70
 	},
@@ -37,10 +36,27 @@
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
-			"[-15]% production cost <for [Iroquois] Civilizations> <hidden from users>"
 		],
 		"hurryCostModifier": 20
 	},
+    	{
+        	"name": "Pioneer",
+        	"uniqueTo": "America",
+        	"unitType": "Sword",
+        	"movement": 2,
+        	"strength": 8,
+        	"cost": 106,
+        	"uniques": [
+            		"Excess Food converted to Production when under construction",
+            		"Requires at least [2] population"
+        	],
+		"upgradesTo": "Swordsman",
+		"promotions": [
+			"Pioneer GO!"
+		],
+        	"hurryCostModifier": 20,
+        	"attackSound": "nonmetalhit"
+    	},
 	{
 		"name": "Scout",
 		"unitType": "Scout",
@@ -1682,30 +1698,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Zero",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
-		"uniques": [
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Bomber] units>",
-			"[+150]% Strength <vs [Helicopter] units>",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"promotions": [
-			"[Zero] ability"
-		],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
@@ -1715,25 +1707,6 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Stealth Bomber",
-		"attackSound": "bombing"
-	},
-	{
-		"name": "B17",
-		"unitType": "Bomber",
-		"replaces": "Bomber",
-		"uniqueTo": "America",
-		"movement": 1,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 10,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "Oil",
-		"promotions": [
-			"Evasion",
-			"Siege I"
-		],
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
 	},
@@ -2058,7 +2031,8 @@
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
+			"Is part of Great Person group [Merchant] <for [Sweden] Civilizations>"
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
