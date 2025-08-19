@@ -617,7 +617,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"requiredTech": "Potter"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
