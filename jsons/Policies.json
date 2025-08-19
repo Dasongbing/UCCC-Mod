@@ -157,7 +157,7 @@
                     "Comment [[Honor Monument] : [+1 Culture] 并给予 1 点 [Great General] 点数]",
                     "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"*/
                     "[Great General] is earned [25]% faster"
-                    "[+1 Culture] [in cities without a [Monument]]"
+                    "[+1 Culture] [in this city] <in cities without a [Monument]>",
         ],
         "policies": [
             {
