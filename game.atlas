@@ -34,7 +34,7 @@ BuildingIcons/College
   index: -1
 BuildingIcons/Honor Monument
   rotate: false
-  xy: 708, 194
+  xy: 508, 86
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -62,14 +62,14 @@ BuildingIcons/Mekewap
   index: -1
 BuildingIcons/Music Bazaar
   rotate: false
-  xy: 528, 316
+  xy: 528, 208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Organ Chapel
   rotate: false
-  xy: 1868, 784
+  xy: 628, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -90,28 +90,28 @@ BuildingIcons/Racetrack
   index: -1
 BuildingIcons/Rock Temple
   rotate: false
-  xy: 608, 468
+  xy: 1844, 676
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Military Academy
   rotate: false
-  xy: 1844, 676
+  xy: 636, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Scandinavian Workshop
   rotate: false
-  xy: 636, 360
+  xy: 636, 252
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sundial
   rotate: false
-  xy: 636, 252
+  xy: 716, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -125,7 +125,7 @@ BuildingIcons/The Ottomans' Temple
   index: -1
 BuildingIcons/Trade Association
   rotate: false
-  xy: 716, 468
+  xy: 736, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -160,7 +160,7 @@ ImprovementIcons/Manor
   index: -1
 ImprovementIcons/Naval Camp
   rotate: false
-  xy: 528, 208
+  xy: 1868, 784
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -223,21 +223,21 @@ NationIcons/Turk
   index: -1
 PolicyIcons/Military Training
   rotate: false
-  xy: 328, 96
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Prepare for War
   rotate: false
-  xy: 628, 576
+  xy: 608, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 336, 28
+  xy: 408, 4
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -279,35 +279,35 @@ TileSets/HexaRealm/Tiles/Naval Camp
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 436, 155
+  xy: 336, 8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean Current
   rotate: false
-  xy: 436, 91
+  xy: 436, 155
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean+Islet
   rotate: false
-  xy: 636, 188
+  xy: 436, 91
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 508, 144
+  xy: 636, 188
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Shoal
   rotate: false
-  xy: 508, 80
+  xy: 508, 144
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -415,5 +415,12 @@ UnitIcons/Baldwin Templar Order
   xy: 420, 327
   size: 100, 89
   orig: 100, 89
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lgnore the Barrier
+  rotate: false
+  xy: 328, 72
+  size: 100, 124
+  orig: 100, 124
   offset: 0, 0
   index: -1

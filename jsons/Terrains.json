@@ -882,6 +882,8 @@
 		"uniques": [
 		"Always Fertility [0] for Map Generation",
 		"Has an elevation of [1] for visibility calculations",
+		"Must be adjacent to [1] to [6] [Ocean] tiles",
+		"Must be adjacent to [1] to [6] [Coast] tiles",
 		"Rough terrain",
 		"Comment [+100% Strength for Embarked units when defending in this tile]"]
 	},

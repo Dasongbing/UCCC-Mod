@@ -11,8 +11,7 @@
         "name": "Dance of the Aurora",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] [in this city] <within [3] tiles of a [Tundra]>"
-            "[+2 Faith] [in this city] <within [3] tiles of a [Snow]>"
+            "[+1 Faith] from every [Tundra]"
         ]
     },
     {
@@ -34,7 +33,7 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Food] [in this city]"
-            "[+1 Production] [in cities following this religion] <in cities with at least [5] [Population]>"
+            "[+1 Food] [in cities following this religion] <in cities with at least [5] [Population]>"
         ]
     },
     {
@@ -149,7 +148,7 @@
         "uniques": [
             "[-15]% Culture cost of natural border growth [in cities following this religion]",
             "[-15]% Gold cost of acquiring tiles [in cities following this religion]",
-            "Instantly gain [1] [Faith] <upon turn end> <for every [10] [Owned [All] Tiles]>",
+            "Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]>",
         ]
     },
     {

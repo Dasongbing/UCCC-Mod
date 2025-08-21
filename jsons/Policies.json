@@ -18,6 +18,7 @@
                 "name": "Aristocracy", //1
                 "uniques": [
                     "[+2 Production] [in capital]",
+                    "[+1 Production] [in capital] <starting from the [Classical era]>",
                     "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 2,
@@ -317,7 +318,6 @@
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
             {
@@ -351,8 +351,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+15]% [Culture] [in all cities]",
-                    "[+15]% [Culture] [in all cities with a world wonder]",
+                    "[+10]% [Culture] [in all cities]",
+                    "[+20]% [Culture] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
                 "requires": [

@@ -121,7 +121,8 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques": [
-			"May upgrade to [Spearman] through ruins-like effects"
+			"May upgrade to [Spearman] through ruins-like effects",
+			"[-10]% production cost <for [Germany] Civilizations>"
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -180,6 +181,9 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>"
+		],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -252,7 +256,7 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
-			"Can instantly construct a [Fishing Boats] improvement <for [4] movement> <[4] times> <after which this unit is consumed>",
+			"Can instantly construct a [Fishing Boats] improvement <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"Uncapturable",
 			"Automation is a primary action"
 		]
@@ -267,6 +271,7 @@
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"Never appears as a Barbarian unit"
+			"[-10]% production cost <for [Germany] Civilizations>"
 		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -302,7 +307,10 @@
   	     "requiredTech": "Optics",
    	     "obsoleteTech": "Compass",
  	       "upgradesTo": "Galleass",
-  	      "uniques": ["Cannot enter ocean tiles"],
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+			"Cannot enter ocean tiles"
+		],
   	      "attackSound": "arrow"
         },
 	{
@@ -333,7 +341,8 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "arrow"
 	},
@@ -353,8 +362,7 @@
 		"uniques": [
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
-			"[+10]% Strength <when defending>"
-			"[+10]% Strength <when defending> <when above [0] [Iron]>"
+			"[+20]% Strength <when defending>"
 		],
 		"attackSound": "arrow"
 	},
@@ -424,7 +432,8 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "metalhit"
 	},
@@ -553,7 +562,31 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Naresuan's Elephant",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Siam",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Lgnore the Barrier"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -684,6 +717,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -724,6 +758,9 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -735,6 +772,9 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -783,7 +823,8 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -817,6 +858,7 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Cannot enter ocean tiles"
 		],
 		"attackSound": "arrow"
@@ -832,6 +874,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -891,8 +934,8 @@
 		"replaces": "Knight",
 		"uniqueTo": "Arabia",
 		"movement": 4,
-		"strength": 17,
-		"rangedStrength": 21,
+		"strength": 16,
+		"rangedStrength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -926,25 +969,6 @@
 			"[Conquistador] ability"
 		],
 		"attackSound": "horse"
-	},
-	{
-		"name": "Naresuan's Elephant",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Siam",
-		"movement": 3,
-		"strength": 25,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[+50]% Strength <vs [Mounted] units>",
-			"[-33]% Strength <vs cities> <when attacking>"
-		],
-		"attackSound": "elephant"
 	},
 	{
 		"name": "Mandekalu Cavalry",
@@ -998,6 +1022,9 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -1046,6 +1073,7 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1082,6 +1110,9 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1127,6 +1158,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [80]% chance>"
 		],
@@ -1142,6 +1174,9 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1184,6 +1219,9 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"promotions": [
 			"Coastal Raider I",
 			"[Privateer] ability"
@@ -1219,25 +1257,9 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-	},
-	{
-		"name": "Ship of the Line",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 185,
-		"requiredResource": "Iron",
 		"uniques": [
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -1250,6 +1272,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1320,6 +1343,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1339,6 +1363,9 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1350,61 +1377,8 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
 		"uniques": [
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"promotions": [
-			"[Norwegian Ski Infantry] ability"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"uniques": [
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"promotions": [
-			"March"
-		],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"uniques": [
-			"Unbuildable",
-			"Will not be displayed in Civilopedia",
-			"Unavailable"
-		],
-		"promotions": [
-			"Drill I",
-			"Home Sweet Home"
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "shot"
 	},
@@ -1419,6 +1393,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1454,6 +1429,7 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+33]% Strength <vs cities>",
 			"Double movement in [Coast]",
 			"Never appears as a Barbarian unit"
@@ -1471,6 +1447,7 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1492,6 +1469,7 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+75]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"Never appears as a Barbarian unit"
@@ -1507,6 +1485,9 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1539,6 +1520,7 @@
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[50]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -1557,6 +1539,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "bombing"
 	},
 	{
@@ -1568,6 +1553,9 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -1578,6 +1566,7 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Cannot attack",
 			"Can carry [2] [Aircraft] units"
 		]
@@ -1593,6 +1582,7 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1610,6 +1600,9 @@
 		"cost": 350,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1623,6 +1616,7 @@
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>",
@@ -1641,6 +1635,7 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1656,6 +1651,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can see invisible [Submarine] units",
 			"[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>",
@@ -1674,6 +1670,7 @@
 			"Amphibious"
 		],
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
@@ -1692,6 +1689,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -1709,6 +1707,9 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Stealth Bomber",
+		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
 		"attackSound": "bombing"
 	},
 	{
@@ -1719,6 +1720,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1734,6 +1736,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1750,6 +1753,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Unbuildable",
@@ -1767,6 +1771,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+100]% Strength <vs [Armored] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1786,6 +1791,7 @@
 			"Evasion"
 		],
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Self-destructs when attacking",
@@ -1804,6 +1810,7 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
@@ -1823,6 +1830,7 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>",
@@ -1840,6 +1848,7 @@
 		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[-100]% maintenance costs"
 		],
 		"attackSound": "missile"
@@ -1854,6 +1863,7 @@
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]",
@@ -1870,6 +1880,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -1890,6 +1901,7 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+75]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"[+1] Sight",
@@ -1906,6 +1918,7 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "tankshot"
@@ -1921,6 +1934,7 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units",
@@ -1942,6 +1956,7 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1960,6 +1975,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -1975,6 +1991,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1992,6 +2009,7 @@
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
 		"uniques": [
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Damage taken from interception reduced by [100]%",
 			"Cannot be carried by [Carrier] units",
 			"[+4] Sight",
@@ -2006,7 +2024,8 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
+			"Is part of Great Person group [Artist] <for [Sweden] Civilizations>"
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2019,7 +2038,8 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
+			"Is part of Great Person group [Scientist] <for [Sweden] Civilizations>"
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2046,7 +2066,8 @@
 		"uniques": [
 			"Can speed up construction of a building",
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person]",
+			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
+			"Is part of Great Person group [Engineer] <for [Sweden] Civilizations>"
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"

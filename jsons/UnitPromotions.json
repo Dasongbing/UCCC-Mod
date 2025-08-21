@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Lgnore the Barrier",
+		"uniques": [
+			"[+40]% Strength <vs [Sword] units>"
+		]
+	},
+	{
+		"name": "L",
+		"uniques": [
+			"[-10]% production cost"
+		]
+	},
+	{
 		"name": "Broken jade",
 		"uniques": [
 			"Comment [ [+1]% Strength for [Military] units upon losing every [4] HP , and the max is 20% Strength ]",
@@ -51,11 +63,11 @@
 			"Gain [30] [Science]<[1] times><costs [-15 Production] stats><during the [Ancient era]><hidden from users>",
 			"Gain [90] [Science]<[1] times><costs [-30 Production] stats><during the [Classical era]><hidden from users>",
 			"Gain [250] [Science]<[1] times><costs [-60 Production] stats><during the [Medieval era]><hidden from users>",
-			"Gain [350] [Science]<[2] times><costs [-90 Production] stats><during the [Renaissance era]><hidden from users>",
-			"Gain [600] [Science]<[2] times><costs [-120 Production] stats><during the [Industrial era]><hidden from users>",
-			"Gain [1000] [Science]<[3] times><costs [-150 Production] stats><during the [Modern era]><hidden from users>",
-			"Gain [2000] [Science]<[3] times><costs [-180 Production] stats><during the [Atomic era]><hidden from users>",
-			"Gain [3500] [Science]<[4] times><costs [-210 Production] stats><during the [Information era]><hidden from users>"
+			"Gain [350] [Science]<[1] times><costs [-90 Production] stats><during the [Renaissance era]><hidden from users>",
+			"Gain [600] [Science]<[1] times><costs [-120 Production] stats><during the [Industrial era]><hidden from users>",
+			"Gain [1000] [Science]<[2] times><costs [-150 Production] stats><during the [Modern era]><hidden from users>",
+			"Gain [2000] [Science]<[2] times><costs [-180 Production] stats><during the [Atomic era]><hidden from users>",
+			"Gain [3500] [Science]<[2] times><costs [-210 Production] stats><during the [Information era]><hidden from users>"
 		]
 	},
 	{

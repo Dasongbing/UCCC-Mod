@@ -16,11 +16,11 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
         "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
 	//马其顿的ua
-        "[-35]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-53]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-27]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-17]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-53]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-30]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-40]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-20]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-12]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-40]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "[-1] Sight <for [Embarked] units>",
         "[-1 Happiness] for every known Natural Wonder",
         /*开局设置*/
@@ -33,6 +33,8 @@
 	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
 	//美国适应自主政策
         "[+50]% Production when constructing [Pioneer] units [in capital] <after adopting [Collective Rule]>",
+	//宗教聚居地
+	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
     ],
     "unitUniques": [
  //       "Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",

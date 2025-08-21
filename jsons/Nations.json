@@ -264,7 +264,6 @@
 		"uniques": [
 			"[+20]% Production when constructing [All] wonders [in all cities]",
 			"[+1 Happiness] from every [Temple] <in cities with a [Burial Tomb]> <hidden from users>"
-			"[+1 Faith] from every [World Wonder] <in cities with a [Burial Tomb]> <hidden from users>",
 			"[+1 Faith] from every [Faith] <in cities with a [Burial Tomb]> <hidden from users>"
 		],
 		"cities": [
@@ -985,10 +984,13 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
-			"[3] Unit Supply per city",
-			"[-66]% maintenance costs <for [Military] units>",
-			"[+1 Science, +1 Production] from all [Production] buildings <during a Golden Age>",
-			"[+10]% Production when constructing [Production] buildings [in all cities]"
+//			"[3] Unit Supply per city",
+//			"[-66]% maintenance costs <for [Military] units>",
+//			"[+1 Science, +1 Production] from all [Production] buildings <during a Golden Age>",
+//			"[+10]% Production when constructing [Production] buildings [in all cities]"
+			"[+10]% Production when constructing [non-[Wonder]] buildings [in all cities]"
+			"Comment [军事单位的产能需求-10%]"
+
 		],
 		"cities": [
 			"Berlin",
@@ -1485,16 +1487,12 @@
 			3
 		],
 		"favoredReligion": "Buddhism",
-		"uniqueName": "Father Governs Children",
+		"uniqueName": "CCB",
 		"uniques": [
-			"Comment [[+3]% [Yield] from every [Culture]]",
-			"[+3]% [Culture] from every [Culture] <hidden from users>",
-			"[+3]% [Production] from every [Culture] <hidden from users>",
-			"[+3]% [Science] from every [Culture] <hidden from users>",
-			"[+3]% [Faith] from every [Culture] <hidden from users>",
-			"[+3]% [Gold] from every [Culture] <hidden from users>",
-			"[+3]% [Happiness] from every [Culture] <hidden from users>",
-			"[+3]% [Food] from every [Culture] <hidden from users>"
+			"Provides [1] [Horses] <for every [[Mounted] Units]>"
+			"Comment [处在开阔地带的[City center] [+1 Production]，不包括[Oasis]]"
+			"[-1 Production] from every [{Hill} {City center}] <hidden from users>"	,
+			"[+1 Production] from every [City center] <hidden from users>"
 		],
 		"cities": [
 			"Sukhothai",
@@ -1752,7 +1750,7 @@
 		"uniqueName": "Mongol Terror",
 		"uniques": [
 			"[+1] Movement <for [Mounted] units>",
-			"[+15]% Strength <for [Mounted] units>",
+	//		"[+15]% Strength <for [Mounted] units>",
 			"[-1] Movement <for [Chariot Archer] units>",
 			"[Military] units gain the [Horseback] promotion"
 		],
@@ -2177,9 +2175,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
 		"uniques": [
-		    "[+10]% Great Person generation [in all cities]",
-		    "[Great General] is earned [10]% faster",
-		    "[-10]% Faith cost of generating Great Prophet equivalents",
+			"Comment [瑞典的伟人视为该伟人的一部分而不是整体伟人的一部分，因此他们的进度不会相互影响]"
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"[Great Person] units gain the [Nobel Prize] promotion"
 			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
@@ -2740,7 +2736,7 @@
 		],
 		"uniqueName": "Conquer until the end of the world",
 		"uniques": [
-			"Comment [[Unhappiness] penalties reduced by [53]%​]"
+			"Comment [[Unhappiness] penalties reduced by [60]%​]"
 		],
 		"cities": [
 			"Pella",
@@ -2870,8 +2866,9 @@
 		],
 		"uniqueName": "Habitable zone",
 		"uniques": [
-			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
-			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
+//			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
+			"[+1] population [in this city] <upon founding a city>"
+//			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
 		],
 		"cities": [
 			"Pataliputra",
@@ -2976,10 +2973,11 @@
 			224,
 			102
 		],
-		"uniqueName": "Nîhithaw",
+		"uniqueName": "Nature Road",
 		"uniques": [
-			"[+1 Food] from [Forest] tiles without [Bonus resource] [in all cities]",
-			"[+1 Production] from [Jungle] tiles without [Bonus resource] [in all cities]"
+			"[-90]% maintenance on road & railroads",
+			"[-100]% construction time for [Road] improvements"
+			"Improves movement speed on roads"
 		],
 		"cities": [
 			"Xandar",
