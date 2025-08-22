@@ -661,13 +661,13 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Worship Allah",
 		"uniques": [
-			"Comment [When constructing a [Faith] building, gain [Faith] equal to [40]% of its Production cost]",
-			"Gain [16] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
-			"Gain [40] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
-			"Gain [74] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
-			"Gain [120] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
-			"Gain [120] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
-			"Gain [160] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
+			"Comment [When constructing a [Faith] building, gain [Faith] equal to [50]% of its Production cost]",
+			"Gain [20] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
+			"Gain [100] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
+			"Gain [93] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
+			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
+			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
+			"Gain [200] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
 			"[+2 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
 			"[+2 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
 			"[+4 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
@@ -1489,10 +1489,18 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "CCB",
 		"uniques": [
-			"Provides [1] [Horses] <for every [[Mounted] Units]>"
-			"Comment [处在开阔地带的[City center] [+1 Production]，不包括[Oasis]]"
-			"[-1 Production] from every [{Hill} {City center}] <hidden from users>"	,
-			"[+1 Production] from every [City center] <hidden from users>"
+			"Provides [1] [Horses] <for every [[Mounted] Units]>",
+			"Comment [处在开阔地带的[City center] [+1 Production]，不包括[Oasis]]",
+			"[+2 Production] from every [{Grassland} {City center}] <hidden from users>"
+			"[+1 Production] from every [{Plains} {City center}] <hidden from users>"
+			"[+2 Production] from every [{Desert} {City center}] <hidden from users>"
+			"[+2 Production] from every [{Tundra} {City center}] <hidden from users>"
+			"[+2 Production] from every [{Snow} {City center}] <hidden from users>"
+			"[-2 Production] from every [{Grassland} {Hill} {City center}] <hidden from users>"
+			"[-1 Production] from every [{Plains} {Hill} {City center}] <hidden from users>"
+			"[-2 Production] from every [{Desert} {Hill} {City center}] <hidden from users>"
+			"[-2 Production] from every [{Tundra} {Hill} {City center}] <hidden from users>"
+			"[-2 Production] from every [{Snow} {Hill} {City center}] <hidden from users>"
 		],
 		"cities": [
 			"Sukhothai",
@@ -2736,7 +2744,7 @@
 		],
 		"uniqueName": "Conquer until the end of the world",
 		"uniques": [
-			"Comment [[Unhappiness] penalties reduced by [60]%​]"
+			"Comment [[Unhappiness] penalties reduced by [66]%​]"
 		],
 		"cities": [
 			"Pella",
@@ -2866,9 +2874,8 @@
 		],
 		"uniqueName": "Habitable zone",
 		"uniques": [
-//			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
-			"[+1] population [in this city] <upon founding a city>"
-//			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
+			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
+			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
 		],
 		"cities": [
 			"Pataliputra",

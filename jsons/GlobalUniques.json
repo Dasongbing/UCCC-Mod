@@ -16,11 +16,11 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
         "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Macedonia] {non-[[Macedonia]]}] Civilizations> <if [UCCC Mod Mirror Nation] is enabled>",
 	//马其顿的ua
-        "[-30]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-40]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-20]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-12]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
-        "[-40]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-25]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-33]% growth [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-17]% [Production] [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-11]% Strength <for [All] units> <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
+        "[-33]% Production when constructing [Settler] units [in all cities] <when below [-10] [Happiness]> <for [Macedonia] Civilizations>",
         "[-1] Sight <for [Embarked] units>",
         "[-1 Happiness] for every known Natural Wonder",
         /*开局设置*/
