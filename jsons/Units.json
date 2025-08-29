@@ -6,7 +6,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Can build [Naval Camp] improvements on tiles",
+//			"Can build [Naval Camp] improvements on tiles",
 			"Automation is a primary action",
 			"Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",
 			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
@@ -21,7 +21,7 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Can build [Naval Camp] improvements on tiles",
+//			"Can build [Naval Camp] improvements on tiles",
 			"Automation is a primary action",
 			"Ignores terrain cost"
 		],
@@ -2024,8 +2024,7 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
-			"Is part of Great Person group [Artist] <for [Sweden] Civilizations>"
+			"Is part of Great Person group [Great Person]",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2038,8 +2037,7 @@
 		"uniques": [
 			"Can hurry technology research",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
-			"Is part of Great Person group [Scientist] <for [Sweden] Civilizations>"
+			"Is part of Great Person group [Great Person]",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2052,8 +2050,7 @@
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
-			"Is part of Great Person group [Merchant] <for [Sweden] Civilizations>"
+			"Is part of Great Person group [Great Person]",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2066,8 +2063,7 @@
 		"uniques": [
 			"Can speed up construction of a building",
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-			"Is part of Great Person group [Great Person] <for [non-[Sweden]] Civilizations>",
-			"Is part of Great Person group [Engineer] <for [Sweden] Civilizations>"
+			"Is part of Great Person group [Great Person]",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
