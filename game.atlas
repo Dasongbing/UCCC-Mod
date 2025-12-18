@@ -34,7 +34,7 @@ BuildingIcons/College
   index: -1
 BuildingIcons/Honor Monument
   rotate: false
-  xy: 508, 86
+  xy: 844, 576
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -62,7 +62,7 @@ BuildingIcons/Mekewap
   index: -1
 BuildingIcons/Music Bazaar
   rotate: false
-  xy: 528, 208
+  xy: 436, 111
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -104,14 +104,14 @@ BuildingIcons/Royal Military Academy
   index: -1
 BuildingIcons/Scandinavian Workshop
   rotate: false
-  xy: 636, 252
+  xy: 716, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sundial
   rotate: false
-  xy: 716, 468
+  xy: 736, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -125,7 +125,7 @@ BuildingIcons/The Ottomans' Temple
   index: -1
 BuildingIcons/Trade Association
   rotate: false
-  xy: 736, 576
+  xy: 744, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -237,7 +237,7 @@ PolicyIcons/Prepare for War
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 408, 4
+  xy: 336, 4
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -265,56 +265,56 @@ TileSets/HexaRealm/Tiles/Fish3
   index: -1
 TileSets/HexaRealm/Tiles/Islet
   rotate: false
-  xy: 744, 326
+  xy: 922, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp
   rotate: false
-  xy: 744, 262
+  xy: 994, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 336, 8
+  xy: 1066, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean Current
   rotate: false
-  xy: 436, 155
+  xy: 1138, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean+Islet
   rotate: false
-  xy: 436, 91
+  xy: 1210, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 636, 188
+  xy: 1282, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Shoal
   rotate: false
-  xy: 508, 144
+  xy: 1354, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wreck
   rotate: false
-  xy: 744, 390
+  xy: 844, 634
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
