@@ -797,6 +797,17 @@
 		]
 	},
 	{
+		"name": "Shibei",
+		"resourceType": "Strategic",
+		//"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded",
+		"Not shown on world screen",
+		"Will not be displayed in Civilopedia",
+		"Excluded from map editor"
+		]
+	},
+/*	{
 		"name": "Coral",//珊瑚
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
@@ -809,8 +820,8 @@
 		"improvementStats": {
 			"culture": 1
 		},
-/*		"uniques": [
+		"uniques": [
 			"Occurs on latitudes from [1] to [3] percent of distance equator to pole"
-		]*/
-	}
+		]
+	}*/
 ]

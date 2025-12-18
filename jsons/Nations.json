@@ -9,12 +9,12 @@
 	},
 	{
 		"name": "Babylon",
-		"leaderName": "Nebuchadnezzar II",
+		"leaderName": "汉谟拉比",
 		"startBias": [
 			"Avoid [Tundra]"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Nebuchadnezzar II",
+		"personality": "汉谟拉比",
 		"outerColor": [
 			27,
 			53,
@@ -25,11 +25,11 @@
 			249,
 			255
 		],
-		"uniqueName": "Ingenuity",
+		"uniqueName": "石碑上的汉谟拉比",
 		"uniques": [
-			"Gain a free [Library] [in capital] <upon discovering [Writing] technology>",
-			"[+1 Culture, +1 Science] from all [Library] buildings <starting from the [Classical era]>",
-			"[+1 Culture, +1 Science] from all [Library] buildings <starting from the [Medieval era]>"
+			"[+2 Happiness] <when below [0] [Happiness]>",
+			"[+1 Science] [in all cities] <when above [-1] [Happiness]>"
+			"[+1 Science] [in all cities] <when above [-1] [Happiness]> <when number of [Shibei] is more than [0]> <hidden from users>"
 		],
 		"cities": [
 			"Babylon",
@@ -582,9 +582,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
-			"[+20]% Production towards any buildings that already exist in the Capital",
-			"[+1 Production, +1 Gold] from each Trade Route",
-			"[-50]% construction time for [Road] improvements"
+			"[+25]% Production towards any buildings that already exist in the Capital",
 		],
 		"cities": [
 			"Rome",
@@ -668,9 +666,10 @@
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
 			"Gain [200] [Faith] <(modified by game speed)> <upon constructing [Notre Dame] [in all cities]> <hidden from users>",
-			"[+2 Faith, +1 Science] [in capital] <after discovering [Pottery]>",
-			"[+2 Faith, +1 Science] [in capital] <after discovering [Calendar]>",
-			"[+4 Faith, +2 Science] [in capital] <after discovering [Philosophy]>",
+			"[+2 Faith] [in capital] <after discovering [Pottery]>",
+			"[+2 Science] [in capital] <after discovering [Calendar]>",
+			"[+1 Faith, +1 Science] [in capital] <after discovering [Philosophy]>",
+			"[+10]% Strength <for [Military] units> <after founding a religion>"
 		],
 		"cities": [
 			"Mecca",
@@ -817,8 +816,8 @@
 		]
 	},
 	{
-		"name": "Japan",
-		"leaderName": "Oda Nobunaga",
+		"name": "Thinking World",
+		"leaderName": "Bo-Li Fumo",
 		"startBias": [
 			"Coast"
 		],
@@ -835,10 +834,9 @@
 			0
 		],
 		"favoredReligion": "Shinto",
-		"uniqueName": "Bushido",
+		"uniqueName": "擦弹王",
 		"uniques": [
-			"No damage penalty for wounded units <for [non-[Air]] units>",
-			"[Military] units gain the [Broken jade] promotion"
+			"[2] XP gained from combat <vs [Ranged] units> <when defending>",
 		],
 		"cities": [
 			"Kyoto",
@@ -897,7 +895,7 @@
 	},
 	{
 		"name": "India",
-		"leaderName": "Gandhi",
+		"leaderName": "婆罗门",
 		"startBias": [
 			"Grassland"
 		],
@@ -914,11 +912,9 @@
 			71
 		],
 		"favoredReligion": "Hinduism",
-		"uniqueName": "Crazy Happy World",
+		"uniqueName": "种姓制度",
 		"uniques": [
-				"[+5]% growth [in all cities]",
-				"[+1 Happiness] [in all cities]",
-				"[+1 Happiness] [in all cities] <starting from the [Medieval era]>",
+				"[+1 Happiness] per [1] population [in all cities] <every [3] turns>",
 		],
 		"cities": [
 			"Delhi",
@@ -1081,15 +1077,11 @@
 			30
 		],
 		"favoredReligion": "Islam",
-		"uniqueName": "Stars with The Moon",
+		"uniqueName": "大维齐尔",
 		"uniques": [
-			"Enables conversion of city production to [Faith]",
-			"Production to [Faith] conversion in cities changed by [300]%",
-			"Comment [可以用2倍于其正常的生产花费的[Faith]购买非祭祀建筑非奇观的建筑]"
-			"May buy [{non-['Religious Building']} {non-[Wonder]}] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
-			"May buy [Wonder] buildings with [Faith] for [3] times their normal Production cost",
-			"May buy [Military] units with [Faith] for [2] times their normal Production cost <in this city>",
-			"[+2 Faith] from every [Scientist] <in cities with a [The Ottomans' Temple]> <hidden from users>"
+			"[+1 Faith] <for every [['King Say'] Units]>  <hidden from users>",
+			"[Faith] cost of purchasing [GhaziRaider] units [-33]%  <hidden from users>",
+			"Comment [在工业时代以前近战单位+1战斗力]"
 		],
 		"cities": [
 			"Istanbul",
@@ -1162,7 +1154,7 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
 		"uniques": [
-			"Comment [When constructing a [Science] building, gain [Science] equal to [20]% of its Production cost]",
+/*			"Comment [When constructing a [Science] building, gain [Science] equal to [20]% of its Production cost]",
 			"[+2 Science] from every specialist [in all cities]",
 			"[+2 Science] from every [Great Improvement]",
 			"Receive a tech boost when scientific buildings/wonders are built in capital",
@@ -1170,7 +1162,9 @@
 			"Gain [64] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]> <hidden from users>",
 			"Gain [80] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]> <hidden from users> ",
 			"Gain [120] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]> <hidden from users>",
-			"Gain [200] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]> <hidden from users>"
+			"Gain [200] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]> <hidden from users>"*/
+			"Comment [3次获得1项免费的科技一旦建造非宫殿科研建筑]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital"
 		],
 		"cities": [
 			"Seoul",
@@ -2110,9 +2104,10 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
 		"uniques": [
+			"Comment [荷兰壬，都是肾！]"
 			"[-3] Happiness from each type of luxury resource",
-			"[+2 Happiness, +2 Gold] from [{improved} {Luxury resource}] tiles [in this city]",
-			"[+1 Happiness, +1 Gold] from [{improved} {Bonus resource}] tiles [in this city]"
+			"[+2 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
+			"[+1 Happiness] from [{improved} {Bonus resource}] tiles [in this city]"
 		],
 		"cities": [
 			"Amsterdam",
@@ -2451,10 +2446,10 @@
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": [
 			"May choose [1] additional belief(s) of any type when [founding] a religion",
-			"[+1 Faith] [in all cities]",
-			"[+1 Faith] [in all cities] <after founding a Pantheon> <hidden from users>",
-			"Comment [[+1 Faith] [in all cities] <before founding a Pantheon>]",
-			"[+25]% Strength <for [Galley] units> <vs [Water] units>"
+			"[+1 Faith] [in all cities] <before founding a Pantheon> <hidden from users>",
+			"Comment [[+1 Faith] [in all cities] <after founding a Pantheon>]",
+			"[+20]% Strength <for [Galley] units> <vs [Water] units>"
+			"[+1 Faith] [in all cities] <when number of [['Faith War'] Units] is more than [0]> <hidden from users>",
 		],
 		"cities": [
 			"Constantinople",
@@ -2673,7 +2668,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
 		"uniques": [
-			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Philosophy]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."
 		],
 		"cities": [
@@ -2855,7 +2850,7 @@
 			"Nurbanu"
 		]
 	},
-	{
+/*	{
 		"name": "Maurya",
 		"leaderName": "Ashoka",
 		"startBias": [
@@ -2921,7 +2916,7 @@
 			"Sadhvi",
 			"Kali"
 		]
-	},
+	}, */
 	{
 		"name": "Turk",
 		"leaderName": "Bumin",
@@ -2962,7 +2957,7 @@
 			"Turua"
 		]
 	},
-	{
+/*	{
 		"name": "Cree",
 		"leaderName": "Poundmaker",
 		"startBias": [
@@ -3008,7 +3003,7 @@
 			"Hala-Vak",
 			"Quarra"
 		]
-	},
+	}, */
 	{
 		"name": "Brussels",
 		"cityStateType": "Cultured",

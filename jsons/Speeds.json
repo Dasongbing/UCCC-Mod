@@ -24,7 +24,7 @@
         "goldCostModifier": 0.45,
         "scienceCostModifier": 0.45,
         "cultureCostModifier": 0.45,
-        "faithCostModifier": 0.45,
+        "faithCostModifier": 0.67,
         "improvementBuildLengthModifier": 0.45,
         "barbarianModifier": 0.45,
         "goldGiftModifier": 1.5,

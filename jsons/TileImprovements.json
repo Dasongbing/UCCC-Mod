@@ -14,7 +14,10 @@
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-			"Pillaging this improvement yields approximately [+18 Gold]"
+			"Pillaging this improvement yields approximately [+18 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "F"
 	},
@@ -62,15 +65,15 @@
 		"terrainsCanBeBuiltOn": [
 			"Land",
 		],
-		"culture": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"uniques": [
-			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Moai] tiles>",
+			"[+1 Culture] <after discovering [Masonry]> <with [1] to [6] neighboring [Moai] tiles>",
+			"[+1 Culture] <after discovering [Construction]> <with [2] to [6] neighboring [Moai] tiles>",
 			"[+1 Culture] <after discovering [Construction]> <in tiles adjacent to [Coast] tiles>",
 			"[+1 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"techRequired": "Agriculture",
+		"techRequired": "Mining",
 		"shortcutKey": "M"
 	},
 	{
@@ -129,7 +132,10 @@
 		"techRequired": "Construction",
 		"uniques": [
 			"[+1 Production] <after discovering [Scientific Theory]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "L"
 	},
@@ -143,7 +149,10 @@
 		"techRequired": "Mining",
 		"uniques": [
 			"[+1 Production] <after discovering [Chemistry]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "M"
 	},
@@ -164,7 +173,10 @@
 		"techRequired": "Guilds",
 		"uniques": [
 			"[+1 Gold] <after discovering [Economics]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "T"
 	},
@@ -177,7 +189,10 @@
 			"Does not need removal of [Jungle]",
 			"[+1 Gold] <after discovering [Economics]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "C"
 	},
@@ -210,7 +225,10 @@
 		"uniques": [
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "P"
 	},
@@ -222,7 +240,10 @@
 		"uniques": [
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "P"
 	},
@@ -233,7 +254,10 @@
 		"uniques": [
 			"[+1 Production] <after discovering [Chemistry]>",
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+5 Science] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Gold] <after adopting [Military Caste]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+5 Culture] <after adopting [Military Caste]> <hidden from users>",
 		],
 		"shortcutKey": "Q"
 	},
@@ -554,7 +578,7 @@
 			}
 		]
 	},
-	{
+/*	{
 		"name": "Naval Camp",//海军营地
 		"terrainsCanBeBuiltOn": [
 			"Water"
@@ -568,5 +592,5 @@
 			"Comment [Heals 5 HP for All units in this tile upon turn end]",
 			"Costs [1] [Gold] per turn"
 		]
-	}
+	}*/
 ]

@@ -143,7 +143,7 @@
             }
         ]
     },
-    {
+/*    {
         "name": "Honor",
         "era": "Ancient era",
         "priorities": {
@@ -154,11 +154,12 @@
             "Scientific": 5
         },
         "uniques": [
-/*                    "Comment [允许建造 [Honor Monument]]",
+                    "Comment [允许建造 [Honor Monument]]",
                     "Comment [[Honor Monument] : [+1 Culture] 并给予 1 点 [Great General] 点数]",
-                    "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"*/
-                    "[Great General] is earned [25]% faster"
+                    "Comment [不过这个大军事家的点数是算在城市伟人槽里面的]"
+                    "[Great General] is earned [25]% faster",
                     "[+1 Culture] [in this city] <in cities without a [Monument]>",
+			//"[+100] Strength <for [Military] units>"
         ],
         "policies": [
             {
@@ -225,6 +226,85 @@
                     "[+1 Happiness] from every [Military Academy]",
                 ]
             }
+        ]
+    }, */
+    { // 施工中
+        "name": "Honor",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+		"Comment [建造军事单位获得3点[Culture]（随速度变化）]",
+		"Comment [军事单位击杀军事单位获得3点[Culture]（随速度变化）]",
+		"[Military] units gain the [Honor] promotion <upon turn end> <hidden from users>"
+		"Comment [从下个回合开始生效]"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+			"[+15]% Strength <for [Military] units>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Military Tradition",
+                "uniques": [
+			"[Great General] is earned [50]% faster"
+			"[1] XP gained from combat <when defending> <for [Military] units>"
+                ],
+                "requires": [
+                    "Warrior Code"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+			"Comment [从对[Farm][Lumber mill][Mine][Trading post][Camp][Pasture][Plantation][Quarry]劫掠中额外获取约5[Gold] 5[Science] 5[Culture]（浮动）]",
+                ],
+                "requires": [
+                    "Discipline"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[+25]% Production when constructing [Happiness] buildings [in all cities]"
+                    "[+25]% Production when constructing [Barracks] buildings [in all cities]"
+                    "[+25]% Production when constructing [Armory] buildings [in all cities]"
+                    "[+25]% Production when constructing [Military Academy] buildings [in all cities]"
+                ],
+                "requires": [
+                    "Military Caste"
+                ],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Comment [军事单位+1战斗力]",
+                ]
+            }
+
         ]
     },
 /*    {

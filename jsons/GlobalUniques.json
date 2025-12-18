@@ -29,20 +29,24 @@
 	"[+1 Gold]<for every [9] [Owned [Water] Tiles]>",
 	"[+1 Gold]<for every [6] [Owned [Fishing Boats] Tiles]>",
 	//海洋地块的加成
-	"[+100]% Strength <for [Embarked] units> <when defending> <in [Shoal] tiles>",
-	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
+//	"[+100]% Strength <for [Embarked] units> <when defending> <in [Shoal] tiles>",
+//	"[+100]% Strength <for [Embarked] units> <when defending> <in [Islet] tiles>",
 	//美国适应自主政策
         "[+50]% Production when constructing [Pioneer] units [in capital] <after adopting [Collective Rule]>",
 	//宗教聚居地
-	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
+//	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
     ],
     "unitUniques": [
  //       "Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
 	//马其顿加成
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
 	//海军营地加成
-        "[This Unit] heals [5] HP <for [All] units> <in [Naval Camp] tiles> <upon turn end>"
+//        "[This Unit] heals [5] HP <for [All] units> <in [Naval Camp] tiles> <upon turn end>"
 	//荣誉的能力
-        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
+//        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
+	"[+1] Strength <for [Military] units> <after adopting [Honor Complete]>" 
+	//奥斯曼能力
+	"[+1] Strength <for [Melee] units> <before the [Industrial era]> <for [The Ottomans] Civilizations>"
     ]
+
 }

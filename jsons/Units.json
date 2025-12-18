@@ -13,7 +13,7 @@
 		],
 		"cost": 70
 	},
-	{
+/*	{
 		"name": "Fast Worker",
 		"replaces": "Worker",
 		"uniqueTo": "Maurya",
@@ -26,7 +26,7 @@
 			"Ignores terrain cost"
 		],
 		"cost": 70
-	},
+	}, */
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
@@ -73,7 +73,7 @@
 		],
 		"attackSound": "nonmetalhit"
 	},
-	{
+/*	{
 		"name": "Okihtcitaw",
 		"uniqueTo": "Cree",
 		"replaces": "Scout",
@@ -91,7 +91,7 @@
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit"
-	},
+	}, */
 	{
 		"name": "Snowfield Scout",
 		"unitType": "Scout",
@@ -188,6 +188,24 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Fumo",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "Thinking World",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"uniques": [
+			"Comment [攻击时发出fumo的声音]",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>"
+		],
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "fumo"
 	},
 	{
 		"name": "Bowman",
@@ -411,7 +429,7 @@
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
-		"strength": 9,
+		"strength": 8,
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "The Wheel",
@@ -432,6 +450,25 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Rua Spearman",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"uniques": [
+			"Comment [可以升级为[Swordsman]，而不是[Pikeman]]"
+			"Comment [在[Iron Working]过时]"
 			"[+50]% Strength <vs [Mounted] units>",
 			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
@@ -644,7 +681,7 @@
 		"unitType": "Mounted",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Horseman",
-		"movement": 5,
+		"movement": 4,
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
@@ -655,8 +692,11 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight",
-			"No movement cost to pillage"
+			"No movement cost to pillage",
+			"Comment [[[Faith] cost of purchasing [GhaziRaider] units [-33]%]]"
+		],
+		"promotions": [
+			"苏丹钦点"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -697,9 +737,28 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"promotions": [
-			"Indomitable"
+			"圣战"
 		],
 		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "[Cataphract]",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 14,
+		"cost": 75,
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": [
+			"圣战"
+		],
+		"uniques": [
+			"Unbuildable"
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
@@ -723,27 +782,6 @@
 			"Must set up to ranged attack",
 			"[-1] Sight",
 			"Never appears as a Barbarian unit"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "throw"
-	},
-	{
-		"name": "Ballista",
-		"unitType": "Siege",
-		"replaces": "Catapult",
-		"uniqueTo": "Rome",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[-1] Sight"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -935,7 +973,7 @@
 		"uniqueTo": "Arabia",
 		"movement": 4,
 		"strength": 16,
-		"rangedStrength": 20,
+		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -1112,24 +1150,6 @@
 		"requiredResource": "Iron",
 		"uniques": [
 			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Samurai",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Japan",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": [
-			"Shock I",
-			"Great Generals II"
 		],
 		"attackSound": "metalhit"
 	},

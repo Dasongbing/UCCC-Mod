@@ -2,13 +2,7 @@
 	{
 		"name": "Lgnore the Barrier",
 		"uniques": [
-			"[+40]% Strength <vs [Sword] units>"
-		]
-	},
-	{
-		"name": "L",
-		"uniques": [
-			"[-10]% production cost"
+			"[+30]% Strength <vs [Melee] units>"
 		]
 	},
 	{
@@ -45,6 +39,23 @@
 		],
 		"unitTypes": []
 	},
+	{
+		"name": "Honor",
+		"uniques": [
+            		"Gain [3] [Culture] <hidden from users> <(modified by game speed)>",
+            		"Gain [3] [Culture] <upon defeating a [Military] unit> <hidden from users> <(modified by game speed)>",
+			"Comment [这个晋升证明你推行了荣誉政策]"
+		],
+		"unitTypes": []
+	},
+	{
+		"name": "苏丹钦点",
+		"uniques": [
+			"'King Say'"
+			"Comment [每拥有1个此单位令国家[+1 Faith]]"
+		],
+		"unitTypes": []
+	},
 /*	{
 		"name": "全职高手",
 		"uniques": [
@@ -73,7 +84,7 @@
 	{
 		"name": "Wolf",
 		"uniques": [
-			"[Target Unit] takes [4] damage <upon damaging a [Wounded] unit>"
+			"[Target Unit] takes [3] damage <upon damaging a [Wounded] unit>"
 		]
 	},
 	{
@@ -101,10 +112,10 @@
 		]
 	},
 	{
-		"name": "Indomitable",
+		"name": "圣战",
 		"uniques": [
-			"[+10]% Strength <when defending>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"'Faith War'"
+			"Comment [[+1 Faith] [in all cities]如果圣战单位数量大于0]"
 		]
 	},
 	{

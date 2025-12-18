@@ -843,6 +843,7 @@
 		"weight": 10
 	}
 */
+/*
     {
 		"name": "Reef",//礁石
 		"type": "TerrainFeature",
@@ -900,4 +901,5 @@
 		"Must be adjacent to [1] to [6] [Coast] tiles",
 		"Rare feature",]
 	},
+*/
 ]
