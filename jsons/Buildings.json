@@ -612,8 +612,7 @@
 		"uniques": [
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
-			"Must be on [Hill]",
-			"Gain [50] [Faith] <(modified by game speed)>"
+			"Gain [50] [Faith] <in [Hill] tiles> <(modified by game speed)>"
 		]
 	},
 	{
