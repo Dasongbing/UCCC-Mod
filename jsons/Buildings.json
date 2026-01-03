@@ -45,6 +45,46 @@
 			"Comment [您可以移除宫殿并在其他城市建造，不过请保护好自己的原始首都]"
 		]
 	},
+	{//凯尔特转换建筑
+		"name": "15 [Faith]",
+		"cost": 0,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": [
+			"Remove [15 [Faith]] [in this city] <hidden from users>"
+			"Comment [可重复建造]"
+			"Unbuildable <hidden from users>",
+			"Gain [15] [Faith]",
+			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
+			"Can be purchased for [50] [Science] [in capital] <on [Very Quick] game speed> <hidden from users>",
+			"Can be purchased for [30] [Science] [in capital] <on [Quick] game speed> <hidden from users>",
+			"Can be purchased for [20] [Science] [in capital] <on [Standard] game speed> <hidden from users>",
+			"Can be purchased for [17] [Science] [in capital] <on [Epic] game speed> <hidden from users>",
+			"Can be purchased for [7] [Science] [in capital] <on [Marathon] game speed> <hidden from users>",
+			"Only available <for [Celts] Civilizations> <hidden from users>"
+			
+		]
+	},
+	{//凯尔特转换建筑
+		"name": "15 [Science]",
+		"cost": 0,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": [
+			"Remove [15 [Science]] [in this city] <hidden from users>"
+			"Comment [可重复建造]"
+			"Unbuildable <hidden from users>",
+			"Gain [15] [Faith]",
+			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
+			"Can be purchased for [50] [Faith] [in capital] <on [Very Quick] game speed> <hidden from users>",
+			"Can be purchased for [30] [Faith] [in capital] <on [Quick] game speed> <hidden from users>",
+			"Can be purchased for [20] [Faith] [in capital] <on [Standard] game speed> <hidden from users>",
+			"Can be purchased for [17] [Faith] [in capital] <on [Epic] game speed> <hidden from users>",
+			"Can be purchased for [7] [Faith] [in capital] <on [Marathon] game speed> <hidden from users>",
+			"Only available <for [Celts] Civilizations> <hidden from users>"
+			
+		]
+	},
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -55,20 +95,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-/*	{
-		"name": "Honor Monument",//纪功柱
-		"culture": 1,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"greatPersonPoints": {
-			"Great General": 1
-		},
-		"uniques": [
-			"Destroyed when the city is captured"
-			"Only available <after adopting [Honor]>"
-		]
-	}, */
 	{
 		"name": "Stele",
 		"replaces": "Monument",
@@ -82,18 +108,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-/*	{
-		"name": "Pillar of Ashoka",
-		"replaces": "Monument",
-		"uniqueTo": "Maurya",
-		"culture": 2,
-		"cost": 32,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": [
-			"Destroyed when the city is captured"
-		]
-	}, */
 	{
 		"name": "Sundial",
 		"replaces": "Monument",
@@ -119,18 +133,6 @@
 		],
 		"requiredTech": "Pottery"
 	},
-/*	{
-		"name": "Mekewap",
-		"uniqueTo": "Cree",
-		"replaces": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Pottery",
-		"uniques": [
-			"[+1 Food] from [Bonus resource] tiles [in this city]"
-		]
-	}, */
 	{
 		"name": "Shrine",
 		"faith": 1,
@@ -237,7 +239,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Provides [1] [Shibei] <hidden from users>",
-			"[+2 Happiness] <when below [0] [Happiness]>",
+			"[-3]% Science cost of researching new Technologies",
 			"Comment [[+1 Science] [in all cities] [<when above [-1] [Happiness]>]如果[楔字石碑]数量超过0]"
 			"[+1 Science] per [2] population [in this city]"
 		],
@@ -611,7 +613,7 @@
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"Must be on [Hill]",
-			"Gain [36] [Faith] <(modified by game speed)>"
+			"Gain [50] [Faith] <(modified by game speed)>"
 		]
 	},
 	{

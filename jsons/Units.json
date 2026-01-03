@@ -13,20 +13,6 @@
 		],
 		"cost": 70
 	},
-/*	{
-		"name": "Fast Worker",
-		"replaces": "Worker",
-		"uniqueTo": "Maurya",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": [
-			"Can build [Land] improvements on tiles",
-//			"Can build [Naval Camp] improvements on tiles",
-			"Automation is a primary action",
-			"Ignores terrain cost"
-		],
-		"cost": 70
-	}, */
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
@@ -73,25 +59,6 @@
 		],
 		"attackSound": "nonmetalhit"
 	},
-/*	{
-		"name": "Okihtcitaw",
-		"uniqueTo": "Cree",
-		"replaces": "Scout",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 7,
-		"cost": 35,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": [
-			"[This Unit] gains [5] XP <for [0] movement> <[1] times>",
-			"May upgrade to [Archer] through ruins-like effects",
-			"Never appears as a Barbarian unit"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"attackSound": "nonmetalhit"
-	}, */
 	{
 		"name": "Snowfield Scout",
 		"unitType": "Scout",

@@ -27,7 +27,7 @@
 		],
 		"uniqueName": "石碑上的汉谟拉比",
 		"uniques": [
-			"[+2 Happiness] <when below [0] [Happiness]>",
+			"[-5]% Science cost of researching new Technologies",
 			"[+1 Science] [in all cities] <when above [-1] [Happiness]>"
 			"[+1 Science] [in all cities] <when above [-1] [Happiness]> <when number of [Shibei] is more than [0]> <hidden from users>"
 		],
@@ -1154,16 +1154,15 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
 		"uniques": [
-/*			"Comment [When constructing a [Science] building, gain [Science] equal to [20]% of its Production cost]",
-			"[+2 Science] from every specialist [in all cities]",
-			"[+2 Science] from every [Great Improvement]",
-			"Receive a tech boost when scientific buildings/wonders are built in capital",
-			"Gain [30] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]> <hidden from users>",
-			"Gain [64] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]> <hidden from users>",
-			"Gain [80] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]> <hidden from users> ",
-			"Gain [120] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]> <hidden from users>",
-			"Gain [200] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]> <hidden from users>"*/
-			"Comment [3次获得1项免费的科技一旦建造非宫殿科研建筑]",
+			"Comment [每个时代内，拥有1次获得1项免费的科技当完成[Science]建筑]",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Ancient era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Classical era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Medieval era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Renaissance era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Industrial era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Modern era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Atomic era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Information era]> <hidden from users>",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"
 		],
 		"cities": [
@@ -2523,8 +2522,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"[+1 Faith] [in all cities] <in tiles adjacent to [{unimproved} {Forest}] tiles>",
-			"Earn [30]% of killed [Military] unit's [Strength] as [Faith]"
+			"Comment [可以用20[Science]兑换15[Faith]]",
+			"Comment [可以用20[Faith]兑换15[Science]]"
 		],
 		"cities": [
 			"Edinburgh",
@@ -2850,73 +2849,6 @@
 			"Nurbanu"
 		]
 	},
-/*	{
-		"name": "Maurya",
-		"leaderName": "Ashoka",
-		"startBias": [
-			"Avoid [Coast]"
-		],
-		"preferredVictoryType": "Domination",
-		"outerColor": [
-			216,
-			103,
-			12
-		],
-		"innerColor": [
-			76,
-			31,
-			7
-		],
-		"uniqueName": "Habitable zone",
-		"uniques": [
-			"Comment [[+1] population in this city upon founding a city after turn number [2]]",
-			"[+1] population [in this city] <upon founding a city> <after turn number [2]> <hidden from users>"
-		],
-		"cities": [
-			"Pataliputra",
-			"Sarnath",
-			"Ujjain",
-			"Mathura",
-			"Indraprastha",
-			"Suvarnagiri",
-			"Tamralipti",
-			"Varanasi",
-			"Lumbini",
-			"Toshali",
-			"Sanchi",
-			"Kausambi",
-			"Amaravati",
-			"Lauriya-Araraj",
-			"Bodh Gaya",
-			"Sopara",
-			"Lalitapatna",
-			"Jaugada",
-			"Sannathi",
-			"Lauriya-Nandangarh",
-			"Yerragudi",
-			"Dhauli",
-			"Meerut",
-			"Taxila",
-			"Kapilvastu",
-			"Shabazgarhi",
-			"Mahaan Sehra",
-			"Pattala",
-			"Kopasi",
-			"Kalsi"
-		],
-		"spyNames": [
-			"Janamejaya",
-			"Vaisampayana",
-			"Arjuna",
-			"Bhishma",
-			"Ashvattama",
-			"Yudhisthira",
-			"Dritharashtra",
-			"Saraswati",
-			"Sadhvi",
-			"Kali"
-		]
-	}, */
 	{
 		"name": "Turk",
 		"leaderName": "Bumin",
@@ -2957,53 +2889,6 @@
 			"Turua"
 		]
 	},
-/*	{
-		"name": "Cree",
-		"leaderName": "Poundmaker",
-		"startBias": [
-			"Jungle"
-		],
-		"preferredVictoryType": "Scientific",
-		"personality": "Pacal",
-		"outerColor": [
-			0,
-			128,
-			128
-		],
-		"innerColor": [
-			255,
-			224,
-			102
-		],
-		"uniqueName": "Nature Road",
-		"uniques": [
-			"[-90]% maintenance on road & railroads",
-			"[-100]% construction time for [Road] improvements"
-			"Improves movement speed on roads"
-		],
-		"cities": [
-			"Xandar",
-			"Hala",
-			"Kree-Lar",
-			"New Hala",
-			"M'Kraan",
-			"Tivan",
-			"Skrull",
-			"Pama",
-			"Kree-Em",
-			"Kree-Tor",
-			"Kree-Tus",
-			"Kotati",
-			"Mynar",
-			"Cassandra",
-			"Galador",
-			"Morpheus",
-			"Kree-Met",
-			"Azuros",
-			"Hala-Vak",
-			"Quarra"
-		]
-	}, */
 	{
 		"name": "Brussels",
 		"cityStateType": "Cultured",
