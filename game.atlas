@@ -11,16 +11,23 @@ BuildingIcons/Babel Library
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Carthage Horbor
+BuildingIcons/Bo-Li Shrine
   rotate: false
   xy: 980, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Carthage Palace
+BuildingIcons/Carthage Horbor
   rotate: false
   xy: 1088, 712
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Carthage Palace
+  rotate: false
+  xy: 1196, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -34,7 +41,7 @@ BuildingIcons/College
   index: -1
 BuildingIcons/Honor Monument
   rotate: false
-  xy: 844, 576
+  xy: 1781, 654
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -62,14 +69,14 @@ BuildingIcons/Mekewap
   index: -1
 BuildingIcons/Music Bazaar
   rotate: false
-  xy: 436, 111
+  xy: 628, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Organ Chapel
   rotate: false
-  xy: 628, 576
+  xy: 1844, 676
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -90,28 +97,28 @@ BuildingIcons/Racetrack
   index: -1
 BuildingIcons/Rock Temple
   rotate: false
-  xy: 1844, 676
+  xy: 716, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Military Academy
   rotate: false
-  xy: 636, 360
+  xy: 736, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Scandinavian Workshop
   rotate: false
-  xy: 716, 468
+  xy: 844, 604
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sundial
   rotate: false
-  xy: 736, 576
+  xy: 952, 604
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -125,7 +132,7 @@ BuildingIcons/The Ottomans' Temple
   index: -1
 BuildingIcons/Trade Association
   rotate: false
-  xy: 744, 360
+  xy: 1168, 604
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -153,14 +160,14 @@ ImprovementIcons/Colony
   index: -1
 ImprovementIcons/Manor
   rotate: false
-  xy: 1736, 712
+  xy: 436, 111
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Naval Camp
   rotate: false
-  xy: 1868, 784
+  xy: 608, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -174,35 +181,35 @@ NationIcons/Cree
   index: -1
 NationIcons/Hittites
   rotate: false
-  xy: 1520, 712
+  xy: 1736, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Macedonia
   rotate: false
-  xy: 1628, 712
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/[Macedonia]
   rotate: false
-  xy: 1628, 712
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shield Guard
   rotate: false
-  xy: 1628, 712
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/[Shield Guard]
   rotate: false
-  xy: 1628, 712
+  xy: 528, 316
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -214,6 +221,13 @@ NationIcons/Maurya
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Thinking World
+  rotate: false
+  xy: 1060, 604
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Turk
   rotate: false
   xy: 420, 424
@@ -223,21 +237,21 @@ NationIcons/Turk
   index: -1
 PolicyIcons/Military Training
   rotate: false
-  xy: 528, 316
+  xy: 1868, 784
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Prepare for War
   rotate: false
-  xy: 608, 468
+  xy: 636, 360
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 336, 4
+  xy: 408, 4
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -251,7 +265,7 @@ TileSets/HexaRealm/Tiles/Coral
   index: -1
 TileSets/HexaRealm/Tiles/Fish2
   rotate: false
-  xy: 1304, 712
+  xy: 1412, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -265,58 +279,65 @@ TileSets/HexaRealm/Tiles/Fish3
   index: -1
 TileSets/HexaRealm/Tiles/Islet
   rotate: false
-  xy: 922, 648
+  xy: 1565, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp
   rotate: false
-  xy: 994, 648
+  xy: 1637, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 1066, 648
+  xy: 1709, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean Current
   rotate: false
-  xy: 1138, 648
+  xy: 336, 8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean+Islet
   rotate: false
-  xy: 1210, 648
+  xy: 636, 296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 1282, 648
+  xy: 708, 296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Shoal
   rotate: false
-  xy: 1354, 648
+  xy: 780, 296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wreck
   rotate: false
-  xy: 844, 634
+  xy: 1487, 634
   size: 70, 70
   orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Fumo
+  rotate: false
+  xy: 1384, 623
+  size: 95, 81
+  orig: 95, 81
   offset: 0, 0
   index: -1
 UnitIcons/Babenburg Rider
@@ -342,7 +363,7 @@ UnitIcons/Barbarians Galley
   index: -1
 UnitIcons/Carthaginian Sailors
   rotate: false
-  xy: 1196, 712
+  xy: 1304, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -361,9 +382,16 @@ UnitIcons/Fast Worker
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Fumo
+  rotate: false
+  xy: 1520, 712
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Galley
   rotate: false
-  xy: 1412, 712
+  xy: 1628, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -401,6 +429,20 @@ UnitIcons/Pioneer
   xy: 212, 412
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Rua Spearman
+  rotate: false
+  xy: 744, 360
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/[Cataphract]
+  rotate: false
+  xy: 1276, 604
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Allegiance
