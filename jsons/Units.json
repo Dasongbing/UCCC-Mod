@@ -648,7 +648,7 @@
 		"unitType": "Mounted",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Horseman",
-		"movement": 4,
+		"movement": 5,
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",

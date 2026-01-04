@@ -11,6 +11,82 @@
         },
         "uniques": [
             "[+3 Culture] [in capital]",
+            "[-15]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Aristocracy", //1
+                "uniques": [
+			"[+1] population [in capital]"
+			"Comment [一旦首都超过6人口，所有城市立即获得1人口（瞬时）]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism", //5
+                "uniques": [
+                    "[-45]% Unhappiness from [Population] [in capital]",
+                    "[-5]% Unhappiness from [Population] [in all cities]",
+                ],
+                "requires": [
+                    "Landed Elite"
+                ],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Oligarchy", //3
+                "uniques": [
+                    "[1] Unit Supply per [1] population [in capital]",
+		    "[2] Unit Supply"
+                    "[+12]% Strength for cities",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite", //2
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+1 Food, +1 Production] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Monarchy", //4
+                "uniques": [
+			"[+1 Gold] from [All] tiles [in capital]",
+			"[+1 Gold] [in all cities]",
+                ],
+                "requires": [
+                    "Landed Elite"
+                ],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+10]% growth [in all cities]",
+		    "Comment [在首都已经建造的建筑-15%产能需求]",
+                ]
+            }
+        ]
+    },
+ /*   {
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -66,7 +142,7 @@
                 ]
             }
         ]
-    },
+    },*/
     {
         "name": "Liberty",
         "era": "Ancient era",

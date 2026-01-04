@@ -735,15 +735,10 @@
 			255
 		],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Manifest Destiny",
+		"uniqueName": "Niiiiiiiiii Gaaaaaaaaa",
 		"uniques": [
-			"[+1 Science] from every [Natural Wonder]",
-			"[+1 Science, +1 Culture] from every [Rare feature]",
-			"[+1 Culture] from every [Jungle]",
-			"Reveal up to [All] [Natural Wonder] within a [99] tile radius",
-			"Reveal up to [All] [Rare feature] within a [99] tile radius",
-			"Reveal up to [All] [Jungle] within a [99] tile radius",
-			"Cannot build [Settler] units"
+			"Comment [可以进行奴隶购买，使城市+1人口+1[Happiness]]",
+			"Cannot build [Settler] units",
 			"[+700]% Gold cost of upgrading <for [Pioneer] units> <hidden from users>"
 		],
 		"cities": [
@@ -1155,14 +1150,14 @@
 		"uniqueName": "Scholars of the Jade Hall",
 		"uniques": [
 			"Comment [每个时代内，拥有1次获得1项免费的科技当完成[Science]建筑]",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Ancient era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Classical era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Medieval era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Renaissance era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Industrial era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Modern era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Atomic era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <during the [Information era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Ancient era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Classical era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Medieval era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Renaissance era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Industrial era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Modern era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Atomic era]> <hidden from users>",
+			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Information era]> <hidden from users>",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"
 		],
 		"cities": [

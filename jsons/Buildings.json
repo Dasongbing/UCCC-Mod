@@ -45,6 +45,31 @@
 			"Comment [您可以移除宫殿并在其他城市建造，不过请保护好自己的原始首都]"
 		]
 	},
+	{//美利坚的加人口建筑
+		"name": "Ni",
+		"cost": 40,
+		"happiness": 1,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"[-15]% production cost <if [Ni] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+			"Destroyed when the city is captured"
+			"Only available <for [America] Civilizations> <hidden from users>"
+			"[+1] population [in this city]",
+			"Unsellable"
+		]
+	},
+	{//传统的加人口建筑
+		"name": "Populations",
+		"cost": 0,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Only available <after adopting [Aristocracy]> <hidden from users>"
+			"Unbuildable <in cities with less than [7] [Population]> <hidden from users>",
+			"Automatically built in all cities where it is buildable",
+			"[+1] population [in all cities]",
+			"Unsellable"
+		]
+	},
 	{//凯尔特转换建筑
 		"name": "15 [Faith]",
 		"cost": 0,
@@ -92,6 +117,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Monument] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -105,6 +131,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Stele] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -117,6 +144,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Sundial] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured",
 			"All newly-trained [Military] units [in this city] receive the [Wolf] promotion"
 		]
@@ -127,6 +155,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Granary] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"
@@ -140,6 +169,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
+			"[-15]% production cost <if [Shrine] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>"
 		]
 	},
@@ -153,6 +183,7 @@
 		"maintenance": 2,
 		"requiredTech": "Pottery",
 		"uniques": [
+			"[-15]% production cost <if [Bo-Li Shrine] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>"
 		]
 	},
@@ -175,6 +206,7 @@
 		"maintenance": 0,
 		"requiredTech": "Pottery",
 		"uniques": [
+			"[-15]% production cost <if [Pyramid] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>",
 			"[+1 Science] <after discovering [Writing]>"
 		]
@@ -205,6 +237,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
+			"[-15]% production cost <if [Stone Works] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"
@@ -227,6 +260,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Library] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Writing"
@@ -238,6 +272,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [楔字石碑] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Provides [1] [Shibei] <hidden from users>",
 			"[-3]% Science cost of researching new Technologies",
 			"Comment [[+1 Science] [in all cities] [<when above [-1] [Happiness]>]如果[楔字石碑]数量超过0]"
@@ -252,6 +287,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [College] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Science] per [2] population [in this city]",
 			"[+2 Science] from every specialist [in this city]",
 		],
@@ -268,6 +304,7 @@
 			"culture": 5
 		},
 		"uniques": [
+			"[-15]% production cost <if [Paper Maker] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Writing"
@@ -295,6 +332,9 @@
 		],
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"uniques": [
+			"[-15]% production cost <if [Circus] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -305,6 +345,7 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Fan God Mouse] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Happiness]<within [3] tiles of a [{improved} {Ivory}]>"
 			"[+1 Happiness]<within [3] tiles of a [{improved} {Horses}]>"
 		],
@@ -317,6 +358,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Water Mill] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must be on [River]"
 		],
 		"requiredTech": "The Wheel"
@@ -328,6 +370,7 @@
 		"food": 2,
 		"production": 1,
 		"uniques": [
+			"[-15]% production cost <if [Floating Gardens] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+2 Food] from [Lakes] tiles [in this city]",
 			"[+1 Food] from [Plantation] tiles [in this city]"
 		],
@@ -345,7 +388,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
-            "Unbuildable <in [Hill] tiles> <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"[-15]% production cost <if [Walls] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+            		"Unbuildable <in [Hill] tiles> <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -361,7 +405,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
-            "Unbuildable <in [Hill] tiles> <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"[-15]% production cost <if [Lion's Gate] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+            		"Unbuildable <in [Hill] tiles> <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -399,6 +444,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Barracks] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 			//"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
@@ -412,6 +458,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[-15]% production cost <if [Krepost] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			//"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
@@ -437,6 +484,7 @@
 		"production": -1,
 		"maintenance": 2,
 		"uniques": [
+			"[-15]% production cost <if [Lighthouse] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
@@ -471,6 +519,7 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Stable] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
@@ -495,6 +544,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": [
+			"[-15]% production cost <if [Courthouse] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"
 		],
@@ -508,6 +558,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 50,
 		"uniques": [
+			"[-15]% production cost <if [Satrap's Court] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Removes extra unhappiness from annexed cities",
 			"Empire enters a [5]-turn Golden Age <(modified by game speed)>"
 			"[-4 Gold] <in [Annexed] cities>"
@@ -534,6 +585,9 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"uniques": [
+			"[-15]% production cost <if [Colosseum] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -545,6 +599,7 @@
 		"happiness": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Racetrack] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Free [[Cataphract]] appears",
 			"Comment [这个[Cataphract]不需要[Horses]]"
 		],
@@ -558,6 +613,9 @@
 		"happiness": 2,
 		"culture": 2,
 		"hurryCostModifier": 25,
+		"uniques": [
+			"[-15]% production cost <if [Ceilidh Hall] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -578,6 +636,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
+			"[-15]% production cost <if [Temple] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		]
@@ -592,6 +651,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
+			"[-15]% production cost <if [苏丹圣殿] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"[+2 Faith] <when at war>"
@@ -610,6 +670,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
+			"[-15]% production cost <if [Rock Temple] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
 			"Gain [50] [Faith] <in [Hill] tiles> <(modified by game speed)>"
@@ -621,6 +682,7 @@
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"uniques": [
+			"[-15]% production cost <if [Burial Tomb] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+100]% Gold given to enemy if city is captured",
 			"Comment [[+1 Happiness] from every [Temple] [in this city]]",
 			"Comment [[+1 Faith] from every [Faith] [in this city]]"
@@ -639,6 +701,9 @@
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
+		"uniques": [
+			"[-15]% production cost <if [Mud Pyramid Mosque] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
@@ -680,6 +745,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Amphitheater] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
@@ -696,6 +762,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"uniques": [
+			"[-15]% production cost <if [Organ Chapel] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured",
 			"Automatically built in all cities where it is buildable"
 		],
@@ -723,6 +790,9 @@
 		"percentStatBonus": {
 			"gold": 25
 		},
+		"uniques": [
+			"[-15]% production cost <if [Market] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Currency"
 	},
 	{
@@ -739,6 +809,7 @@
 			"production": 10
 		},
 		"uniques": [
+			"[-15]% production cost <if [Trade Association] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Production, +1 Science] from every [Production] <in this city>"
 		],
 		"requiredTech": "Currency"
@@ -756,28 +827,10 @@
 			"gold": 25
 		},
 		"uniques": [
+			"[-15]% production cost <if [Music Bazaar] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Provides [1] [Artwork]"
 		],
 		"requiredTech": "Currency"
-	},
-	{
-		"name": "Coffee House",
-		"production": 2,
-		"percentStatBonus": {
-			"production": 10
-		},
-		"specialistSlots": {
-			"Engineer": 1
-		},
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"uniques": [
-			"[+25]% Great Person generation [in this city]",
-			"Unbuildable",
-			"Unavailable",
-			"Will not be displayed in Civilopedia"
-		],
-		"requiredTech": "Economics"
 	},
 	{
 		"name": "Bazaar",
@@ -792,6 +845,7 @@
 			"gold": 25
 		},
 		"uniques": [
+			"[-15]% production cost <if [Bazaar] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Provides 1 extra copy of each improved luxury resource near this City",
 			"[+1 Gold] from each Trade Route",
 			"[+2 Gold] from [Oil] tiles [in this city]",
@@ -808,6 +862,7 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Mint] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+2 Gold] from [Gold Ore] tiles [in this city]",
 			"[+2 Gold] from [Silver] tiles [in this city]"
 		],
@@ -834,6 +889,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
+			"[-15]% production cost <if [Aqueduct] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[40]% Food is carried over after population increases [in this city]"
 		],
 		"requiredTech": "Engineering"
@@ -883,6 +939,7 @@
 	{
 		"name": "Garden",
 		"uniques": [
+			"[-15]% production cost <if [Garden] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+25]% Great Person generation [in this city]",
 			"Must be next to [Fresh water]"
 		],
@@ -986,6 +1043,9 @@
 		"percentStatBonus": {
 			"production": 10
 		},
+		"uniques": [
+			"[-15]% production cost <if [Garden] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Metal Casting"
 	},
 	{
@@ -1003,6 +1063,7 @@
 			"production": 10
 		},
 		"uniques": [
+			"[-15]% production cost <if [Scandinavian Workshop] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+5]% [Production] <in cities with a [Forge]>",
 			"[+5]% [Science] <in cities with a [University]>"
 		],
@@ -1016,6 +1077,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Longhouse] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Production] from [Forest] tiles [in this city]",
 			"[+1 Production] from [Jungle] tiles [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]",
@@ -1033,6 +1095,7 @@
 		],
 		"requiredTech": "Metal Casting",
 		"uniques": [
+			"[-15]% production cost <if [Forge] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"
@@ -1045,6 +1108,7 @@
 		"production": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Harbor] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
@@ -1063,6 +1127,7 @@
 		},
 		"requiredBuilding": "Library",
 		"uniques": [
+			"[-15]% production cost <if [University] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+2 Science] from [Jungle] tiles [in this city]"
 		],
 		"requiredTech": "Education"
@@ -1082,6 +1147,7 @@
 		"culture": 3,
 		"requiredBuilding": "Library",
 		"uniques": [
+			"[-15]% production cost <if [Wat] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+2 Science] from [Jungle] tiles [in this city]"
 		],
 		"requiredTech": "Education"
@@ -1121,27 +1187,11 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": [
-            "Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"[-15]% production cost <if [Castle] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+            		"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
-/*	{
-		"name": "Mughal Fort",
-		"cost": 150,
-		"replaces": "Castle",
-		"uniqueTo": "India",
-		"cityStrength": 7,
-		"cityHealth": 25,
-		"culture": 2,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"uniques": [
-            "Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
-			"[+1 Gold] [in this city] <after discovering [Flight]>",
-			"Destroyed when the city is captured"
-		],
-		"requiredTech": "Chivalry"
-	}, */
 	{
 		"name": "Alhambra",
 		"culture": 1,
@@ -1188,6 +1238,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": [
+			"[-15]% production cost <if [Armory] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			//"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
@@ -1203,6 +1254,7 @@
 		},
 		"requiredBuilding": "Library",
 		"uniques": [
+			"[-15]% production cost <if [Observatory] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must be next to [Mountain]"
 		],
 		"requiredTech": "Astronomy"
@@ -1218,6 +1270,7 @@
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": [
+			"[-15]% production cost <if [Opera House] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1244,6 +1297,9 @@
 		"percentStatBonus": {
 			"gold": 25
 		},
+		"uniques": [
+			"[-15]% production cost <if [Bank] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		]
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
@@ -1253,6 +1309,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 10,
 		"uniques": [
+			"[-15]% production cost <if [Constabulary] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"[-25]% enemy spy effectiveness [in this city]"
 		],
@@ -1276,6 +1333,9 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
+		"uniques": [
+			"[-15]% production cost <if [Theatre] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		]
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
@@ -1317,6 +1377,7 @@
 			"gold": 15
 		},
 		"uniques": [
+			"[-15]% production cost <if [Seaport] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Production] from [{Coast} {non-[Water resource]}] tiles [in this city]",
 			"[+1 Production] from [{Ocean} {non-[Water resource]}] tiles [in this city]",
 			"Must be next to [Coast]",
@@ -1374,6 +1435,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
+			"[-15]% production cost <if [Windmill] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must not be on [Hill]",
 			"[+10]% Production when constructing [All] buildings [in this city]"
 		],
@@ -1388,7 +1450,8 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": [
-            "Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"[-15]% production cost <if [Arsenal] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+            		"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1415,6 +1478,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
 		"uniques": [
+			"[-15]% production cost <if [Museum] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1439,6 +1503,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"uniques": [
+			"[-15]% production cost <if [Public School] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Scientific Theory"
@@ -1453,6 +1518,9 @@
 		"specialistSlots": {
 			"Engineer": 2
 		},
+		"uniques": [
+			"[-15]% production cost <if [Factory] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
@@ -1479,7 +1547,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
 		"uniques": [
-			//"[-25]% production cost <after adopting [Military Training]> <hidden from users>"
+			"[-15]% production cost <if [Military Academy] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1505,6 +1573,9 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"uniques": [
+			"[-15]% production cost <if [Hospital] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Biology"
 	},
 	{
@@ -1517,6 +1588,9 @@
 			"Merchant": 2
 		},
 		"hurryCostModifier": 15,
+		"uniques": [
+			"[-15]% production cost <if [Stock Exchange] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity"
 	},
@@ -1526,6 +1600,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 3,
 		"uniques": [
+			"[-15]% production cost <if [Hydro Plant] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must be on [River]",
 			"[+1 Production] from [River] tiles [in this city]"
 		],
@@ -1537,6 +1612,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 10,
 		"uniques": [
+			"[-15]% production cost <if [Police Station] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"[-25]% enemy spy effectiveness [in this city]"
 		],
@@ -1548,6 +1624,9 @@
 		"happiness": 4,
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
+		"uniques": [
+			"[-15]% production cost <if [Police Station] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		],
 		"requiredTech": "Refrigeration"
 	},
 	{
@@ -1560,6 +1639,7 @@
 		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": [
+			"[-15]% production cost <if [Broadcast Tower] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1601,7 +1681,8 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-            "Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"[-15]% production cost <if [Military Base] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+            		"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1643,6 +1724,9 @@
 		"specialistSlots": {
 			"Scientist": 1
 		},
+		"uniques": [
+			"[-15]% production cost <if [Research Lab] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+		]
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
 		"requiredTech": "Plastics"
@@ -1666,6 +1750,7 @@
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
+			"[-15]% production cost <if [Medical Lab] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[25]% Food is carried over after population increases [in this city]"
 		]
 	},
@@ -1703,6 +1788,7 @@
 		"maintenance": 3,
 		"requiredTech": "Ecology",
 		"uniques": [
+			"[-15]% production cost <if [Solar Plant] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Must be next to [Desert]",
 			"Only available <in cities without a [Nuclear Plant]>"
 		]
@@ -1712,6 +1798,7 @@
 		"maintenance": 3,
 		"requiredTech": "Ecology",
 		"uniques": [
+			"[-15]% production cost <if [Recycling Center] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Provides [2] [Aluminum]",
 			"Limited to [5] per Civilization"
 		]
@@ -1743,6 +1830,7 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": [
+			"[-15]% production cost <if [Nuclear Plant] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <in cities without a [Solar Plant]>"
 		]
 	},
@@ -1789,6 +1877,7 @@
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
 		"uniques": [
+			"[-15]% production cost <if [Bomb Shelter] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]"
 		]
@@ -1814,6 +1903,7 @@
 		"cost": 360,
 		"requiredBuilding": "Factory",
 		"uniques": [
+			"[-15]% production cost <if [Spaceship Factory] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+50]% Production when constructing [Spaceship part] units [in this city]"
 		],
 		"requiredTech": "Robotics"
