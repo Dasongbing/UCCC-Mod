@@ -42,9 +42,27 @@
 	{
 		"name": "Honor",
 		"uniques": [
-            		"Gain [3] [Culture] <hidden from users> <(modified by game speed)>",
-            		"Gain [3] [Culture] <upon defeating a [Military] unit> <hidden from users> <(modified by game speed)>",
+            		"Gain [1] [Culture] <upon damaging a [All] unit> <hidden from users>",
+			"[This Unit] gains the [Gulp] promotion <after adopting [Military Caste]> <upon damaging a [All] unit> <hidden from users>"
+            		"[+2]% Strength <when above [0] [ronoh]> <when below [2] [ronoh]> <hidden from users>",
+            		"[+4]% Strength <when above [1] [ronoh]> <when below [3] [ronoh]> <hidden from users>",
+            		"[+6]% Strength <when above [2] [ronoh]> <when below [4] [ronoh]> <hidden from users>",
+            		"[+8]% Strength <when above [3] [ronoh]> <when below [5] [ronoh]> <hidden from users>",
+            		"[+10]% Strength <when above [4] [ronoh]> <when below [6] [ronoh]> <hidden from users>",
+            		"[+2]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [0] [ronoh2]> <when below [2] [ronoh2]> <hidden from users>",
+            		"[+4]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [1] [ronoh2]> <when below [3] [ronoh2]> <hidden from users>",
+            		"[+6]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [2] [ronoh2]> <when below [4] [ronoh2]> <hidden from users>",
+            		"[+8]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [3] [ronoh2]> <when below [5] [ronoh2]> <hidden from users>",
+            		"[+10]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [4] [ronoh2]> <when below [6] [ronoh2]> <hidden from users>",
 			"Comment [这个晋升证明你推行了荣誉政策]"
+		],
+		"unitTypes": []
+	},
+	{
+		"name": "Gulp",
+		"uniques": [
+			"[This Unit] gains [2] XP",
+			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": []
 	},

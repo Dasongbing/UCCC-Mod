@@ -25,6 +25,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			//"[100]% of [Culture] from every [Building] in the city added to [Horses]",
 			"Indicates the capital city",
 		]
 	},
@@ -43,6 +44,19 @@
 			"Removes extra unhappiness from annexed cities"
 			"Limited to [1] per Civilization"
 			"Comment [您可以移除宫殿并在其他城市建造，不过请保护好自己的原始首都]"
+		]
+	},
+	{//朝鲜的获取科技
+		"name": "Thinking",
+		"cost": 0,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Unbuildable",
+			"Remove [Thinking] [in this city] <hidden from users>",
+			"Destroyed when the city is captured",
+			"Instantly consumes [1] [Korea1]",
+			"Unavailable <hidden from users>",
+			"Free Technology",
 		]
 	},
 	{//美利坚的加人口建筑

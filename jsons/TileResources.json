@@ -1,5 +1,50 @@
 [
 	{
+		"name": "Korea1",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "ronoh",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "ronoh2",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "ronoh3",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "ronoh4",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "Artwork",
 		"resourceType": "Luxury"
 	},

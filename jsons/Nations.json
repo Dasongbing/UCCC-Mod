@@ -975,10 +975,6 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
-//			"[3] Unit Supply per city",
-//			"[-66]% maintenance costs <for [Military] units>",
-//			"[+1 Science, +1 Production] from all [Production] buildings <during a Golden Age>",
-//			"[+10]% Production when constructing [Production] buildings [in all cities]"
 			"[+10]% Production when constructing [non-[Wonder]] buildings [in all cities]"
 			"Comment [军事单位的产能需求-10%]"
 
@@ -1150,14 +1146,15 @@
 		"uniqueName": "Scholars of the Jade Hall",
 		"uniques": [
 			"Comment [每个时代内，拥有1次获得1项免费的科技当完成[Science]建筑]",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Ancient era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Classical era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Medieval era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Renaissance era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Industrial era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Modern era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Atomic era]> <hidden from users>",
-			"Free Technology <upon constructing [{non-[Palace]} {Science}]> <once> <during the [Information era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Ancient era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Classical era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Medieval era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Renaissance era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Industrial era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Modern era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Atomic era]> <hidden from users>",
+			"Instantly provides [1] [Korea1] <upon entering the [Information era]> <hidden from users>",
+			"Gain a free [Thinking] [in capital] <upon constructing [{non-[Palace]} {Science}]> <when above [0] [Korea1]> <hidden from users>",
 			"Receive a tech boost when scientific buildings/wonders are built in capital"
 		],
 		"cities": [
