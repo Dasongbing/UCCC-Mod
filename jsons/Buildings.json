@@ -79,6 +79,7 @@
 		"uniques": [
 			"Only available <after adopting [Aristocracy]> <hidden from users>"
 			"Unbuildable <in cities with less than [7] [Population]> <hidden from users>",
+			"Can only be built <in [in capital] cities>"
 			"Automatically built in all cities where it is buildable",
 			"[+1] population [in all cities]",
 			"Unsellable"
