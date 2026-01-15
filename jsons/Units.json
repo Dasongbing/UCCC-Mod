@@ -6,12 +6,25 @@
 		"movement": 2,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-//			"Can build [Naval Camp] improvements on tiles",
+			"Can build [Offshore Platform] improvements on tiles",
 			"Automation is a primary action",
-			"Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",
-			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
+			//"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
 		],
 		"cost": 70
+	},
+	{
+		"name": "Moai Man",
+		"unitType": "Civilian",
+		"requiredResource": "Moai Heart",
+		"movement": 1,
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Can build [Land] improvements on tiles",
+			"Can build [Offshore Platform] improvements on tiles",
+			"Cannot move <when below [0] [Moai Heart]>"
+		],
+		"cost": 0
 	},
 	{
 		"name": "Settler",
@@ -21,7 +34,7 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population",
+			"Requires at least [2] population"
 		],
 		"hurryCostModifier": 20
 	},
@@ -798,6 +811,31 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Castilian Siege Horseman",
+		"unitType": "Siege",
+		"uniqueTo": "Spain",
+		"replaces": "Catapult",
+		"movement": 4,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Comment [我创死你！]",
+			"[-10]% production cost <when above [0] [ronoh3]> <after adopting [Discipline]> <hidden from users>",
+			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit",
+			"Can move after attacking"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
 		"name": "Composite Bowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -1008,30 +1046,6 @@
 			"No defensive terrain bonus"
 		],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Conquistador",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Spain",
-		"movement": 4,
-		"strength": 20,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": [
-			"[-10]% production cost <when above [0] [ronoh3]> <after adopting [Discipline]> <hidden from users>",
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Founds a new city <on foreign continents>",
-			"[+2] Sight"
-		],
-		"promotions": [
-			"[Conquistador] ability"
-		],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Mandekalu Cavalry",

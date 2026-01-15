@@ -1,5 +1,13 @@
 [
 	{
+		"name": "Moai Heart",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+		]
+	},
+	{
 		"name": "Korea1",
 		"resourceType": "Strategic",
 		"uniques": [

@@ -25,7 +25,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-			//"[100]% of [Culture] from every [Building] in the city added to [Horses]",
+			//"[100]% of [Food] from every [Farm] in the city added to [Horses]",
 			"Indicates the capital city",
 		]
 	},
@@ -77,9 +77,8 @@
 		"cost": 0,
 		"hurryCostModifier": 40,
 		"uniques": [
-			"Only available <after adopting [Aristocracy]> <hidden from users>"
-			"Unbuildable <in cities with less than [7] [Population]> <hidden from users>",
-			"Can only be built <in [in capital] cities>"
+			"Only available <after adopting [Aristocracy]> <hidden from users>",
+			"Can only be built <in cities with at least [7] [Population]> <in [in capital] cities>",
 			"Automatically built in all cities where it is buildable",
 			"[+1] population [in all cities]",
 			"Unsellable"
@@ -353,6 +352,21 @@
 		"requiredTech": "Trapping"
 	},
 	{
+		"name": "Flamenco",
+		"replaces": "Circus",
+		"uniqueTo": "Spain",
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [不需要附近有开发的[Ivory]和[Horses]]",
+			"[-15]% production cost <if [Flamenco] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+			"[-25]% production cost <within [3] tiles of a [Cattle]>",
+			"[-33]% production cost <within [2] tiles of a [Cattle]>",
+			"[-40]% production cost <within [1] tiles of a [Cattle]>",
+		],
+		"requiredTech": "Trapping"
+	},
+	{
 		"name": "Fan God Mouse",
 		"replaces": "Circus",
 		"uniqueTo": "India",
@@ -361,8 +375,8 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[-15]% production cost <if [Fan God Mouse] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
-			"[+1 Happiness]<within [3] tiles of a [{improved} {Ivory}]>"
-			"[+1 Happiness]<within [3] tiles of a [{improved} {Horses}]>"
+			"[+1 Happiness] <within [3] tiles of a [{improved} {Ivory}]>"
+			"[+1 Happiness] <within [3] tiles of a [{improved} {Horses}]>"
 		],
 		"requiredTech": "Trapping"
 	},
