@@ -53,6 +53,24 @@
 		]
 	},
 	{
+		"name": "ronoh5",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "ronoh6",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "Artwork",
 		"resourceType": "Luxury"
 	},

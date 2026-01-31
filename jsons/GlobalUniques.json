@@ -38,7 +38,7 @@
 	//荣誉的能力
 //        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
 //	"[+1] Strength <for [Military] units> <after adopting [Honor Complete]>" ,
-	"[+2] Strength <for [Melee] units> <when above [0] [ronoh4]> <after adopting [Professional Army]> " ,
+	"[+1] Strength <for [Melee] units> <when above [0] [ronoh4]> <after adopting [Professional Army]> " ,
 	//奥斯曼能力
 	"[+1] Strength <for [Melee] units> <before the [Industrial era]> <for [The Ottomans] Civilizations>",
     ]

@@ -8,7 +8,7 @@
 			"Can build [Land] improvements on tiles",
 			"Can build [Offshore Platform] improvements on tiles",
 			"Automation is a primary action",
-			//"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
+			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
 		],
 		"cost": 70
 	},
@@ -781,7 +781,8 @@
 		],
 		"uniques": [
 			"[-10]% production cost <when above [0] [ronoh3]> <after adopting [Discipline]> <hidden from users>",
-			"Unbuildable"
+			"Unbuildable",
+			"Cannot be purchased",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
@@ -830,7 +831,8 @@
 			"No defensive terrain bonus",
 			"[-1] Sight",
 			"Never appears as a Barbarian unit",
-			"Can move after attacking"
+			"Can move after attacking",
+			"Unable to capture cities"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"

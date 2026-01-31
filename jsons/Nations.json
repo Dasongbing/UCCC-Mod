@@ -350,8 +350,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
-			"[+20]% Strength <for [Ranged Water] units>"
-			"[+150]% [Gold] from Trade Routes",
+			"[+20]% Strength <for [Ranged Water] units>",
+			"[+100]% [Gold] from Trade Routes",
 			"[+1 Production] from each Trade Route"
 		],
 		"cities": [
@@ -2171,7 +2171,6 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
 		"uniques": [
-			"Comment [瑞典的伟人视为该伟人的一部分而不是整体伟人的一部分，因此他们的进度不会相互影响]"
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"[Great Person] units gain the [Nobel Prize] promotion"
 			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
