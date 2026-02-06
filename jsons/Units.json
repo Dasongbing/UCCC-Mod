@@ -8,7 +8,6 @@
 			"Can build [Land] improvements on tiles",
 			"Can build [Offshore Platform] improvements on tiles",
 			"Automation is a primary action",
-			"Can instantly construct a [Manor] improvement <[1] times> <for [England] Civilizations> <hidden from users>",
 		],
 		"cost": 70
 	},
@@ -813,7 +812,7 @@
 	},
 	{
 		"name": "Castilian Siege Horseman",
-		"unitType": "Siege",
+		"unitType": "Mounted",
 		"uniqueTo": "Spain",
 		"replaces": "Catapult",
 		"movement": 4,
@@ -832,7 +831,6 @@
 			"[-1] Sight",
 			"Never appears as a Barbarian unit",
 			"Can move after attacking",
-			"Unable to capture cities"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -1351,6 +1349,26 @@
 			"[-10]% production cost <when above [0] [ronoh3]> <after adopting [Discipline]> <hidden from users>",
 			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ship of the Line",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"uniques": [
+			"[+1] Sight",
+			"Comment [你爹来咯]"
+		],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -2248,9 +2266,7 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
 		"uniques": [
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing",
-			"[+15] HP when healing",
+			"[+16]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",

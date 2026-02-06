@@ -28,8 +28,9 @@
 		"uniqueName": "石碑上的汉谟拉比",
 		"uniques": [
 			"[-5]% Science cost of researching new Technologies",
-			"[+1 Science] [in all cities] <when above [-1] [Happiness]>"
-			"[+1 Science] [in all cities] <when above [-1] [Happiness]> <when number of [Shibei] is more than [0]> <hidden from users>"
+			"[+1 Science] [in all cities] <when above [-1] [Happiness]>",
+			"[+1 Science] [in all cities] <when above [-1] [Happiness]> <when number of [Shibei] is more than [0]> <hidden from users>",
+			"[-3]% Science cost of researching new Technologies <for every [1] [[楔字石碑] Buildings]>",
 		],
 		"cities": [
 			"Babylon",
@@ -350,9 +351,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
-			"[+20]% Strength <for [Ranged Water] units>",
-			"[+100]% [Gold] from Trade Routes",
-			"[+1 Production] from each Trade Route"
+			"Comment [所有单位有1次可以在无主异国领土占领所在地块]",
+			"[+1 Gold] <for every [7] [Owned [All] Tiles]>"
+
 		],
 		"cities": [
 			"London",
@@ -426,8 +427,18 @@
 		"uniqueName": "Ancien Régime",
 		"uniques": [
 			"[+2 Culture] [in all cities] <before discovering [Steam Power]>",
-			"Comment [For each city founded or each social policy adopted, the cost of subsequent social policies increases permanently by [2]%, but up to [10]%]",
-			"[+2]% Culture cost of adopting new Policies <for every [[Cities] + [Adopted [All] Policies] + 5 - abs[[Cities] + [Adopted [All] Policies] - 5]]> <hidden from users>"
+			"Comment [For each city founded or each social policy adopted, the cost of subsequent social policies increases permanently by [2]%, but up to [10]%, before compelete any policies]",
+			"[+2]% Culture cost of adopting new Policies <for every [[Cities] + [Adopted [All] Policies] + 5 - abs[[Cities] + [Adopted [All] Policies] - 5]]> <when below [1] [France NO]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Tradition Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Liberty Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Honor Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Piety Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Patronage Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Commerce Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Rationalism Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Freedom Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Autocracy Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Order Complete]> <hidden from users>",
 		],
 		"cities": [
 			"Paris",
@@ -504,7 +515,7 @@
 		"uniqueName": "Siberian Riches",
 		"uniques": [
 			"[+1 Production] from every [Strategic resource]",
-			"[+50]% [Strategic] resource production <hidden from users>",
+			"[+100]% [Strategic] resource production <hidden from users>",
 			"Comment [战略资源的产出+50%]"
 				],
 		"cities": [
@@ -1555,9 +1566,6 @@
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": [
 			"Provides [1] [Gold Ore] <for every [Cities]>",
-			"[+2 Gold] [in all cities]",
-			"[+1 Faith, +1 Culture] [in all cities] <after adopting [Religious Idols]>",
-			"[+2 Gold] from every [Mint]"
 		],
 		"cities": [
 			"Madrid",
@@ -1747,7 +1755,8 @@
 			"[+1] Movement <for [Mounted] units>",
 	//		"[+15]% Strength <for [Mounted] units>",
 			"[-1] Movement <for [Chariot Archer] units>",
-			"[Military] units gain the [Horseback] promotion"
+			"[Military] units gain the [Horseback] promotion",
+			"Comment [俺寻思船也算马]"
 		],
 		"cities": [
 			"Karakorum",
@@ -2515,8 +2524,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"Comment [可以用20[Science]兑换15[Faith]]",
-			"Comment [可以用20[Faith]兑换15[Science]]"
+			"Comment [可以用20[Science]兑换20[Faith]]",
+			"Comment [可以用20[Faith]兑换20[Science]]"
 		],
 		"cities": [
 			"Edinburgh",

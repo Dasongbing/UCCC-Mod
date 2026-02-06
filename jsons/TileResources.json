@@ -8,6 +8,15 @@
 		]
 	},
 	{
+		"name": "France NO",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "Korea1",
 		"resourceType": "Strategic",
 		"uniques": [

@@ -85,15 +85,15 @@
 		]
 	},
 	{//凯尔特转换建筑
-		"name": "15 [Faith]",
+		"name": "20 [Faith]",
 		"cost": 0,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"uniques": [
-			"Remove [15 [Faith]] [in this city] <hidden from users>"
+			"Remove [20 [Faith]] [in this city] <hidden from users>"
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
-			"Gain [15] [Faith]",
+			"Gain [20] [Faith]",
 			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
 			"Can be purchased for [50] [Science] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Science] [in capital] <on [Quick] game speed> <hidden from users>",
@@ -105,15 +105,15 @@
 		]
 	},
 	{//凯尔特转换建筑
-		"name": "15 [Science]",
+		"name": "20 [Science]",
 		"cost": 0,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"uniques": [
-			"Remove [15 [Science]] [in this city] <hidden from users>"
+			"Remove [20 [Science]] [in this city] <hidden from users>"
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
-			"Gain [15] [Faith]",
+			"Gain [20] [Faith]",
 			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
 			"Can be purchased for [50] [Faith] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Faith] [in capital] <on [Quick] game speed> <hidden from users>",
@@ -288,7 +288,6 @@
 		"uniques": [
 			"[-15]% production cost <if [楔字石碑] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Provides [1] [Shibei] <hidden from users>",
-			"[-3]% Science cost of researching new Technologies",
 			"Comment [[+1 Science] [in all cities] [<when above [-1] [Happiness]>]如果[楔字石碑]数量超过0]"
 			"[+1 Science] per [2] population [in this city]"
 		],
@@ -360,9 +359,9 @@
 		"uniques": [
 			"Comment [不需要附近有开发的[Ivory]和[Horses]]",
 			"[-15]% production cost <if [Flamenco] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
-			"[-25]% production cost <within [3] tiles of a [Cattle]>",
-			"[-33]% production cost <within [2] tiles of a [Cattle]>",
-			"[-40]% production cost <within [1] tiles of a [Cattle]>",
+			"[-7]% production cost <within [3] tiles of a [Cattle]>",
+			"[-8]% production cost <within [2] tiles of a [Cattle]>",
+			"[-6]% production cost <within [1] tiles of a [Cattle]>",
 		],
 		"requiredTech": "Trapping"
 	},

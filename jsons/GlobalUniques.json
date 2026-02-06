@@ -30,7 +30,8 @@
 //	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
     ],
     "unitUniques": [
- //       "Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
+	"Gain control over [All] tiles in a [0]-tile radius <once> <for [1] movement> <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles> <for [England] Civilizations>"
+//	"Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
 	//马其顿加成
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
 	//海军营地加成
@@ -38,7 +39,7 @@
 	//荣誉的能力
 //        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
 //	"[+1] Strength <for [Military] units> <after adopting [Honor Complete]>" ,
-	"[+1] Strength <for [Melee] units> <when above [0] [ronoh4]> <after adopting [Professional Army]> " ,
+	"[+6]% Strength <for [Melee] units> <when above [0] [ronoh4]> <after adopting [Professional Army]> " ,
 	//奥斯曼能力
 	"[+1] Strength <for [Melee] units> <before the [Industrial era]> <for [The Ottomans] Civilizations>",
     ]

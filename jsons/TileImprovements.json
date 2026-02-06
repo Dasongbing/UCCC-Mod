@@ -19,50 +19,12 @@
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Manor",
-		"uniqueTo": "England",
-		"terrainsCanBeBuiltOn": [
-			"Land",
-		],
-		"production": 1,
-		"uniques": [
-			"Removes removable features when built",
-			"Improves [Horses] resource in this tile",
-			"Improves [Iron] resource in this tile",
-			"Improves [Coal] resource in this tile",
-			"Improves [Oil] resource in this tile",
-			"Improves [Aluminum] resource in this tile",
-			"Improves [Uranium] resource in this tile",
-			"[-1 Production] from [Horses] tiles",
-			"[-1 Production] from [Coal] tiles",
-			"[-3 Production] from [Oil] tiles",
-			"[-1 Production] from [Aluminum] tiles",
-			"[-1 Production] from [Uranium] tiles",
-			"Cannot be built on [Land] tiles <within [1] tiles of a [City center]>",
-			"Cannot be built on [Land] tiles <within [2] tiles of a [Manor]>",
-			"Adjacent enemy units ending their turn take [5] damage",
-			"Tile provides yield without assigned population",
-			"Comment [移除地形带来的产出，包括建造[Petra]带来的收益]",
-			"[+1 Gold] <for every adjacent [Bonus resource]>",
-			"[+1 Gold] <for every adjacent [Luxury resource]>",
-			"[-1 Production, -1 Food] from [Plains] tiles <in tiles without [Hill]> <hidden from users>",
-			"[-2 Food] from [Grassland] tiles <in tiles without [Hill]> <hidden from users>",
-			"[-2 Production] from [Hill] tiles <hidden from users>",
-			"[-2 Food] from [Flood plains] tiles <hidden from users>",
-			"[-1 Food] from [Tundra] tiles <hidden from users>",
-			"[-1 Production, -1 Food, -1 Gold] from [Desert] tiles <in cities with a [Petra]> <hidden from users>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"techRequired": "Agriculture",
-		"shortcutKey": "F"
-	},
-	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": [
 			"Land",
 		],
-		"turnsToBuild": 10,
+		"turnsToBuild": 9,
 		"uniques": [
 			"Comment [只要你拥有足够数量的石像，你就可以召唤摩艾石像人帮你干活]",
 			"Provides [1] [Moai Heart]",
@@ -78,9 +40,11 @@
 			"Hill"
 		],
 		"food": 1,
-		"turnsToBuild": 9,
+		"turnsToBuild": 7,
 		"uniques": [
-			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] <with [2] to [3] neighboring [Mountain] tiles>",
+			"[+1 Food] <with [4] to [5] neighboring [Mountain] tiles>",
+			"[+1 Food] <with [6] to [6] neighboring [Mountain] tiles>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
