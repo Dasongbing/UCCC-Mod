@@ -24,7 +24,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Land",
 		],
-		"turnsToBuild": 9,
+		"turnsToBuild": 12,
 		"uniques": [
 			"Comment [只要你拥有足够数量的石像，你就可以召唤摩艾石像人帮你干活]",
 			"Provides [1] [Moai Heart]",
