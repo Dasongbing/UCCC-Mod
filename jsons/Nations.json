@@ -1471,6 +1471,7 @@
 		"startBias": [
 			"Avoid [Forest]"
 		],
+		"startIntroPart1": "暹罗拥有UCCC Mod唯一的一个介绍和领导者头衔，这绝对算得上是独一份的荣耀，是史无前例的加强",//介绍1
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Ramkhamhaeng",
 		"outerColor": [
@@ -1486,8 +1487,9 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "CCB",
 		"uniques": [
+			"Get the leader title of [超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌CCB[leaderName]大王]"
 			"Provides [1] [Horses] <for every [[Mounted] Units]>",
-			"Comment [处在开阔地带的[City center] [+1 Production]，不包括[Oasis]]",
+			"Comment [处在开阔地带的[City center] [+1 Production]]",
 			"[+2 Production] from every [{Grassland} {City center}] <hidden from users>"
 			"[+1 Production] from every [{Plains} {City center}] <hidden from users>"
 			"[+2 Production] from every [{Desert} {City center}] <hidden from users>"
@@ -2107,6 +2109,7 @@
 		"uniqueName": "Dutch East India Company",
 		"uniques": [
 			"Comment [荷兰壬，都是肾！]"
+			//"Free [Sea Beggar] appears",
 			"[-3] Happiness from each type of luxury resource",
 			"[+2 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
 			"[+1 Happiness] from [{improved} {Bonus resource}] tiles [in this city]"
@@ -2266,48 +2269,11 @@
 			255
 		],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Arts Center",
+		"uniqueName": "魅魔",
 		"uniques": [
-			"Comment [When constructing a [Culture] building or world wonder, gain [Culture] equal to [20]% of its Production cost]",
-			"Gain [8] [Culture] <(modified by game speed)> <upon constructing [Monument] [in all cities]> <hidden from users>",
-			"Gain [20] [Culture] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]> <hidden from users>",
-			"Gain [40] [Culture] <(modified by game speed)> <upon constructing [Opera House] [in all cities]> <hidden from users>",
-			"Gain [60] [Culture] <(modified by game speed)> <upon constructing [Museum] [in all cities]> <hidden from users>",
-			"Gain [100] [Culture] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Temple of Artemis] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Great Library] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Pyramids] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Mausoleum of Halicarnassus] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Statue of Zeus] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [The Great Lighthouse] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Hanging Gardens] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Terracotta Army] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [The Oracle] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Petra] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Great Wall] [in all cities]> <hidden from users>",
-			"Gain [37] [Culture] <(modified by game speed)><upon constructing [Colossus] [in all cities]> <hidden from users>",
-			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
-			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Chichen Itza] [in all cities]> <hidden from users>",
-			"Gain [60] [Culture] <(modified by game speed)><upon constructing [Machu Picchu] [in all cities]> <hidden from users>",
-			"Gain [80] [Culture] <(modified by game speed)><upon constructing [Angkor Wat] [in all cities]> <hidden from users>",
-			"Gain [50] [Culture] <(modified by game speed)><upon constructing [Alhambra] [in all cities]> <hidden from users>",
-			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Sistine Chapel] [in all cities]> <hidden from users>",
-			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Forbidden Palace] [in all cities]> <hidden from users>",
-			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Leaning Tower of Pisa] [in all cities]> <hidden from users>",
-			"Gain [100] [Culture] <(modified by game speed)><upon constructing [Himeji Castle] [in all cities]> <hidden from users>",
-			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Taj Mahal] [in all cities]> <hidden from users>",
-			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Porcelain Tower] [in all cities]> <hidden from users>",
-			"Gain [125] [Culture] <(modified by game speed)><upon constructing [Kremlin] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [The Louvre] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Big Ben] [in all cities]> <hidden from users>",
-			"Gain [150] [Culture] <(modified by game speed)><upon constructing [Brandenburg Gate] [in all cities]> <hidden from users>",
-			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Eiffel Tower] [in all cities]> <hidden from users>",
-			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Statue of Liberty] [in all cities]> <hidden from users>",
-			"Gain [212] [Culture] <(modified by game speed)><upon constructing [Neuschwanstein] [in all cities]> <hidden from users>",
-			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Cristo Redentor] [in all cities]> <hidden from users>",
-			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Pentagon] [in all cities]> <hidden from users>",
-			"Gain [250] [Culture] <(modified by game speed)><upon constructing [Sydney Opera House] [in all cities]> <hidden from users>",
-			"Gain [250] [Culture] <(modified by game speed)><upon constructing [CN Tower] [in all cities]> <hidden from users>"
+			"Comment [军事单位被击败时令该进攻你的文明建造军事单位时-100%[Production]1回合（不可叠加）]",
+			"Comment [军事单位造成伤害时令目标失去1xp]",
+			"[Military] units gain the [Lose-A] promotion <hidden from users>"
 		],
 		"cities": [
 			"Vienna",

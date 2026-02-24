@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Debuff",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <when below [1] [Debuff]>",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
 		"name": "Moai Heart",
 		"resourceType": "Strategic",
 		"uniques": [
@@ -230,6 +239,7 @@
 			"production": 1
 		},
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
 			"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
@@ -266,6 +276,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
@@ -310,6 +321,7 @@
 			"production": 1
 		},
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Generated with weight [35] <in [Hill] tiles>",
 			"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
@@ -354,6 +366,7 @@
 			"production": 3
 		},
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Deposits in [Coast] tiles always provide [4] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -395,6 +408,7 @@
 			"production": 1
 		},
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
@@ -429,6 +443,7 @@
 			"production": 1
 		},
 		"uniques": [
+			"AI will buy at [50] Gold",
 			"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",

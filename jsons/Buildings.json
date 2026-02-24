@@ -194,7 +194,7 @@
 		"faith": 1,
 		"happiness": 2,
 		"cost": 40,
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
 			"[-15]% production cost <if [Bo-Li Shrine] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
@@ -1072,7 +1072,7 @@
 			"production": 10
 		},
 		"uniques": [
-			"[-15]% production cost <if [Garden] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
+			"[-15]% production cost <if [Workshop] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 		],
 		"requiredTech": "Metal Casting"
 	},

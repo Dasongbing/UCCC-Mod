@@ -55,7 +55,6 @@
             		"[+3]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [2] [ronoh2]> <when below [4] [ronoh2]> <hidden from users>",
             		"[+4]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [3] [ronoh2]> <when below [5] [ronoh2]> <hidden from users>",
             		"[+5]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [4] [ronoh2]> <when below [6] [ronoh2]> <hidden from users>",
-
             		"[+1]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [0] [ronoh2]> <when below [2] [ronoh2]> <when above [0] [ronoh4]> <hidden from users>",
             		"[+2]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [1] [ronoh2]> <when below [3] [ronoh2]> <when above [0] [ronoh4]> <hidden from users>",
             		"[+3]% Strength <for [Melee] units> <after adopting [Professional Army]> <when above [2] [ronoh2]> <when below [4] [ronoh2]> <when above [0] [ronoh4]> <hidden from users>",
@@ -64,6 +63,29 @@
 			"[Target Unit] takes [1] damage <upon damaging a [Wounded] unit> <after adopting [Professional Army]> <hidden from users>",
 			"[This Unit] heals [5] HP <upon turn end> <when above [0] [ronoh3]> <hidden from users>",
 			"Comment [这个晋升证明你推行了荣誉政策]"
+		],
+		"unitTypes": []
+	},
+	{
+		"name": "Lose-A",
+		"uniques": [
+			"[Target Unit] gains the [Lose] promotion <upon damaging a [All] unit>"
+		],
+		"unitTypes": []
+	},	
+	{
+		"name": "Lose",
+		"uniques": [
+			"[This Unit] gains [-1] XP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": []
+	},
+	{
+		"name": "Yes",
+		"uniques": [
+			"[This Unit] gains [10] XP",
+			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": []
 	},

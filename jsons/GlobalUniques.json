@@ -28,6 +28,9 @@
         "[+50]% Production when constructing [Pioneer] units [in capital] <after adopting [Collective Rule]>",
 	//宗教聚居地
 //	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
+	//奥地利的能力在ua中的控制代码
+	"[-100]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]>",
+	"Instantly consumes [1] [Debuff] <upon turn end> <when above [0] [Debuff]>"
     ],
     "unitUniques": [
 	"Gain control over [All] tiles in a [0]-tile radius <once> <for [1] movement> <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles> <for [England] Civilizations>"
@@ -39,8 +42,11 @@
 	//荣誉的能力
 //        "[This Unit] gains [1] XP <upon ending a turn in a [your] tile> <for [All] Civilizations> <for [Military] units> <after adopting [Military Training]>", 
 //	"[+1] Strength <for [Military] units> <after adopting [Honor Complete]>" ,
+	//虔诚的能力
 	"[+6]% Strength <for [Melee] units> <when above [0] [ronoh4]> <after adopting [Professional Army]> " ,
 	//奥斯曼能力
 	"[+1] Strength <for [Melee] units> <before the [Industrial era]> <for [The Ottomans] Civilizations>",
+	//奥地利能力
+	"Instantly provides [1] [Debuff] <when below [1] [Debuff]> <upon defeating a [Austria] unit>"
     ]
 }

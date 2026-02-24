@@ -331,12 +331,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-			"Instantly provides [1] [ronoh3] <hidden from users>",
-			"Instantly provides [1] [ronoh4] <hidden from users>",
-			"Instantly provides [1] [ronoh5] <hidden from users>",
-			"Instantly provides [1] [ronoh6] <hidden from users>",
 			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-			"Comment [所有未生效的效果同时生效]",
                 ]
             }
 
@@ -369,7 +364,7 @@
                 "name": "Mandate Of Heaven",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-		    "[90]% Faith cost of generating Great Prophet equivalents"
+		    "Gain enough Faith for [90]% of a Great Prophet"
                 ],
                 "row": 1,
                 "column": 5
@@ -400,7 +395,9 @@
             {
                 "name": "Free Religion",
                 "uniques": [
-			"[+2 Production, +2 Food, +2 Gold] [in holy cities]"
+			"[+10]% [Production] [in holy cities]",
+			"[+10]% [Food] [in holy cities]",
+			"[+10]% [Gold] [in holy cities]",
                 ],
                 "requires": [
                     "Mandate Of Heaven",
@@ -505,7 +502,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+25]% [Gold] [in capital]"
+            "[+3 Gold] [in all cities]"
         ],
         "policies": [
             {
@@ -513,19 +510,24 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-                    "Free [Great General] appears"
-                    // "[+2] Movement <for [Great Admiral] units>"
-                    // ToDo: Should be "Free [Great Admiral] appears"
+		    "New [Water] units start with [10] XP [in all cities]",
+		    "Comment [已经组建的海军单位获得10xp]",
+		    "[Water] units gain the [Yes] promotion <hidden from users>"
                 ],
-                "row": 1,
+                "requires": [
+                    "Merchant Navy"
+                ],
+                "row": 2,
                 "column": 2
             },
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[-33]% maintenance on road & railroads",
+                    "[-50]% maintenance on road & railroads",
+                    "[+1 Gold] from every [Lighthouse]",
                     "[+1 Gold] from every [Harbor]",
                     "[+1 Gold] from every [Seaport]"
+
                 ],
                 "row": 1,
                 "column": 4
@@ -533,12 +535,12 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]"
+                    "[+2 Production] [in all coastal cities]",
+                    "Free [Great General] appears"
+                    // "[+2] Movement <for [Great Admiral] units>"
+                    // ToDo: Should be "Free [Great Admiral] appears"
                 ],
-                "requires": [
-                    "Naval Tradition"
-                ],
-                "row": 2,
+                "row": 1,
                 "column": 2
             },
             {
@@ -570,7 +572,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
+                    "[+1 Gold, +2 Science] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -687,7 +689,7 @@
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
+                    "[-50]% Food consumption by [Specialists] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
