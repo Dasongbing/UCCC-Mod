@@ -428,7 +428,7 @@
 		"uniques": [
 			"[+2 Culture] [in all cities] <before discovering [Steam Power]>",
 			"Comment [For each city founded or each social policy adopted, the cost of subsequent social policies increases permanently by [2]%, but up to [10]%, before compelete any policies]",
-			"[+2]% Culture cost of adopting new Policies <for every [[Cities] + [Adopted [All] Policies] + 5 - abs[[Cities] + [Adopted [All] Policies] - 5]]> <when below [1] [France NO]> <hidden from users>",
+			"[+1]% Culture cost of adopting new Policies <for every [[Cities] + [Adopted [All] Policies] + 5 - abs[[Cities] + [Adopted [All] Policies] - 5]]> <when below [1] [France NO]> <hidden from users>",
 			"Instantly provides [1] [France NO] <after adopting [Tradition Complete]> <hidden from users>",
 			"Instantly provides [1] [France NO] <after adopting [Liberty Complete]> <hidden from users>",
 			"Instantly provides [1] [France NO] <after adopting [Honor Complete]> <hidden from users>",

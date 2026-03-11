@@ -35,7 +35,7 @@
 		]
 	},
 	{
-		"name": "ronoh",
+		"name": "HonorLeft",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
@@ -44,7 +44,7 @@
 		]
 	},
 	{
-		"name": "ronoh2",
+		"name": "HonorRight",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",
@@ -53,37 +53,10 @@
 		]
 	},
 	{
-		"name": "ronoh3",
+		"name": "HonorPoint",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Not shown on world screen",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "ronoh4",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "ronoh5",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen",
-			"Cannot be traded",
-			"Stockpiled"
-		]
-	},
-	{
-		"name": "ronoh6",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Not shown on world screen",
+			"Not shown on world screen <when below [1] [HonorLeft]>",
 			"Cannot be traded",
 			"Stockpiled"
 		]
