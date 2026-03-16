@@ -308,7 +308,7 @@
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
-			"Provides a one-time bonus of [+35565 Science] to the closest city when cut down <(modified by game speed)>",
+			"Provides a one-time bonus of [+30 Production, +15 Food] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
