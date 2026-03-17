@@ -672,7 +672,7 @@
 		"uniques": [
 			"Comment [When constructing a [Faith] building, gain [Faith] equal to [50]% of its Production cost]",
 			"Gain [20] [Faith] <(modified by game speed)> <upon constructing [Shrine] [in all cities]> <hidden from users>",
-			"Gain [100] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
+			"Gain [50] [Faith] <(modified by game speed)> <upon constructing [Temple] [in all cities]> <hidden from users>",
 			"Gain [93] [Faith] <(modified by game speed)> <upon constructing [Stonehenge] [in all cities]> <hidden from users>",
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Hagia Sophia] [in all cities]> <hidden from users>",
 			"Gain [150] [Faith] <(modified by game speed)> <upon constructing [Great Mosque of Djenne] [in all cities]> <hidden from users>",
