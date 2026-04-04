@@ -521,12 +521,29 @@
 			}
 		]
 	},
-	
+	{
+		"name": "Very Very High Mountain",
+		"type": "NaturalWonder",
+		"occursOn": [
+			"Grassland",
+			"Plains",
+			"Tundra",
+			"Mountain"
+		],
+		"uniques": [
+			"Comment [这实在是太高了]",
+			"Comment [你会立即看到他]"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
-		"food": 2,
-		"science": 1,
+		"production": 1,
+		"gold": 1,
 		"occursOn": [
 			"Ocean"
 		],
@@ -537,15 +554,15 @@
 			"Occurs in groups of [2] to [2] tiles"
 		],
 		"turnsInto": "Coast",
-		"impassable": true,
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
 	{
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
-		"science": 2,
-		"happiness": 3,
+		"science": 1,
+		"happiness": 1,
 		"occursOn": [
 			"Grassland",
 			"Plains",
@@ -553,22 +570,23 @@
 			"Mountain"
 		],
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
 			"Must be adjacent to [3] to [6] [Elevated] tiles",
 			"Must be adjacent to [0] to [3] [Desert] tiles",
 			"Must be adjacent to [0] to [3] [Tundra] tiles"
 		],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"turnsInto": "Plains",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
 	{
 		"name": "El Dorado",
 		"type": "NaturalWonder",
-		"culture": 3,
-		"gold": 2,
+		"culture": 1,
+		"gold": 1,
 		"overrideStats": true,
 		"occursOn": [
 			"Plains"
@@ -577,16 +595,17 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
-			"Grants [+5 Gold] to the first civilization to discover it"
+			"Grants [+5 Gold, +5 Culture] to the first civilization to discover it"
 		],
 		"weight": 2
 	},
 	{ 
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
-		"happiness": 2,
+		"happiness": 1,
 		"overrideStats": true,
 		"occursOn": [
 			"Plains"
@@ -596,7 +615,7 @@
 		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Grants [Rejuvenation] ([[+5] HP when healing]) to adjacent [{Military} {Land}] units for the rest of the game",
+			"Comment [拥有此奇观的文明回合结束时所有军事单位回复2HP]",
 			"Tile provides yield without assigned population"
 		],
 		"weight": 1
@@ -604,8 +623,8 @@
 	{
 		"name": "Grand Mesa",
 		"type": "NaturalWonder",
-		"production": 2,
-		"gold": 3,
+		"defenceBonus": 0.5,
+		"gold": 2,
 		"occursOn": [
 			"Plains",
 			"Desert",
@@ -615,10 +634,11 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Tile provides yield without assigned population"
 		],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"movementCost": 4,
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
@@ -649,14 +669,14 @@
 	{
 		"name": "Krakatoa",
 		"type": "NaturalWonder",
-		"science": 2,
 		"occursOn": [
 			"Ocean"
 		],
 		"uniques": [
+			"Comment [周围4格范围内的城市中心+1[Science]]",
+			"Comment [周围3格范围内的城市中心+1[Science]]",
 			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
-			"Tile provides yield without assigned population",
 			"Neighboring tiles will convert to [Coast]"
 		],
 		"turnsInto": "Mountain",
@@ -667,12 +687,13 @@
 	{
 		"name": "Rock of Gibraltar",
 		"type": "NaturalWonder",
-		"food": 3,
-		"gold": 2,
+		"food": 1,
+		"gold": 1,
 		"occursOn": [
 			"Grassland"
 		],
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [1] to [5] [Coast] tiles",
 			"Must be adjacent to [1] [Mountain] tiles",
 			"Neighboring tiles will convert to [Coast] <in tiles without [Mountain]>"
@@ -685,12 +706,13 @@
 	{
 		"name": "Cerro de Potosi",
 		"type": "NaturalWonder",
-		"gold": 4,
+		"gold": 2,
 		"occursOn": [
 			"Plains",
 			"Mountain"
 		],
 		"uniques": [
+			"Comment [拥有此奇观的文明-5%维护费]",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Tile provides yield without assigned population",
 			"Must be adjacent to [1] to [6] [Hill] tiles"
@@ -703,13 +725,13 @@
 	{
 		"name": "Barringer Crater",
 		"type": "NaturalWonder",
-		"gold": 2,
-		"science": 3,
+
 		"occursOn": [
 			"Desert",
 			"Tundra"
 		],
 		"uniques": [
+			"Comment [相邻的非城市中心设施+1[Science]]",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
@@ -724,13 +746,14 @@
 	{
 		"name": "Mount Kailash",
 		"type": "NaturalWonder",
-		"faith": 2,
-		"happiness": 3,
+		"faith": 1,
+		"happiness": 1,
 		"occursOn": [
 			"Plains",
 			"Grassland"
 		],
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [0] to [1] [Desert] tiles",
@@ -744,12 +767,13 @@
 	{
 		"name": "Mount Sinai",
 		"type": "NaturalWonder",
-		"faith": 4,
+		"faith": 2,
 		"occursOn": [
 			"Desert",
 			"Plains"
 		],
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
@@ -777,21 +801,22 @@
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must not be on [1] largest landmasses"
 		],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
+		"turnsInto": "Plains",
+		"impassable": false,
+		"unbuildable": false,
 		"weight": 10
 	},
 	{
 		"name": "Uluru",
 		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 3,
+		"food": 1,
+		"faith": 1,
 		"occursOn": [
 			"Plains",
 			"Desert"
 		],
 		"uniques": [
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",

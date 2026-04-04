@@ -437,7 +437,6 @@
             {
                 "name": "Educated Elite",
                 "requires": [
-                    "Scholasticism",
                     "Aesthetics"
                 ],
                 "uniques": [

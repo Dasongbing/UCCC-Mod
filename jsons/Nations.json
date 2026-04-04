@@ -242,6 +242,92 @@
 			"Sun"
 		]
 	},
+	{//大明
+		"name": "China-Ming",
+		"leaderName": "Zhu Yunwen",
+		"preferredVictoryType": "Scientific",
+		"personality": "Zhu Yunwen",
+		"outerColor": [
+			247,
+			171,
+			0
+		],
+		"innerColor": [
+			95,
+			79,
+			71
+		],
+		"uniqueName": "Ming is Very Good",
+		"uniques": [
+			"Comment [首都可以再建造一次非奇观建筑，限3次，每次进入下一个时代+2上限]",
+			"Comment [每次设计发生变化领导人就会被更改，目前更改次数1次]",
+			"Provides [3] [Zhu] <hidden from users>",
+			"Provides [2] [Zhu] <during the [Classical era]> <hidden from users>",
+			"Provides [4] [Zhu] <during the [Medieval era]> <hidden from users>",
+			"Provides [6] [Zhu] <during the [Renaissance era]> <hidden from users>",
+			"Provides [8] [Zhu] <during the [Industrial era]> <hidden from users>",
+			"Provides [10] [Zhu] <during the [Modern era]> <hidden from users>",
+			"Provides [12] [Zhu] <during the [Atomic era]> <hidden from users>",
+			"Provides [14] [Zhu] <during the [Information era]> <hidden from users>",
+			"Provides [16] [Zhu] <during the [Future era]> <hidden from users>",
+		],
+		"cities": [
+			"Beijing",
+			"Shanghai",
+			"Guangzhou",
+			"Nanjing",
+			"Xian",
+			"Chengdu",
+			"Hangzhou",
+			"Tianjin",
+			"Macau",
+			"Shandong",
+			"Kaifeng",
+			"Ningbo",
+			"Baoding",
+			"Yangzhou",
+			"Harbin",
+			"Chongqing",
+			"Luoyang",
+			"Kunming",
+			"Taipei",
+			"Shenyang",
+			"Taiyuan",
+			"Tainan",
+			"Dalian",
+			"Lijiang",
+			"Wuxi",
+			"Suzhou",
+			"Maoming",
+			"Shaoguan",
+			"Yangjiang",
+			"Heyuan",
+			"Huangshi",
+			"Yichang",
+			"Yingtian",
+			"Xinyu",
+			"Xinzheng",
+			"Handan",
+			"Dunhuang",
+			"Gaoyu",
+			"Nantong",
+			"Weifang",
+			"Xikang"
+		],
+		"spyNames": [
+			"Li",
+			"Chen",
+			"Zhang",
+			"Liu",
+			"Yang",
+			"Huang",
+			"Zhao",
+			"Wu",
+			"Zhou",
+			"Sun"
+		]
+	},
+
 	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
@@ -843,6 +929,7 @@
 		"uniqueName": "擦弹王",
 		"uniques": [
 			"[2] XP gained from combat <vs [Ranged] units> <when defending>",
+			"[+1 Faith, +1 Culture] from every [Mount Fuji]"
 		],
 		"cities": [
 			"Kyoto",
@@ -1568,6 +1655,7 @@
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": [
 			"Provides [1] [Gold Ore] <for every [Cities]>",
+			"[+1 Food, +1 Gold] from every [Rock of Gibraltar]"
 		],
 		"cities": [
 			"Madrid",
@@ -2960,74 +3048,6 @@
 		]
 	},
 	{
-		"name": "Milan",
-		"cityStateType": "Cultured",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			225,
-			194,
-			129
-		],
-		"cities": [
-			"Milan"
-		]
-	},
-	{
-		"name": "Monaco",
-		"cityStateType": "Cultured",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			193,
-			84,
-			255
-		],
-		"cities": [
-			"Monaco"
-		]
-	},
-	{
-		"name": "Prague",
-		"cityStateType": "Cultured",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			51,
-			97,
-			242
-		],
-		"cities": [
-			"Prague"
-		]
-	},
-	{
-		"name": "Yerevan",
-		"cityStateType": "Cultured",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			225,
-			194,
-			129
-		],
-		"cities": [
-			"Yerevan"
-		]
-	},
-	{
 		"name": "Cape Town",
 		"cityStateType": "Maritime",
 		"outerColor": [
@@ -3352,248 +3372,6 @@
 		],
 		"cities": [
 			"Hong Kong"
-		]
-	},
-	{
-		"name": "Singapore",
-		"cityStateType": "Mercantile",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			246,
-			253,
-			160
-		],
-		"cities": [
-			"Singapore"
-		]
-	},
-	{
-		"name": "Tyre",
-		"cityStateType": "Mercantile",
-		"startBias": [
-			"Coast"
-		],
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			121,
-			226,
-			0
-		],
-		"cities": [
-			"Tyre"
-		]
-	},
-	{
-		"name": "Zanzibar",
-		"cityStateType": "Mercantile",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			127,
-			177,
-			236
-		],
-		"cities": [
-			"Zanzibar"
-		]
-	},
-	{
-		"name": "Zurich",
-		"cityStateType": "Mercantile",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			172,
-			172,
-			172
-		],
-		"cities": [
-			"Zurich"
-		]
-	},
-	{
-		"name": "Almaty",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			217,
-			158,
-			78
-		],
-		"cities": [
-			"Almaty"
-		]
-	},
-	{
-		"name": "Belgrade",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			121,
-			226,
-			0
-		],
-		"cities": [
-			"Belgrade"
-		]
-	},
-	{
-		"name": "Budapest",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			217,
-			158,
-			78
-		],
-		"cities": [
-			"Budapest"
-		]
-	},
-	{
-		"name": "Dublin",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			211,
-			180,
-			113
-		],
-		"cities": [
-			"Dublin"
-		],
-		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Will not be chosen for new games",
-			"Excluded from map editor"
-		]
-	},
-	{
-		"name": "Edinburgh",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			0,
-			102,
-			102
-		],
-		"cities": [
-			"Edinburgh"
-		],
-		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Will not be chosen for new games",
-			"Excluded from map editor"
-		]
-	},
-	{
-		"name": "Hanoi",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			167,
-			162,
-			216
-		],
-		"cities": [
-			"Hanoi"
-		]
-	},
-	{
-		"name": "M'Banza-Kongo",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			18,
-			188,
-			221
-		],
-		"cities": [
-			"M'Banza-Kongo"
-		],
-		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Will not be chosen for new games",
-			"Excluded from map editor"
-		]
-	},
-	{
-		"name": "Sidon",
-		"cityStateType": "Militaristic",
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			186,
-			18,
-			202
-		],
-		"cities": [
-			"Sidon"
-		]
-	},
-	{
-		"name": "Valletta",
-		"cityStateType": "Militaristic",
-		"startBias": [
-			"Coast"
-		],
-		"outerColor": [
-			0,
-			0,
-			0
-		],
-		"innerColor": [
-			222,
-			237,
-			59
-		],
-		"cities": [
-			"Valletta"
 		]
 	},
 	{

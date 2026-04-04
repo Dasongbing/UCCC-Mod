@@ -31,6 +31,15 @@
 	//奥地利的能力在ua中的控制代码
 	"[-100]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]>",
 	"Instantly consumes [1] [Debuff] <upon turn end> <when above [0] [Debuff]>",
+	//城邦的加强
+	"[60]% Food is carried over after population increases [in all cities] <for [City-State] Civilizations>",
+	"[+20]% [Production] [in all cities] <for [City-State] Civilizations>",
+	//奇观的特殊效果
+	"Reveal up to [All] [Very Very High Mountain] within a [1023] tile radius <hidden from users>",
+	"[-5]% maintenance cost for [all] buildings [in all cities] <for every [1] [Owned [Cerro de Potosi] Tiles]>",
+	"[+1 Science] [in this city] <within [4] tiles of a [Krakatoa]>",
+	"[+1 Science] [in this city] <within [3] tiles of a [Krakatoa]>",
+	"Provides [1] [Happy] <for every [1] [Owned [Fountain of Youth] Tiles]>"
     ],
     "unitUniques": [
 	"Gain control over [All] tiles in a [0]-tile radius <once> <for [1] movement> <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles> <for [England] Civilizations>"
@@ -40,6 +49,8 @@
 	//奥斯曼能力
 	"[+1] Strength <for [Melee] units> <before the [Industrial era]> <for [The Ottomans] Civilizations>",
 	//奥地利能力
-	"Instantly provides [1] [Debuff] <when below [1] [Debuff]> <upon defeating a [Austria] unit>"
+	"Instantly provides [1] [Debuff] <when below [1] [Debuff]> <upon defeating a [Austria] unit>",
+	//奇观的特殊效果
+	"[This Unit] heals [2] HP <upon turn end> <when above [0] [Happy]>",
     ]
 }

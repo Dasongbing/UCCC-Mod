@@ -516,7 +516,8 @@
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+1 Production] from [Water resource] tiles [in this city]"
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"[+1 Production] from [Great Barrier Reef] tiles [in this city]"
 		],
 		"requiredTech": "Sailing"
 	},
@@ -1138,6 +1139,7 @@
 		"uniques": [
 			"[-15]% production cost <if [Harbor] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Great Barrier Reef] tiles [in this city]",
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
 		],
@@ -2014,6 +2016,779 @@
 			"Unbuildable",
 			"Only available <when religion is enabled>",
 			"'Religious Building'"
+		]
+	}
+
+	//大明专属建筑条======================================================================================================================
+	{
+		"name": "[Monument]",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Monument] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Yranarg",
+		"replaces": "Granary",
+		"uniqueTo": "China-Ming",
+		"food": 2,
+		"maintenance": 1,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+10]% [Food] <in tiles adjacent to [Fresh water] tiles>",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Yranarg]",
+		"food": 2,
+		"maintenance": 1,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Granary] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+10]% [Food] <in tiles adjacent to [Fresh water] tiles>",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Shrine]",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Shrine] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Only available <when religion is enabled>"
+		]
+	},
+	{
+		"name": "[Stone Works]",
+		"happiness": 1,
+		"production": 1,
+		"cost": 75,
+		"requiredNearbyImprovedResources": [
+			"Marble",
+			"Stone"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Stone Works] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Library]",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Library] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+1 Science] per [2] population [in this city]"
+		]
+	},
+	{
+		"name": "[Circus]",
+		"cost": 75,
+		"requiredNearbyImprovedResources": [
+			"Ivory",
+			"Horses"
+		],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Circus] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Water Mill]",
+		"cost": 75,
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Water Mill] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must be on [River]"
+		]
+	},
+	{
+		"name": "[Walls]",
+		"cost": 75,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Walls] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Unbuildable <in [Hill] tiles> <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Barracks]",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Barracks] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Lighthouse]",
+		"cost": 85,
+		"hurryCostModifier": 25,
+		"production": -1,
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Lighthouse] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"[+1 Production] from [Great Barrier Reef] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Stable]",
+		"cost": 100,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": [
+			"Horses",
+			"Sheep",
+			"Cattle"
+		],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Stable] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Colosseum]",
+		"cost": 100,
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Colosseum] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Temple]",
+		"faith": 2,
+		"cost": 100,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Temple] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Market]",
+		"gold": 2,
+		"cost": 100,
+		"specialistSlots": {
+			"Merchant": 1
+		},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {
+			"gold": 25
+		},
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Market] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Mint]",
+		"maintenance": 0,
+		"cost": 100,
+		"requiredNearbyImprovedResources": [
+			"Gold Ore",
+			"Silver"
+		],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Mint] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+2 Gold] from [Gold Ore] tiles [in this city]",
+			"[+2 Gold] from [Silver] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Aqueduct]",
+		"cost": 100,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Aqueduct] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[40]% Food is carried over after population increases [in this city]"
+		]
+	},
+	{
+		"name": "[Garden]",
+		"cost": 100,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Garden] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+25]% Great Person generation [in this city]",
+			"Must be next to [Fresh water]"
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 1
+	},
+	{
+		"name": "[Workshop]",
+		"cost": 120,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {
+			"production": 10
+		},
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Workshop] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Forge]",
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": [
+			"Iron"
+		],
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Forge] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Harbor]",
+		"cost": 120,
+		"maintenance": 3,
+		"production": -1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Harbor] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Great Barrier Reef] tiles [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"
+		]
+	},
+	{
+		"name": "[University]",
+		"cost": 160,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {
+			"science": 33
+		},
+		"specialistSlots": {
+			"Scientist": 2
+		},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [University] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+2 Science] from [Jungle] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Castle]",
+		"cost": 160,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Castle] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Armory]",
+		"cost": 160,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Armory] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Wuthering Waves",
+		"replaces": "Amphitheater",
+		"uniqueTo": "China-Ming",
+		"cost": 100,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {
+			"Artist": 1
+		},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {
+			"culture": 10
+		},
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "[Wuthering Waves]",
+		"cost": 100,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {
+			"Artist": 1
+		},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {
+			"culture": 10
+		},
+		"uniques": [
+			"Destroyed when the city is captured"
+		],
+	},
+	{
+		"name": "[Bank]",
+		"cost": 200,
+		"gold": 2,
+		"specialistSlots": {
+			"Merchant": 1
+		},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {
+			"gold": 25
+		},
+		"requiredBuilding": "Market",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Bank] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Constabulary]",
+		"cost": 160,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Constabulary] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Only available <when espionage is enabled>",
+			"[-25]% enemy spy effectiveness [in this city]"
+		]
+	},
+	{
+		"name": "[Theatre]",
+		"cost": 200,
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Theatre] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Seaport]",
+		"cost": 200,
+		"hurryCostModifier": 25,
+		"production": 1,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"percentStatBonus": {
+			"gold": 15
+		},
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Seaport] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+1 Production] from [{Coast} {non-[Water resource]}] tiles [in this city]",
+			"[+1 Production] from [{Ocean} {non-[Water resource]}] tiles [in this city]",
+			"Must be next to [Coast]"
+		]
+	},
+	{
+		"name": "[Windmill]",
+		"cost": 200,
+		"production": 2,
+		"specialistSlots": {
+			"Engineer": 1
+		},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Windmill] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must not be on [Hill]",
+			"[+10]% Production when constructing [All] buildings [in this city]"
+		]
+	},
+	{
+		"name": "[Arsenal]",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Arsenal] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Museum]",
+		"cost": 300,
+		"culture": 5,
+		"specialistSlots": {
+			"Artist": 2
+		},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Museum] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Public School]",
+		"cost": 300,
+		"science": 3,
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Public School] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+1 Science] per [2] population [in this city]"
+		]
+	},
+	{
+		"name": "[Factory]",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {
+			"production": 10
+		},
+		"specialistSlots": {
+			"Engineer": 2
+		},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Factory] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Military Academy]",
+		"cost": 300,
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Military Academy] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Hospital]",
+		"cost": 360,
+		"food": 5,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Hospital] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Stock Exchange]",
+		"cost": 360,
+		"gold": 3,
+		"percentStatBonus": {
+			"gold": 25
+		},
+		"specialistSlots": {
+			"Merchant": 2
+		},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Stock Exchange] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Hydro Plant]",
+		"cost": 360,
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Hydro Plant] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must be on [River]",
+			"[+1 Production] from [River] tiles [in this city]"
+		]
+	},
+	{
+		"name": "[Police Station]",
+		"cost": 300,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Constabulary",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Police Station] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Only available <when espionage is enabled>",
+			"[-25]% enemy spy effectiveness [in this city]"
+		]
+	},
+	{
+		"name": "[Stadium]",
+		"cost": 500,
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Stadium] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Broadcast Tower]",
+		"cost": 500,
+		"culture": 3,
+		"percentStatBonus": {
+			"culture": 33
+		},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Broadcast Tower] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Military Base]",
+		"cost": 500,
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Military Base] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Research Lab]",
+		"cost": 500,
+		"science": 4,
+		"percentStatBonus": {
+			"science": 50
+		},
+		"specialistSlots": {
+			"Scientist": 1
+		},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Research Lab] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
+		]
+	},
+	{
+		"name": "[Medical Lab]",
+		"cost": 500,
+		"requiredBuilding": "Hospital",
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Medical Lab] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[25]% Food is carried over after population increases [in this city]"
+		]
+	},
+	{
+		"name": "[Solar Plant]",
+		"cost": 500,
+		"production": 5,
+		"percentStatBonus": {
+			"production": 15
+		},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Solar Plant] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Must be next to [Desert]",
+			"Only available <in cities without a [Nuclear Plant]>"
+		]
+	},
+	{
+		"name": "[Recycling Center]",
+		"cost": 500,
+		"maintenance": 3,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Recycling Center] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Provides [2] [Aluminum]",
+			"Limited to [5] per Civilization"
+		]
+	},
+	{
+		"name": "[Nuclear Plant]",
+		"cost": 500,
+		"production": 5,
+		"percentStatBonus": {
+			"production": 15
+		},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Nuclear Plant] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Only available <in cities without a [Solar Plant]>"
+		]
+	},
+	{
+		"name": "[Bomb Shelter]",
+		"cost": 300,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Bomb Shelter] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]"
+		]
+	},
+	{
+		"name": "[Spaceship Factory]",
+		"production": 3,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Spaceship Factory] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
+			"[+50]% Production when constructing [Spaceship part] units [in this city]"
 		]
 	}
 ]
