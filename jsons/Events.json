@@ -7,5 +7,25 @@
                 "text": "I have gotton it, let's go!"
             }
         ]
-    }
+    },
+    {
+        "name":"City-State Choice",
+        "text":"我们的大臣对城邦的看法提出了不同的意见，我们应该怎么选择？",
+        "choices":[
+        {
+        "text":"碾碎他们，占领他们的城市",
+        "uniques":[
+		"Comment [吞并的城邦城市人口不满-33%]",
+		"Instantly provides [1] [Dis] <hidden from users>",
+		],
+        },
+        {
+        "text":"与城邦交好，展现邦交友谊",
+       "uniques":[
+		"Comment [城邦基准值+30]",
+		"Instantly provides [1] [Peace] <hidden from users>",
+		],
+        },
+        ]
+    },
 ]

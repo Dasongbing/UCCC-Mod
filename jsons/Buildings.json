@@ -46,6 +46,17 @@
 			"Comment [您可以移除宫殿并在其他城市建造，不过请保护好自己的原始首都]"
 		]
 	},
+	{//城邦的伪法庭
+		"name": "City-State Courthouse",
+		"cost": 0,
+		"uniques": [
+			"Unsellable",
+			"Unavailable <hidden from users>",
+			"Removes extra unhappiness from annexed cities",
+			"[-33]% Unhappiness from [Population] [in this city] <when above [0] [Dis]> <hidden from users>",
+			"[+2 Production, +2 Food] [in this city] <after adopting [Philantropy]> <hidden from users>"
+		],
+	},
 	{//朝鲜的获取科技
 		"name": "Thinking",
 		"cost": 0,
@@ -2422,7 +2433,10 @@
 			"culture": 10
 		},
 		"uniques": [
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Wuthering Waves] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]"
 		],
 	},
 	{

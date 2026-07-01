@@ -3,7 +3,34 @@
 		"name": "Zhu",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[China-Ming]] Civilizations>",
 			"Cannot be traded",
+		]
+	},
+	{
+		"name": "State",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+		]
+	},
+	{
+		"name": "Dis",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
+		]
+	},
+	{
+		"name": "Peace",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+			"Cannot be traded",
+			"Stockpiled"
 		]
 	},
 	{

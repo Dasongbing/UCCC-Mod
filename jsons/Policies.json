@@ -391,14 +391,14 @@
             "Scientific": 5
         },
         "uniques": [
-            "[-25]% City-State Influence degradation",
-            "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+		"Resting point for Influence with City-States is increased by [20]",
+		"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [1]>"
         ],
         "policies": [
             {
-                "name": "Philantropy",
+                "name": "Educated Elite",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Allied City-States will occasionally gift Great People"
                 ],
                 "row": 1,
                 "column": 2
@@ -406,7 +406,9 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]"
+			"Triggers a [City-State Choice] event",
+			"Comment [吞并的城邦城市人口不满-33%，城邦基准值+30二选一]",
+			"Resting point for Influence with City-States is increased by [30] <when above [0] [Peace]> <hidden from users>"
                 ],
                 "row": 1,
                 "column": 4
@@ -417,9 +419,9 @@
                     "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
                 ],
                 "requires": [
-                    "Philantropy"
+                    "Cultural Diplomacy"
                 ],
-                "row": 2,
+                "row": 3,
                 "column": 2
             },
             {
@@ -429,18 +431,32 @@
                     "[+50]% Happiness from luxury resources gifted by City-States"
                 ],
                 "requires": [
-                    "Scholasticism"
+                    "Educated Elite"
                 ],
-                "row": 3,
+                "row": 2,
                 "column": 2
             },
             {
-                "name": "Educated Elite",
-                "requires": [
-                    "Aesthetics"
-                ],
+                "name": "Philantropy",
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+			"Comment [每一个被吞并的城邦城市+2[Production], +2[Food]]",
+			"Comment [每一个盟友城邦令你的首都+5%全部产出，最多10%]"
+			"[+5]% [Production] [in capital] <when above [0] [State]> <hidden from users>",
+			"[+5]% [Food] [in capital] <when above [0] [State]> <hidden from users>",
+			"[+5]% [Gold] [in capital] <when above [0] [State]> <hidden from users>",
+			"[+5]% [Science] [in capital] <when above [0] [State]> <hidden from users>",
+			"[+5]% [Culture] [in capital] <when above [0] [State]> <hidden from users>",
+			"[+5]% [Faith] [in capital] <when above [0] [State]> <hidden from users>",
+
+			"[+5]% [Production] [in capital] <when above [1] [State]> <hidden from users>",
+			"[+5]% [Food] [in capital] <when above [1] [State]> <hidden from users>",
+			"[+5]% [Gold] [in capital] <when above [1] [State]> <hidden from users>",
+			"[+5]% [Science] [in capital] <when above [1] [State]> <hidden from users>",
+			"[+5]% [Culture] [in capital] <when above [1] [State]> <hidden from users>",
+			"[+5]% [Faith] [in capital] <when above [1] [State]> <hidden from users>"
+                ],
+                "requires": [
+                    "Aesthetics","Cultural Diplomacy"
                 ],
                 "row": 3,
                 "column": 4

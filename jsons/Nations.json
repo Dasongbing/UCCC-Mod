@@ -2,6 +2,11 @@
 	{
 		"name": "Spectator",
 		"outerColor": [
+			0,
+			0,
+			0
+		],
+		"innerColor": [
 			255,
 			255,
 			255
@@ -14,7 +19,6 @@
 			"Avoid [Tundra]"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "汉谟拉比",
 		"outerColor": [
 			27,
 			53,
@@ -30,7 +34,7 @@
 			"[-5]% Science cost of researching new Technologies",
 			"[+1 Science] [in all cities] <when above [-1] [Happiness]>",
 			"[+1 Science] [in all cities] <when above [-1] [Happiness]> <when number of [Shibei] is more than [0]> <hidden from users>",
-			"[-3]% Science cost of researching new Technologies <for every [1] [[楔字石碑] Buildings]>",
+			"[-3]% Science cost of researching new Technologies <for every [1] [[楔字石碑] Buildings]>"
 		],
 		"cities": [
 			"Babylon",
@@ -94,7 +98,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Alexander",
 		"outerColor": [
 			255,
 			255,
@@ -170,7 +173,6 @@
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"preferredVictoryType": "Scientific",
-		"personality": "Wu Zetian",
 		"outerColor": [
 			9,
 			112,
@@ -246,7 +248,6 @@
 		"name": "China-Ming",
 		"leaderName": "Zhu Yunwen",
 		"preferredVictoryType": "Scientific",
-		"personality": "Zhu Yunwen",
 		"outerColor": [
 			247,
 			171,
@@ -269,7 +270,7 @@
 			"Provides [10] [Zhu] <during the [Modern era]> <hidden from users>",
 			"Provides [12] [Zhu] <during the [Atomic era]> <hidden from users>",
 			"Provides [14] [Zhu] <during the [Information era]> <hidden from users>",
-			"Provides [16] [Zhu] <during the [Future era]> <hidden from users>",
+			"Provides [16] [Zhu] <during the [Future era]> <hidden from users>"
 		],
 		"cities": [
 			"Beijing",
@@ -327,7 +328,6 @@
 			"Sun"
 		]
 	},
-
 	{
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
@@ -336,7 +336,6 @@
 			"Avoid [Forest]"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Ramesses II",
 		"outerColor": [
 			255,
 			252,
@@ -350,7 +349,7 @@
 		"uniqueName": "Monument Builders",
 		"uniques": [
 			"[+20]% Production when constructing [All] wonders [in all cities]",
-			"[+1 Happiness] from every [Temple] <in cities with a [Burial Tomb]> <hidden from users>"
+			"[+1 Happiness] from every [Temple] <in cities with a [Burial Tomb]> <hidden from users>",
 			"[+1 Faith] from every [Faith] <in cities with a [Burial Tomb]> <hidden from users>"
 		],
 		"cities": [
@@ -423,7 +422,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Elizabeth",
 		"outerColor": [
 			109,
 			2,
@@ -439,7 +437,6 @@
 		"uniques": [
 			"Comment [所有单位有1次可以在无主异国领土占领所在地块]",
 			"[+1 Gold] <for every [7] [Owned [All] Tiles]>"
-
 		],
 		"cities": [
 			"London",
@@ -498,7 +495,6 @@
 		"name": "France",
 		"leaderName": "Napoleon",
 		"preferredVictoryType": "Cultural",
-		"personality": "Napoleon",
 		"outerColor": [
 			38,
 			98,
@@ -524,7 +520,7 @@
 			"Instantly provides [1] [France NO] <after adopting [Rationalism Complete]> <hidden from users>",
 			"Instantly provides [1] [France NO] <after adopting [Freedom Complete]> <hidden from users>",
 			"Instantly provides [1] [France NO] <after adopting [Autocracy Complete]> <hidden from users>",
-			"Instantly provides [1] [France NO] <after adopting [Order Complete]> <hidden from users>",
+			"Instantly provides [1] [France NO] <after adopting [Order Complete]> <hidden from users>"
 		],
 		"cities": [
 			"Paris",
@@ -586,7 +582,6 @@
 			"Tundra"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Catherine",
 		"outerColor": [
 			239,
 			180,
@@ -665,7 +660,6 @@
 			"Avoid [Desert]"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Augustus Caesar",
 		"outerColor": [
 			70,
 			0,
@@ -679,7 +673,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
-			"[+25]% Production towards any buildings that already exist in the Capital",
+			"[+25]% Production towards any buildings that already exist in the Capital"
 		],
 		"cities": [
 			"Rome",
@@ -742,7 +736,6 @@
 			"Desert"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Harun al-Rashid",
 		"outerColor": [
 			43,
 			88,
@@ -820,7 +813,6 @@
 		"name": "America",
 		"leaderName": "George Washington",
 		"preferredVictoryType": "Scientific",
-		"personality": "George Washington",
 		"outerColor": [
 			28,
 			51,
@@ -914,7 +906,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Oda Nobunaga",
 		"outerColor": [
 			255,
 			255,
@@ -993,7 +984,6 @@
 			"Grassland"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Gandhi",
 		"outerColor": [
 			14,
 			113,
@@ -1007,7 +997,7 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "种姓制度",
 		"uniques": [
-				"[+1 Happiness] per [1] population [in all cities] <every [3] turns>",
+				"[+1 Happiness] per [1] population [in all cities] <every [3] turns>"
 		],
 		"cities": [
 			"Delhi",
@@ -1059,7 +1049,6 @@
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
 		"preferredVictoryType": "Scientific",
-		"personality": "Otto von Bismarck",
 		"outerColor": [
 			179,
 			178,
@@ -1073,9 +1062,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
-			"[+10]% Production when constructing [non-[Wonder]] buildings [in all cities]"
+			"[+10]% Production when constructing [non-[Wonder]] buildings [in all cities]",
 			"Comment [军事单位的产能需求-10%]"
-
 		],
 		"cities": [
 			"Berlin",
@@ -1154,7 +1142,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Suleiman I",
 		"outerColor": [
 			245,
 			248,
@@ -1229,7 +1216,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Sejong",
 		"outerColor": [
 			27,
 			33,
@@ -1305,7 +1291,6 @@
 			"Forest"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Hiawatha",
 		"outerColor": [
 			54,
 			72,
@@ -1371,7 +1356,6 @@
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"preferredVictoryType": "Scientific",
-		"personality": "Darius I",
 		"outerColor": [
 			153,
 			5,
@@ -1454,7 +1438,6 @@
 			"Kuganaka",
 			"Nautaka",
 			"Paishiyauvada",
-			"Patigrbana",
 			"Phrada"
 		],
 		"spyNames": [
@@ -1477,7 +1460,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Kamehameha I",
 		"outerColor": [
 			217,
 			89,
@@ -1558,9 +1540,8 @@
 		"startBias": [
 			"Avoid [Forest]"
 		],
-		"startIntroPart1": "暹罗拥有UCCC Mod唯一的一个介绍和领导者头衔，这绝对算得上是独一份的荣耀，是史无前例的加强",//介绍1
+		"startIntroPart1": "暹罗拥有UCCC Mod唯一的一个介绍和领导者头衔，这绝对算得上是独一份的荣耀，是史无前例的加强",
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Ramkhamhaeng",
 		"outerColor": [
 			245,
 			230,
@@ -1574,18 +1555,18 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "CCB",
 		"uniques": [
-			"Get the leader title of [超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌CCB[leaderName]大王]"
+			"Get the leader title of [超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌CCB[leaderName]大王]",
 			"Provides [1] [Horses] <for every [[Mounted] Units]>",
 			"Comment [处在开阔地带的[City center] [+1 Production]]",
-			"[+2 Production] from every [{Grassland} {City center}] <hidden from users>"
-			"[+1 Production] from every [{Plains} {City center}] <hidden from users>"
-			"[+2 Production] from every [{Desert} {City center}] <hidden from users>"
-			"[+2 Production] from every [{Tundra} {City center}] <hidden from users>"
-			"[+2 Production] from every [{Snow} {City center}] <hidden from users>"
-			"[-2 Production] from every [{Grassland} {Hill} {City center}] <hidden from users>"
-			"[-1 Production] from every [{Plains} {Hill} {City center}] <hidden from users>"
-			"[-2 Production] from every [{Desert} {Hill} {City center}] <hidden from users>"
-			"[-2 Production] from every [{Tundra} {Hill} {City center}] <hidden from users>"
+			"[+2 Production] from every [{Grassland} {City center}] <hidden from users>",
+			"[+1 Production] from every [{Plains} {City center}] <hidden from users>",
+			"[+2 Production] from every [{Desert} {City center}] <hidden from users>",
+			"[+2 Production] from every [{Tundra} {City center}] <hidden from users>",
+			"[+2 Production] from every [{Snow} {City center}] <hidden from users>",
+			"[-2 Production] from every [{Grassland} {Hill} {City center}] <hidden from users>",
+			"[-1 Production] from every [{Plains} {Hill} {City center}] <hidden from users>",
+			"[-2 Production] from every [{Desert} {Hill} {City center}] <hidden from users>",
+			"[-2 Production] from every [{Tundra} {Hill} {City center}] <hidden from users>",
 			"[-2 Production] from every [{Snow} {Hill} {City center}] <hidden from users>"
 		],
 		"cities": [
@@ -1640,7 +1621,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Isabella",
 		"outerColor": [
 			84,
 			26,
@@ -1720,7 +1700,6 @@
 			"Avoid [Tundra]"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Askia",
 		"outerColor": [
 			214,
 			145,
@@ -1828,11 +1807,10 @@
 			"Plains"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Genghis Khan",
 		"outerColor": [
 			81,
 			0,
-			9
+			0,
 		],
 		"innerColor": [
 			255,
@@ -1843,7 +1821,6 @@
 		"uniqueName": "Mongol Terror",
 		"uniques": [
 			"[+1] Movement <for [Mounted] units>",
-	//		"[+15]% Strength <for [Mounted] units>",
 			"[-1] Movement <for [Chariot Archer] units>",
 			"[Military] units gain the [Horseback] promotion",
 			"Comment [俺寻思船也算马]"
@@ -1852,7 +1829,6 @@
 			"Karakorum",
 			"Beshbalik",
 			"Turfan",
-			"Hsia",
 			"Old Sarai",
 			"New Sarai",
 			"Tabriz",
@@ -1902,7 +1878,6 @@
 			"Jungle"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Montezuma I",
 		"outerColor": [
 			139,
 			32,
@@ -1916,7 +1891,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sacrificial Captives",
 		"uniques": [
-			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
 		],
 		"cities": [
 			"Tenochtitlan",
@@ -1976,7 +1951,6 @@
 			"Hill"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Pachacuti",
 		"outerColor": [
 			255,
 			184,
@@ -2050,7 +2024,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Harald Bluetooth",
 		"outerColor": [
 			51,
 			25,
@@ -2140,7 +2113,6 @@
 			"Avoid [Forest]"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Attila the Hun",
 		"outerColor": [
 			180,
 			178,
@@ -2182,7 +2154,6 @@
 			"Grassland"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "William of Orange",
 		"outerColor": [
 			216,
 			120,
@@ -2196,8 +2167,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
 		"uniques": [
-			"Comment [荷兰壬，都是肾！]"
-			//"Free [Sea Beggar] appears",
+			"Comment [荷兰壬，都是肾！]",
 			"[-3] Happiness from each type of luxury resource",
 			"[+2 Happiness] from [{improved} {Luxury resource}] tiles [in this city]",
 			"[+1 Happiness] from [{improved} {Bonus resource}] tiles [in this city]"
@@ -2257,7 +2227,6 @@
 			"Tundra"
 		],
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Gustavus Adolphus",
 		"outerColor": [
 			8,
 			8,
@@ -2272,7 +2241,7 @@
 		"uniqueName": "Nobel Prize",
 		"uniques": [
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
-			"[Great Person] units gain the [Nobel Prize] promotion"
+			"[Great Person] units gain the [Nobel Prize] promotion",
 			"Comment [[Nobel Prize]会使伟人给予所在城市一定量产能点数和科研点数，每进入一个新的时代可以重新给予一次，且给予量增加]"
 		],
 		"cities": [
@@ -2345,7 +2314,6 @@
 			"Hill"
 		],
 		"preferredVictoryType": "Diplomatic",
-		"personality": "Maria Theresa",
 		"outerColor": [
 			234,
 			0,
@@ -2415,7 +2383,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Dido",
 		"outerColor": [
 			205,
 			205,
@@ -2429,8 +2396,8 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-			"Gain a free [Carthage Horbor] [in all cities]"
-			"Comment [[Carthage Horbor] makes your city Connects trade routes over water]"
+			"Gain a free [Carthage Horbor] [in all cities]",
+			"Comment [[Carthage Horbor] makes your city Connects trade routes over water]",
 			"[+12]% Strength decreasing with distance from the capital"
 		],
 		"cities": [
@@ -2486,7 +2453,6 @@
 			"Coast"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Theodora",
 		"outerColor": [
 			114,
 			162,
@@ -2503,8 +2469,8 @@
 			"May choose [1] additional belief(s) of any type when [founding] a religion",
 			"[+1 Faith] [in all cities] <before founding a Pantheon> <hidden from users>",
 			"Comment [[+1 Faith] [in all cities] <after founding a Pantheon>]",
-			"[+20]% Strength <for [Galley] units> <vs [Water] units>"
-			"[+1 Faith] [in all cities] <when number of [['Faith War'] Units] is more than [0]> <hidden from users>",
+			"[+20]% Strength <for [Galley] units> <vs [Water] units>",
+			"[+1 Faith] [in all cities] <when number of [['Faith War'] Units] is more than [0]> <hidden from users>"
 		],
 		"cities": [
 			"Constantinople",
@@ -2564,7 +2530,6 @@
 			"Forest"
 		],
 		"preferredVictoryType": "Domination",
-		"personality": "Boudicca",
 		"outerColor": [
 			12,
 			75,
@@ -2638,7 +2603,6 @@
 			"Jungle"
 		],
 		"preferredVictoryType": "Cultural",
-		"personality": "Haile Selassie",
 		"outerColor": [
 			18,
 			66,
@@ -2709,7 +2673,6 @@
 			"Jungle"
 		],
 		"preferredVictoryType": "Scientific",
-		"personality": "Pacal",
 		"outerColor": [
 			198,
 			141,
@@ -2858,8 +2821,6 @@
 		"uniqueName": "Bronze and Iron",
 		"uniques": [
 			"Discover [Iron Working] <upon turn end> <while researching [Iron Working]>"
-//			"Instantly gain [1] [Gold] <upon turn end> <for every [Owned [Mine] Tiles]>",
-//			"[-25]% construction time for [Mine] improvements"
 		],
 		"cities": [
 			"Hattusa",
@@ -2908,7 +2869,6 @@
 	{
 		"name": "Turk",
 		"leaderName": "Bumin",
-		"personality": "Turk",
 		"startBias": [
 			"Grassland"
 		],
