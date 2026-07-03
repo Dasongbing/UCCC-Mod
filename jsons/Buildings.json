@@ -105,7 +105,7 @@
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
 			"Gain [20] [Science]",
-			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
+			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
 			"Can be purchased for [50] [Science] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Science] [in capital] <on [Quick] game speed> <hidden from users>",
 			"Can be purchased for [20] [Science] [in capital] <on [Standard] game speed> <hidden from users>",
@@ -125,7 +125,7 @@
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
 			"Gain [20] [Faith]",
-			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
+			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
 			"Can be purchased for [50] [Faith] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Faith] [in capital] <on [Quick] game speed> <hidden from users>",
 			"Can be purchased for [20] [Faith] [in capital] <on [Standard] game speed> <hidden from users>",
