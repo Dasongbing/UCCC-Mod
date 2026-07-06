@@ -43,9 +43,9 @@
             {
                 "name": "Oligarchy", //3
                 "uniques": [
-                    "[1] Unit Supply per [1] population [in capital]",
-		    "[2] Unit Supply",
-                    "[+12]% Strength for cities"
+                    "[2] Unit Supply per [1] population [in capital]",
+		    "[1] Unit Supply",
+                    "[+10]% Strength for cities"
                 ],
                 "row": 1,
                 "column": 5
@@ -62,7 +62,7 @@
             {
                 "name": "Monarchy", //4
                 "uniques": [
-			"[+2 Production, +2 Gold] per [5] population [in capital]",
+			"[+2 Production, +2 Gold] per [4] population [in capital]",
                 ],
                 "requires": [
                     "Landed Elite"
@@ -180,9 +180,10 @@
 			"Instantly provides [1] [HonorLeft] <when below [1] [HonorRight]>",
 			"[+10]% Production when constructing [Military] units [in all cities]",
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
-			"Comment [如果[HonorLeft]超过0，研究兵种科技时获得1次军事单位组建时-30%产能需求，不可叠加]",
+			"Comment [如果[HonorLeft]超过0，研究兵种科技时获得1次军事单位组建时-20%产能需求，不可叠加]",
 			"Comment [即使是所有单位都享用此效果，但是由于单位释放的先后顺序，不会造成1次效果被同时受益的情况，请计算好自己的产能]",
 			"Instantly provides [1] [HonorPoint] <upon discovering [technologies that unlock new military units] technology> <when above [0] [HonorLeft]>",
+			"Instantly provides [1] [HonorPoint] <every [4] turns> <upon turn end> <when above [0] [HonorLeft]>",
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
 			"Comment [如果[HonorRight]超过0，改为你获得1个免费的先进的没有战略资源需求的近战军事单位:]",
 			"Free [Warrior] appears <before discovering [Bronze Working]> <when above [0] [HonorRight]> <hidden from users>",
@@ -265,7 +266,7 @@
 			"[-10]% Gold cost of upgrading <for [Military] units> <when above [0] [HonorRight]>",
 			"[+25]% XP gained from combat <for [Military] units> <when above [0] [HonorRight]>",
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
-			"Comment [[Great General]提供的[Strength]-10%[<when above [0] [HonorLeft]>]]",
+			"Comment [[Great General]提供的[Strength]逐格下降5%[<when above [0] [HonorLeft]>]]",
 			"Comment [如果[HonorLeft]超过0一旦回合结束时令军事单位回复5HP]",
                 ],
                 "row": 2,
@@ -279,7 +280,7 @@
 			"[+10]% Strength <for [Melee] units> <when above [0] [HonorRight]>",
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
 			"Comment [[Great General]加力覆盖范围+1[<when above [0] [HonorLeft]>]]",
-			"Comment [[Great General]提供的[Strength]+5%[<when above [0] [HonorLeft]>]]",
+			"Comment [[Great General]提供的[Strength]确保1格范围内一定是15%[<when above [0] [HonorLeft]>]]",
                 ],
                 "requires": [
                     "Military Caste"

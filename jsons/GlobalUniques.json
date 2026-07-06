@@ -29,7 +29,7 @@
 	//宗教聚居地
 //	"Instantly gain [1] [Faith] <upon turn end> <for every [14] [Owned [All] Tiles]> <after adopting [Religious Settlements]>",
 	//奥地利的能力在ua中的控制代码
-	"[-100]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]>",
+	"[-100]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]> <for [non-[Austria]] Civilizations>",
 	"Instantly consumes [1] [Debuff] <upon turn end> <when above [0] [Debuff]>",
 	//奇观的特殊效果
 	"Reveal up to [All] [Very Very High Mountain] within a [1023] tile radius <hidden from users>",

@@ -46,6 +46,20 @@
 			"Comment [您可以移除宫殿并在其他城市建造，不过请保护好自己的原始首都]"
 		]
 	},
+	{//暹罗的城市耐久建筑
+		"name": "Siam Walls",
+		"cost": 0,
+		"cityHealth": 15,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Unsellable <hidden from users>"
+            		"Unavailable <for [non-[Siam]] Civilizations> <hidden from users>",
+			"Can only be built <for [Siam] Civilizations> <hidden from users>",
+			"Must be on [Open terrain] <hidden from users>"
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
 	{//城邦的伪法庭
 		"name": "City-State Courthouse",
 		"cost": 0,
@@ -105,7 +119,7 @@
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
 			"Gain [20] [Faith]",
-			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
+			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
 			"Can be purchased for [50] [Science] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Science] [in capital] <on [Quick] game speed> <hidden from users>",
 			"Can be purchased for [20] [Science] [in capital] <on [Standard] game speed> <hidden from users>",
@@ -125,7 +139,7 @@
 			"Comment [可重复建造]"
 			"Unbuildable <hidden from users>",
 			"Gain [20] [Science]",
-			"Comment [[Can be purchased for [20] [Science] [in capital]]]",
+			"Comment [[Can be purchased for [20] [Faith] [in capital]]]",
 			"Can be purchased for [50] [Faith] [in capital] <on [Very Quick] game speed> <hidden from users>",
 			"Can be purchased for [30] [Faith] [in capital] <on [Quick] game speed> <hidden from users>",
 			"Can be purchased for [20] [Faith] [in capital] <on [Standard] game speed> <hidden from users>",
@@ -165,7 +179,7 @@
 		"replaces": "Monument",
 		"uniqueTo": "Turk",
 		"culture": 2,
-		"cost": 40,
+		"cost": 33,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
@@ -203,7 +217,7 @@
 		"replaces": "Shrine",
 		"uniqueTo": "Thinking World",
 		"faith": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
@@ -310,10 +324,14 @@
 		"uniqueTo": "Korea",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+		"specialistSlots": {
+			"Scientist": 1
+		},
 		"uniques": [
 			"[-15]% production cost <if [College] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science] from every specialist [in this city]",
+			"[+1 Science] from every specialist [in this city]",
+			"[+1 Science] from every specialist [in this city] <in cities with a [University]>",
 		],
 		"requiredTech": "Writing"
 	},
@@ -694,7 +712,7 @@
 			"[-15]% production cost <if [苏丹圣殿] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured",
-			"[+2 Faith] <when at war>"
+			"[+1 Faith] <when at war>"
 			"May buy [Military] units with [Faith] for [2] times their normal Production cost <in this city>",
 		]
 	},
@@ -705,7 +723,6 @@
 		"cost": 100,
 		"faith": 2,
 		"culture": 1,
-		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -840,13 +857,13 @@
 		"replaces": "Market",
 		"uniqueTo": "Germany",
 		"gold": 2,
+		"production": 1,
 		"specialistSlots": {
 			"Merchant": 1
 		},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {
 			"gold": 25,
-			"production": 10
 		},
 		"uniques": [
 			"[-15]% production cost <if [Trade Association] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
@@ -2531,6 +2548,22 @@
 			"Consumes [1] [Zhu]",
 			"Comment [明朝专属首都额外建筑]",
 			"Unbuildable <when [No Wall-type Buildings (Ancient Walls allowed in non-hill cities)] Victory is enabled> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "[Opera House]",
+		"culture": 4,
+		"specialistSlots": {
+			"Artist": 1
+		},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"uniques": [
+			"Only available <when above [0] [Zhu]> <in [in capital] cities> <if [Opera House] is constructed>",
+			"Consumes [1] [Zhu]",
+			"Comment [明朝专属首都额外建筑]",
 			"Destroyed when the city is captured"
 		]
 	},

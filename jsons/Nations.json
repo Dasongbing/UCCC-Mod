@@ -110,8 +110,8 @@
 		],
 		"uniqueName": "Hellenic League",
 		"uniques": [
-		    "[-20]% Unhappiness from [Population] [in all non-occupied cities]",
-			"Each city founded increases culture cost of policies [50]% less than normal"
+		    "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
+			"Each city founded increases culture cost of policies [25]% less than normal"
 		],
 		"cities": [
 			"Athens",
@@ -246,7 +246,7 @@
 	},
 	{//大明
 		"name": "China-Ming",
-		"leaderName": "Zhu Yunwen",
+		"leaderName": "Judy",
 		"preferredVictoryType": "Scientific",
 		"outerColor": [
 			247,
@@ -260,9 +260,9 @@
 		],
 		"uniqueName": "Ming is Very Good",
 		"uniques": [
-			"Comment [首都可以再建造一次非奇观建筑，限3次，每次进入下一个时代+2上限]",
-			"Comment [每次设计发生变化领导人就会被更改，目前更改次数1次]",
-			"Provides [3] [Zhu] <hidden from users>",
+			"Comment [首都可以再建造一次非奇观建筑，限1次，每次进入下一个时代+2上限]",
+			"Comment [每次设计发生变化领导人就会被更改，目前更改次数2次]",
+			"Provides [1] [Zhu] <hidden from users>",
 			"Provides [2] [Zhu] <during the [Classical era]> <hidden from users>",
 			"Provides [4] [Zhu] <during the [Medieval era]> <hidden from users>",
 			"Provides [6] [Zhu] <during the [Renaissance era]> <hidden from users>",
@@ -436,7 +436,7 @@
 		"uniqueName": "Sun Never Sets",
 		"uniques": [
 			"Comment [所有单位有1次可以在无主异国领土占领所在地块]",
-			"[+1 Gold] <for every [7] [Owned [All] Tiles]>"
+			"[+1 Gold] <for every [6] [Owned [All] Tiles]>"
 		],
 		"cities": [
 			"London",
@@ -997,7 +997,7 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "种姓制度",
 		"uniques": [
-				"[+1 Happiness] per [1] population [in all cities] <every [3] turns>"
+				"[+1 Happiness] per [1] population [in all cities] <every [4] turns>"
 		],
 		"cities": [
 			"Delhi",
@@ -1158,6 +1158,7 @@
 			"[+1 Faith] <for every [['King Say'] Units]>  <hidden from users>",
 			"[Faith] cost of purchasing [GhaziRaider] units [-33]%  <hidden from users>",
 			"Comment [在工业时代以前近战单位+1战斗力]"
+			"[+1 Faith] [in this city] <in cities with a [Shrine]> <when at war>"
 		],
 		"cities": [
 			"Istanbul",
@@ -1305,6 +1306,7 @@
 		"uniqueName": "The Great Warpath",
 		"uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+			"[+1] Movement <in [Forest] tiles> <for [All] units>"
 		],
 		"cities": [
 			"Onondaga",
@@ -1370,7 +1372,6 @@
 		"uniqueName": "Achaemenid Legacy",
 		"uniques": [
 			"[+20]% Golden Age length",
-			"Empire enters a [7]-turn Golden Age <upon entering the [Classical era]>",
 			"[+1] Movement <for [All] units> <during a Golden Age>",
 			"[+10]% Strength <for [All] units> <during a Golden Age>"
 		],
@@ -1556,6 +1557,7 @@
 		"uniqueName": "CCB",
 		"uniques": [
 			"Get the leader title of [超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌超级无敌CCB[leaderName]大王]",
+			"Comment [处在开阔地带的城市+15城市耐久]"
 			"Provides [1] [Horses] <for every [[Mounted] Units]>",
 			"Comment [处在开阔地带的[City center] [+1 Production]]",
 			"[+2 Production] from every [{Grassland} {City center}] <hidden from users>",
@@ -1822,8 +1824,7 @@
 		"uniques": [
 			"[+1] Movement <for [Mounted] units>",
 			"[-1] Movement <for [Chariot Archer] units>",
-			"[Military] units gain the [Horseback] promotion",
-			"Comment [俺寻思船也算马]"
+			"[{Land} {Military}] units gain the [Horseback] promotion"
 		],
 		"cities": [
 			"Karakorum",
@@ -2329,6 +2330,9 @@
 		"uniques": [
 			"Comment [军事单位被击败时令该进攻你的文明建造军事单位时-100%[Production]1回合（不可叠加）]",
 			"Comment [军事单位造成伤害时令目标失去1xp]",
+			"Comment [击杀单位后本回合+10%组建军事单位的产能]"
+			"[+10]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]> <hidden from users>",
+			"Set [Debuff] to [0] <when above [0] [Debuff]> <upon turn start> <hidden from users>"
 			"[Military] units gain the [Lose-A] promotion <hidden from users>"
 		],
 		"cities": [
@@ -2543,8 +2547,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": [
-			"Comment [可以用20[Science]兑换20[Faith]]",
-			"Comment [可以用20[Faith]兑换20[Science]]"
+			"[+1 Faith] [in all cities] <in tiles adjacent to [{unimproved} {Forest}] tiles>",
+			"Gain [15] [Science] <upon founding a Pantheon> <(modified by game speed)>"
+			"Free Technology <upon founding a Religion>"
 		],
 		"cities": [
 			"Edinburgh",

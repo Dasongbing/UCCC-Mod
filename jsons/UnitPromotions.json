@@ -54,6 +54,8 @@
 		"name": "Lose-A",
 		"uniques": [
 			"[Target Unit] gains the [Lose] promotion <upon damaging a [All] unit>"
+			"Instantly provides [1] [Debuff] <upon defeating a [Military] unit>"
+			"Comment [[Austria]使用[Debuff]仅作为战略使用，而不触发减少军事产能效果]"
 		],
 		"unitTypes": []
 	},	
