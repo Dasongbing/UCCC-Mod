@@ -139,7 +139,7 @@ BuildingIcons/Scandinavian Workshop
   index: -1
 BuildingIcons/Sundial
   rotate: false
-  xy: 932, 496
+  xy: 1040, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -153,35 +153,35 @@ BuildingIcons/The Ottomans' Temple
   index: -1
 BuildingIcons/Trade Association
   rotate: false
-  xy: 1148, 496
+  xy: 1256, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wuthering Waves
   rotate: false
-  xy: 1256, 496
+  xy: 1364, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yranarg
   rotate: false
-  xy: 1364, 496
+  xy: 1472, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/楔字石碑
   rotate: false
-  xy: 1688, 496
+  xy: 960, 388
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/苏丹圣殿
   rotate: false
-  xy: 960, 388
+  xy: 960, 280
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -277,9 +277,16 @@ NationIcons/Maurya
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Spectator
+  rotate: false
+  xy: 932, 496
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Thinking World
   rotate: false
-  xy: 1040, 496
+  xy: 1148, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -314,7 +321,7 @@ ResourceIcons/Artwork
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 1952, 696
+  xy: 408, 28
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -349,7 +356,7 @@ ResourceIcons/Moai Heart
   index: -1
 ResourceIcons/Zhu
   rotate: false
-  xy: 1472, 496
+  xy: 1580, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -419,231 +426,231 @@ TileSets/HexaRealm/Tiles/Fish3
   index: -1
 TileSets/AbsoluteUnits/Tiles/Islet
   rotate: false
-  xy: 1894, 612
+  xy: 336, 32
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Islet
   rotate: false
-  xy: 1894, 612
+  xy: 336, 32
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Islet
   rotate: false
-  xy: 1894, 612
+  xy: 336, 32
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Naval Camp
   rotate: false
-  xy: 1796, 534
+  xy: 960, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Naval Camp
   rotate: false
-  xy: 1796, 534
+  xy: 960, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp
   rotate: false
-  xy: 1796, 534
+  xy: 960, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 1796, 470
+  xy: 1032, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 1796, 470
+  xy: 1032, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Naval Camp-Modern era
   rotate: false
-  xy: 1796, 470
+  xy: 1032, 216
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Ocean Current
   rotate: false
-  xy: 336, 32
+  xy: 852, 188
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean Current
   rotate: false
-  xy: 336, 32
+  xy: 852, 188
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean Current
   rotate: false
-  xy: 336, 32
+  xy: 852, 188
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Ocean+Islet
   rotate: false
-  xy: 852, 188
+  xy: 1976, 828
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Islet
   rotate: false
-  xy: 852, 188
+  xy: 1976, 828
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean+Islet
   rotate: false
-  xy: 852, 188
+  xy: 1976, 828
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Reef
   rotate: false
-  xy: 1976, 828
+  xy: 1976, 764
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Reef
   rotate: false
-  xy: 1976, 828
+  xy: 1976, 764
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 1976, 828
+  xy: 1976, 764
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Shoal
   rotate: false
-  xy: 1976, 764
+  xy: 1952, 700
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Shoal
   rotate: false
-  xy: 1976, 764
+  xy: 1952, 700
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Shoal
   rotate: false
-  xy: 1976, 764
+  xy: 1952, 700
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Very Very High Mountain
   rotate: false
-  xy: 1868, 78
+  xy: 1899, 67
   size: 64, 512
   orig: 64, 512
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Very Very High Mountain
   rotate: false
-  xy: 1868, 78
+  xy: 1899, 67
   size: 64, 512
   orig: 64, 512
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Very Very High Mountain
   rotate: false
-  xy: 1868, 78
+  xy: 1899, 67
   size: 64, 512
   orig: 64, 512
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Tiles/Wreck
   rotate: false
-  xy: 1816, 598
+  xy: 1919, 598
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wreck
   rotate: false
-  xy: 1816, 598
+  xy: 1919, 598
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wreck
   rotate: false
-  xy: 1816, 598
+  xy: 1919, 598
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Fumo
   rotate: false
-  xy: 960, 299
+  xy: 1816, 587
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fumo
   rotate: false
-  xy: 960, 299
+  xy: 1816, 587
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Fumo
   rotate: false
-  xy: 960, 299
+  xy: 1816, 587
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Moai Man
   rotate: false
-  xy: 960, 210
+  xy: 1796, 498
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Moai Man
   rotate: false
-  xy: 960, 210
+  xy: 1796, 498
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Moai Man
   rotate: false
-  xy: 960, 210
+  xy: 1796, 498
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -769,7 +776,7 @@ UnitIcons/Rua Spearman
   index: -1
 UnitIcons/[Cataphract]
   rotate: false
-  xy: 1580, 496
+  xy: 1688, 496
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
