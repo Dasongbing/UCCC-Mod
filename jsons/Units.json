@@ -127,6 +127,7 @@
 		"cost": 36,
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
+			"[This Unit] takes [35] damage <upon turn end> <when below [1] [Moai Heart]>"
 			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can build [Moai] improvements on tiles"
@@ -498,6 +499,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Swordsman",
 		"uniques": [
+			"[+60]% Gold cost of upgrading"
 			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Comment [可以升级为[Swordsman]，而不是[Pikeman]]",
 			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
@@ -866,7 +868,7 @@
 			"Comment [我创死你！]",
 			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
 			"Never appears as a Barbarian unit",
@@ -2365,7 +2367,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Comment [[[+15]% Strength bonus for [Military] units within [2] tiles]]",
-			"Empire enters golden age",
+			"Empire enters golden age <by consuming this unit>",
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",
 			"[+15]% Strength bonus for [Military] units within [0] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
@@ -2373,9 +2375,9 @@
 			"[+5]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
 			"[+10]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+15]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+5]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
+			"[+15]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+5]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
@@ -2392,7 +2394,7 @@
 		"replaces": "Great General",
 		"uniques": [
 			"Comment [[[+16]% Strength bonus for [Military] units within [2] tiles]]",
-			"Empire enters golden age",
+			"Empire enters golden age <by consuming this unit>",
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"Comment [总的来说，可汗额外使周围单位+1%战斗力]",
 			"[+16]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",
@@ -2401,9 +2403,9 @@
 			"[+6]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+16]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
 			"[+11]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+16]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+11]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+6]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
+			"[+16]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+11]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+6]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",

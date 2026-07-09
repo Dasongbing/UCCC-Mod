@@ -349,7 +349,7 @@
             {
                 "name": "Reformation",
                 "uniques": [
-			"Gain a free [Grand Temple] [in holy cities]"
+			"Comment [[Grand Temple]产能需求-60%]"
                 ],
                 "requires": [
                     "Organized Religion"
