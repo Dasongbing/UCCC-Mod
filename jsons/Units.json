@@ -19,7 +19,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Uncapturable",
-			"[This Unit] takes [35] damage <upon turn end> <when below [1] [Moai Heart]>",
+			"[This Unit] takes [35] damage <upon turn end> <when below [0] [Moai Heart]>",
 			"Can build [Land] improvements on tiles",
 			"Can build [Offshore Platform] improvements on tiles",
 			"Cannot move <when below [0] [Moai Heart]>"
