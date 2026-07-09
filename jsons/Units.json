@@ -19,6 +19,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Uncapturable",
+			"[This Unit] takes [35] damage <upon turn end> <when below [1] [Moai Heart]>",
 			"Can build [Land] improvements on tiles",
 			"Can build [Offshore Platform] improvements on tiles",
 			"Cannot move <when below [0] [Moai Heart]>"
@@ -127,7 +128,6 @@
 		"cost": 36,
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[This Unit] takes [35] damage <upon turn end> <when below [1] [Moai Heart]>"
 			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can build [Moai] improvements on tiles"
