@@ -2328,7 +2328,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "魅魔",
 		"uniques": [
-			"Comment [军事单位被击败时令该进攻你的文明建造军事单位时-100%[Production]1回合（不可叠加）]",
+			"Comment [军事单位被击败时令该进攻你的文明建造军事单位时+33%[Production]需求一次（仅叠加次数）]",
 			"Comment [军事单位造成伤害时令目标失去1xp]",
 			"Comment [击杀单位后本回合+10%组建军事单位的产能]"
 			"[+10]% Production when constructing [Military] units [in all cities] <when above [0] [Debuff]> <hidden from users>",

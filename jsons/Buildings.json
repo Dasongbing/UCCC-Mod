@@ -2072,6 +2072,7 @@
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"[-15]% production cost <if [Yranarg] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"[+10]% [Food] <in tiles adjacent to [Fresh water] tiles>",
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
@@ -2434,6 +2435,7 @@
 			"culture": 10
 		},
 		"uniques": [
+			"[-15]% production cost <if [Wuthering Waves] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
@@ -2556,6 +2558,7 @@
 	},
 	{
 		"name": "[Opera House]",
+		"cost": 300,
 		"culture": 4,
 		"specialistSlots": {
 			"Artist": 1

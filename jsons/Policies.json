@@ -275,11 +275,11 @@
             {
                 "name": "Professional Army",//5
                 "uniques": [
-			"Comment [[Great General]加力覆盖范围+2]",
+			"Comment [军事单位从战斗中受到伤害时回复1HP]"
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
+			"Comment [[<when above [0] [HonorRight]>][Great General]加力覆盖范围+2]",
 			"[+10]% Strength <for [Melee] units> <when above [0] [HonorRight]>",
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
-			"Comment [[Great General]加力覆盖范围+1[<when above [0] [HonorLeft]>]]",
 			"Comment [[Great General]提供的[Strength]确保1格范围内一定是15%[<when above [0] [HonorLeft]>]]",
                 ],
                 "requires": [

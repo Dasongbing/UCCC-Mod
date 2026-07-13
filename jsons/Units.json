@@ -64,9 +64,6 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"[-10]% production cost <for [Germany] Civilizations>",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
@@ -85,8 +82,6 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+1] Sight",
 			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit",
@@ -107,9 +102,6 @@
 		"upgradesTo": "Swordsman",
 		"uniques": [
 			"May upgrade to [Spearman] through ruins-like effects",
-			"[-10]% production cost <for [Germany] Civilizations>",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 		],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -128,8 +120,6 @@
 		"cost": 36,
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can build [Moai] improvements on tiles"
 		],
 		"upgradesTo": "Swordsman",
@@ -144,10 +134,6 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"promotions": [
 			"[Jaguar] ability",
 			"Woodsman"
@@ -174,11 +160,6 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>"
-		],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -196,10 +177,7 @@
 		"uniques": [
 			"Comment [攻击时发出fumo的声音]",
 			"Comment [这是近战单位]",
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"[2] XP gained from combat",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>"
 		],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
@@ -215,10 +193,6 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
@@ -235,10 +209,6 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"upgradesTo": "Composite Bowman",
 		"promotions": [
 			"Slinger Withdraw"
@@ -254,10 +224,6 @@
 		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
@@ -284,7 +250,6 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Cannot enter ocean tiles <before discovering [Astronomy]>",
 			"Can instantly construct a [Fishing Boats] improvement <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"Uncapturable",
@@ -299,9 +264,7 @@
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Cannot enter ocean tiles",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Never appears as a Barbarian unit",
 			"[-10]% production cost <for [Germany] Civilizations>"
 		],
@@ -320,10 +283,8 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"[+1] Movement <in [Water] tiles>",
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Cannot enter ocean tiles",
 			"No defensive terrain bonus",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"May travel on Water tiles without embarking",
 			"Never appears as a Barbarian unit",
 			"Can upgrade to [Horseman]"
@@ -343,9 +304,6 @@
    	     "obsoleteTech": "Compass",
  	       "upgradesTo": "Galleass",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Cannot enter ocean tiles"
 		],
   	      "attackSound": "arrow"
@@ -376,12 +334,9 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
 			"Never appears as a Barbarian unit",
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "arrow"
 	},
@@ -399,8 +354,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus",
 			"Rough terrain penalty",
 			"[+20]% Strength <when defending>"
@@ -420,8 +373,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus",
 			"Rough terrain penalty"
 		],
@@ -441,8 +392,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus"
 		],
 		"promotions": [
@@ -463,8 +412,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus"
 		],
 		"attackSound": "elephant"
@@ -479,10 +426,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>",
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "metalhit"
 	},
@@ -500,11 +444,8 @@
 		"upgradesTo": "Swordsman",
 		"uniques": [
 			"[+60]% Gold cost of upgrading"
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Comment [可以升级为[Swordsman]，而不是[Pikeman]]",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>",
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"attackSound": "metalhit"
 	},
@@ -520,8 +461,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>",
 			"Comment [[+10]% Defense Strength to adjacent military units]"
 		],
@@ -542,8 +481,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
@@ -560,8 +497,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"promotions": [
@@ -581,8 +516,6 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+100]% Strength <vs cities> <when attacking>",
 			"[-40]% Strength <vs [Military] units> <when attacking>",
 			"[-1] Sight",
@@ -604,8 +537,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques":[
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+15]% Strength <vs [Mounted] units>"
 		],
 		"promotions": [
@@ -625,8 +556,6 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
@@ -643,12 +572,9 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -666,8 +592,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"
@@ -694,8 +618,6 @@
 			"[Hetairoi] ability"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -720,8 +642,6 @@
 			"Medal of Inheritance"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -743,8 +663,6 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -773,8 +691,6 @@
 		],
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"
@@ -798,8 +714,6 @@
 			"圣战"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>"
 		],
@@ -818,8 +732,6 @@
 			"圣战"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Unbuildable",
 			"Cannot be purchased",
 			"Can move after attacking",
@@ -839,9 +751,6 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -864,10 +773,7 @@
 		"upgradesTo": "Trebuchet",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Comment [我创死你！]",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
@@ -887,11 +793,6 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"attackSound": "arrow"
 	},
 	{
@@ -903,11 +804,6 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -925,8 +821,6 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles"
 		],
@@ -943,10 +837,6 @@
 		"cost": 75,
 		"requiredTech": "Bronze Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": [
@@ -962,10 +852,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>",
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 		],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -981,8 +868,6 @@
 		"cost": 72,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"[+50]% Strength <vs [Mounted] units>",
 			"Can move immediately once bought"
 		],
@@ -1001,9 +886,6 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Cannot enter ocean tiles"
 		],
 		"attackSound": "arrow"
@@ -1019,9 +901,6 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1042,8 +921,6 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1070,8 +947,6 @@
 			"Allegiance"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1093,8 +968,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
@@ -1113,8 +986,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
@@ -1135,8 +1006,6 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
@@ -1156,11 +1025,6 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -1175,10 +1039,6 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"promotions": [
 			"[Chu-Ko-Nu] ability"
 		],
@@ -1196,10 +1056,6 @@
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		],
 		"obsoleteTech": "Industrialization",
 		"promotions": [
 			"Extended Range"
@@ -1217,9 +1073,6 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1241,8 +1094,6 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
 			"No defensive terrain bonus",
 			"Must set up to ranged attack"
 		],
@@ -1258,11 +1109,6 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1275,11 +1121,6 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -1295,9 +1136,6 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [80]% chance>"
 		],
@@ -1313,11 +1151,6 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"attackSound": "shot"
 	},
 	{
@@ -1330,11 +1163,6 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
@@ -1350,9 +1178,6 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
 			"Ignores terrain cost"
 		],
 		"promotions": [
@@ -1368,11 +1193,6 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"promotions": [
 			"Coastal Raider I",
 			"[Privateer] ability"
@@ -1384,16 +1204,14 @@
 		"unitType": "Helicopter",
 		"replaces": "Privateer",
 		"uniqueTo": "The Netherlands",
-		"movement": 4,
+		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
 			"Comment [飞翔的河南人号]",
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+			"May travel on Water tiles without embarking"
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"All tiles cost 1 movement",
@@ -1417,11 +1235,6 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
-		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -1436,7 +1249,7 @@
 		"cost": 185,
 		"requiredResource": "Iron",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
+
 			"[+1] Sight",
 			"Comment [你爹来咯]"
 		],
@@ -1455,9 +1268,9 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1478,8 +1291,8 @@
 		"cost": 185,
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
+
+
 			"Unbuildable",
 			"Unavailable",
 			"Will not be displayed in Civilopedia",
@@ -1504,8 +1317,8 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
+
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1532,9 +1345,9 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1555,9 +1368,9 @@
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "machinegun"
 	},
@@ -1571,9 +1384,9 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "shot"
 	},
@@ -1588,9 +1401,9 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1611,11 +1424,11 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
+
 		],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
@@ -1632,9 +1445,9 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+33]% Strength <vs cities>",
 			"Double movement in [Coast]",
 			"Never appears as a Barbarian unit"
@@ -1652,9 +1465,9 @@
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1676,9 +1489,9 @@
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+75]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"Never appears as a Barbarian unit"
@@ -1695,9 +1508,9 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "shot"
 	},
@@ -1713,8 +1526,8 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
+
+
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"attackSound": "shot"
@@ -1733,9 +1546,9 @@
 		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[50]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -1755,9 +1568,9 @@
 		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "bombing"
 	},
@@ -1771,9 +1584,9 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "shot"
 	},
@@ -1785,9 +1598,9 @@
 		"cost": 375,
 		"requiredTech": "Electronics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Cannot attack",
 			"Can carry [2] [Aircraft] units"
 		]
@@ -1803,9 +1616,9 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1824,9 +1637,9 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "machinegun"
 	},
@@ -1841,9 +1654,9 @@
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>",
@@ -1862,9 +1675,9 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1880,9 +1693,9 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can see invisible [Submarine] units",
 			"[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>",
@@ -1901,9 +1714,9 @@
 			"Amphibious"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+1] Sight <when [Embarked]>",
 			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
@@ -1922,9 +1735,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -1943,9 +1756,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Stealth Bomber",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 		],
 		"attackSound": "bombing"
 	},
@@ -1957,9 +1770,9 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1975,9 +1788,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -1994,9 +1807,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Unbuildable",
@@ -2014,9 +1827,9 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+100]% Strength <vs [Armored] units>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2036,9 +1849,9 @@
 			"Evasion"
 		],
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Nuclear weapon of Strength [1]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Self-destructs when attacking",
@@ -2057,9 +1870,9 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Aluminum",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
@@ -2079,9 +1892,9 @@
 		"cost": 425,
 		"requiredTech": "Rocketry",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>",
@@ -2099,9 +1912,9 @@
 		"cost": 150,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[-100]% maintenance costs"
 		],
 		"attackSound": "missile"
@@ -2116,9 +1929,9 @@
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Nuclear weapon of Strength [2]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Blast radius [2]",
@@ -2135,9 +1948,9 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -2158,9 +1971,9 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[+75]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
 			"[+1] Sight",
@@ -2177,9 +1990,9 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "tankshot"
@@ -2195,9 +2008,9 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[100]% chance to intercept air attacks",
 			"Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units",
@@ -2219,9 +2032,9 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -2240,9 +2053,9 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Bomber] units>",
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -2258,9 +2071,9 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Never appears as a Barbarian unit"
@@ -2278,9 +2091,9 @@
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
 		"uniques": [
-			"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>", 
-			"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-			"[-10]% production cost <for [Germany] Civilizations> <hidden from users>",
+
+
+,
 			"Damage taken from interception reduced by [100]%",
 			"Cannot be carried by [Carrier] units",
 			"[+4] Sight",
@@ -2374,7 +2187,8 @@
 			"[+10]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+5]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
-			"[+10]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			"[+15]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
 			"[+15]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"[+10]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"[+5]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
@@ -2402,7 +2216,8 @@
 			"[+11]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+6]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"[+16]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
-			"[+11]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			"[+16]% Strength bonus for [Military] units within [5] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"[+16]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"[+11]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
 			"[+6]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",

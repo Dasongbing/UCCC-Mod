@@ -44,8 +44,17 @@
 
     ],
     "unitUniques": [
-	"Gain control over [All] tiles in a [0]-tile radius <once> <for [1] movement> <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles> <for [England] Civilizations>"
-//	"Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
+	//奥地利文明特性
+	"[Military] units gain the [Lose-B] promotion <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>"
+	"[+30]% production cost <for [Military] units> <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+	//荣誉加成
+	"[-10]% production cost <for [Military] units> <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
+	"[-20]% production cost <for [Military] units> <when above [0] [HonorPoint]> <hidden from users>",
+	//德意志加成
+	"[-10]% production cost <for [Military] units> <for [Germany] Civilizations>",
+	//英格兰加成
+ 	"Gain control over [All] tiles in a [0]-tile radius <once> <for [1] movement> <in [{non-[Friendly Land]} {non-[Enemy Land]}] tiles> <for [England] Civilizations>"
+//实验性代码	"Can upgrade to [Archer] <for [{non-[Archer]} {non-[Bowman]} {non-[Slinger]} {non-[Atlatlist]} {non-[Skirmisher]} {Military}] units> <for [Carthage] Civilizations> <before discovering [Construction]>",
 	//马其顿加成
         "[+10]% Strength <when adjacent to a [Shield Guard] unit> <when defending>",
 	//奥斯曼能力
