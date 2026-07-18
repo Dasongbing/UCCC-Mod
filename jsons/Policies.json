@@ -43,7 +43,7 @@
             {
                 "name": "Oligarchy", //3
                 "uniques": [
-                    "[2] Unit Supply per [1] population [in capital]",
+                    "[1] Unit Supply per [4] population [in capital]",
 		    "[1] Unit Supply",
                     "[+10]% Strength for cities"
                 ],
@@ -275,7 +275,7 @@
             {
                 "name": "Professional Army",//5
                 "uniques": [
-			"Comment [军事单位从战斗中受到伤害时回复1HP]"
+			"Comment [军事单位在损失生命的战斗中额外造成1点伤害]"
 			"Comment [-----------------------------------------------------------------------------------------------------------]",
 			"Comment [[<when above [0] [HonorRight]>][Great General]加力覆盖范围+2]",
 			"[+10]% Strength <for [Melee] units> <when above [0] [HonorRight]>",

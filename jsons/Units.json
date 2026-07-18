@@ -2480,7 +2480,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Comment [[[+15]% Strength bonus for [Military] units within [2] tiles]]",
-			"Empire enters golden age <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <(modified by game speed)> <by consuming this unit>",
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",
 			"[+15]% Strength bonus for [Military] units within [0] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
@@ -2507,7 +2507,7 @@
 		"replaces": "Great General",
 		"uniques": [
 			"Comment [[[+16]% Strength bonus for [Military] units within [2] tiles]]",
-			"Empire enters golden age <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <(modified by game speed)> <by consuming this unit>",
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"Comment [总的来说，可汗额外使周围单位+1%战斗力]",
 			"[+16]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",

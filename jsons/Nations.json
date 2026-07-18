@@ -246,7 +246,7 @@
 	},
 	{//大明
 		"name": "China-Ming",
-		"leaderName": "Judy",
+		"leaderName": "Zhu Qizhen",
 		"preferredVictoryType": "Scientific",
 		"outerColor": [
 			247,
@@ -258,9 +258,10 @@
 			79,
 			71
 		],
-		"uniqueName": "Ming is Very Good",
+		"uniqueName": "Li-jia",
 		"uniques": [
-			"Comment [首都可以再建造一次非奇观建筑，限1次，每次进入下一个时代+2上限]",
+			"[+1 Science, +1 Culture, +2 Gold] per [2] population [in this city] <in cities with at least [8] [Population]>"
+/*			"Comment [首都可以再建造一次非奇观建筑，限1次，每次进入下一个时代+2上限]",
 			"Comment [每次设计发生变化领导人就会被更改，目前更改次数2次]",
 			"Provides [1] [Zhu] <hidden from users>",
 			"Provides [2] [Zhu] <during the [Classical era]> <hidden from users>",
@@ -270,7 +271,7 @@
 			"Provides [10] [Zhu] <during the [Modern era]> <hidden from users>",
 			"Provides [12] [Zhu] <during the [Atomic era]> <hidden from users>",
 			"Provides [14] [Zhu] <during the [Information era]> <hidden from users>",
-			"Provides [16] [Zhu] <during the [Future era]> <hidden from users>"
+			"Provides [16] [Zhu] <during the [Future era]> <hidden from users>"*/
 		],
 		"cities": [
 			"Beijing",

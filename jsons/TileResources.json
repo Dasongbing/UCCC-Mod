@@ -3,7 +3,8 @@
 		"name": "Zhu",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Not shown on world screen <for [non-[China-Ming]] Civilizations>",
+			"Not shown on world screen",
+//<for [non-[China-Ming]] Civilizations>
 			"Cannot be traded",
 		]
 	},

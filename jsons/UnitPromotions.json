@@ -43,7 +43,7 @@
 	{
 		"name": "Honor",
 		"uniques": [
-			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <after adopting [Professional Army]> <hidden from users>",
+			"[Target Unit] takes [1] damage <upon losing at least [1] HP in a single attack> <after adopting [Professional Army]> <hidden from users>",
             		"Gain [1] [Culture] <upon damaging a [All] unit> <hidden from users>",
 			"[This Unit] heals [5] HP <upon turn end> <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
 			"Instantly consumes [1] [HonorPoint] <when above [0] [HonorPoint]> <hidden from users>",
