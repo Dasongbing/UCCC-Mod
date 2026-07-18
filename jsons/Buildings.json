@@ -619,9 +619,10 @@
 		"uniques": [
 			"[-15]% production cost <if [Satrap's Court] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
 			"Removes extra unhappiness from annexed cities",
-			"Empire enters a [5]-turn Golden Age <(modified by game speed)>"
-			"[-4 Gold] <in [Annexed] cities>"
-			"Unsellable"
+			"Empire enters a [5]-turn Golden Age <(modified by game speed)>",
+			"[-4 Gold] <in [Annexed] cities>",
+			"Unsellable",
+			"Cost increases by [+10] when built"
 		],
 		"requiredTech": "Mathematics"
 	},

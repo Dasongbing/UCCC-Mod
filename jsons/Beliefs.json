@@ -33,14 +33,14 @@
         "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
     },
     {
-        "name": "God of the Open Sky",
+        "name": "Far in the blue Sky",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Pasture]"]
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": ["[+1 Faith] from every [Fishing Boats]"]
     },
     {
         "name": "God of War",
