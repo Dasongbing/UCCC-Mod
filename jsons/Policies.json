@@ -232,6 +232,7 @@
 			"Free [Scout] appears <before discovering [Archery]> <when above [0] [HonorRight]> <hidden from users>",
 			"Free [Archer] appears <after discovering [Archery]> <before discovering [The Wheel]> <when above [0] [HonorRight]> <hidden from users>",
 			"Free [Chariot Archer] appears <after discovering [The Wheel]> <before discovering [Construction]> <when above [0] [HonorRight]> <hidden from users>",
+			"Free [Composite Bowman] appears <after discovering [Construction]> <before discovering [Machinery]> <when above [0] [HonorRight]> <hidden from users>",
 			"Free [Crossbowman] appears <after discovering [Machinery]> <before discovering [Industrialization]> <when above [0] [HonorRight]> <hidden from users>",
 			"Free [Gatling Gun] appears <after discovering [Industrialization]> <before discovering [Ballistics]> <when above [0] [HonorRight]> <hidden from users>",
 			"Free [Great War Bomber] appears <after discovering [Flight]> <before discovering [Radar]> <when above [0] [HonorRight]> <hidden from users>",

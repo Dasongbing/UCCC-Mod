@@ -47,8 +47,8 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
-			"[+1 Food] <with [2] to [3] neighboring [Mountain] tiles>",
-			"[+1 Food] <with [4] to [5] neighboring [Mountain] tiles>",
+			"[+1 Food] <with [2] to [6] neighboring [Mountain] tiles>",
+			"[+1 Food] <with [4] to [6] neighboring [Mountain] tiles>",
 			"[+1 Food] <with [6] to [6] neighboring [Mountain] tiles>",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
