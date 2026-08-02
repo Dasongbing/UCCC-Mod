@@ -206,8 +206,7 @@
 		"requiredTech": "Pottery",
 		"uniques": [
 			"[-15]% production cost <if [Pyramid] is constructed in all [in capital] cities> <after adopting [Tradition Complete]> <hidden from users>",
-			"Only available <when religion is enabled>",
-			"[+1 Science] <after discovering [Writing]>"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
