@@ -1063,8 +1063,11 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
 		"uniques": [
-			"[+10]% Production when constructing [non-[Wonder]] buildings [in all cities]",
-			"Comment [军事单位的产能需求-10%]"
+		    "Instantly provides [1] [GNL2] <upon constructing [non-[Wonders]]> <when below [5] [GNL2]> <hidden from users>",
+		    "[+2]% Production when constructing [non-[Wonders]] buildings [in all cities] <for every [GNL2]> <hidden from users>",
+		    "Instantly provides [1] [GNL] <upon turn end> <when below [25] [GNL]> <when at war> <hidden from users>",
+			"Comment [每建造一个非奇观建筑+2%建造建筑时[Production]（最高+10%）]",
+			"Comment [每有5回合处于交战状态-2%军事单位[Production]需求（最高-10%，回合数平衡以快速速度为标准）]",
 		],
 		"cities": [
 			"Berlin",

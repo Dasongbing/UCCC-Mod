@@ -929,6 +929,16 @@
 		"Excluded from map editor"
 		]
 	},
+	{
+	    "name": "GNL2",//通用计数器2
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded","Stockpiled",
+		"Not shown on world screen",
+		"Will not be displayed in Civilopedia",
+		"Excluded from map editor"
+		]
+	},
 /*	{
 		"name": "Coral",//珊瑚
 		"resourceType": "Luxury",
