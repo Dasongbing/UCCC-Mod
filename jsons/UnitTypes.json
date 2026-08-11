@@ -7,112 +7,112 @@
         "name": "Sword",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Archery",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Scout",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Mounted",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Armored",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Siege",
         "movementType": "Land",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -123,28 +123,28 @@
         "name": "Melee Water",
         "movementType": "Water",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -154,28 +154,28 @@
         "Can enter ice tiles",
         "Invisible to non-adjacent units",
         "Can see invisible [Submarine] units",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water",
         "uniques": [
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -186,14 +186,14 @@
         "[+4] Sight",
         "Can see over obstacles",
         "Can perform Air Sweep",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -201,14 +201,14 @@
         "movementType": "Air",
         "uniques": [
         "Aircraft",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -216,14 +216,14 @@
         "movementType": "Air",
         "uniques": [
         "Aircraft",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -232,14 +232,14 @@
         "uniques": [
         "Self-destructs when attacking",
         "Cannot be intercepted",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {
@@ -247,14 +247,14 @@
         "movementType": "Land",
         "uniques": [
         "Can pass through impassable tiles",
-        "[+30]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
+        "[+15]% production cost <when above [0] [Debuff]> <for [non-[Austria]] Civilizations> <hidden from users>",
 		"[-2]% production cost <for [Germany] Civilizations> <when between [5] and [9] [GNL]> <hidden from users>",
 		"[-4]% production cost <for [Germany] Civilizations> <when between [10] and [14] [GNL]> <hidden from users>",
 		"[-6]% production cost <for [Germany] Civilizations> <when between [15] and [19] [GNL]> <hidden from users>",
 		"[-8]% production cost <for [Germany] Civilizations> <when between [20] and [24] [GNL]> <hidden from users>",
 		"[-10]% production cost <for [Germany] Civilizations> <when above [24] [GNL]> <hidden from users>",
-		"[-10]% production cost <when above [0] [HonorLeft]> <after adopting [Discipline]> <hidden from users>", 
-		"[-20]% production cost <when above [0] [HonorPoint]> <hidden from users>"
+		"[-5]% production cost <after adopting [Discipline]> <hidden from users>", 
+		"[-7]% production cost <when above [0] [HonorPoint]> <hidden from users>"
         ]
     },
     {

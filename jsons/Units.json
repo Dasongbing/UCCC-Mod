@@ -187,9 +187,12 @@
 		"name": "Bowman",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 6,
-		"rangedStrength": 9,
+		"strength": 5,
+		"rangedStrength": 8,
 		"cost": 40,
+		"uniques": [
+			"[+5]% Strength"
+		],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"replaces": "Archer",
@@ -264,6 +267,9 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles",
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -458,7 +464,7 @@
 		"upgradesTo": "Pikeman",
 		"uniques": [
 			"[+50]% Strength <vs [Mounted] units>",
-			"Comment [[+10]% Defense Strength to adjacent military units]"
+			"Comment [[+7]% Defense Strength to adjacent military units]"
 		],
 		"promotions": [
 			"[Shield Guard] ability"
@@ -617,7 +623,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[+10]% Strength <when adjacent to a [Military] unit> <when attacking>"
+			"[+7]% Strength <when adjacent to a [Military] unit> <when attacking>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -664,9 +670,6 @@
 			"[-33]% Strength <vs cities> <when attacking>",
 			"No movement cost to pillage",
 			"Comment [[[Faith] cost of purchasing [GhaziRaider] units [-33]%]]"
-		],
-		"promotions": [
-			"苏丹钦点"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -2080,14 +2083,10 @@
 			"Empire enters a [8]-turn Golden Age <(modified by game speed)> <by consuming this unit>",
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",
-			"[+15]% Strength bonus for [Military] units within [0] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+10]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+5]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
-			"[+15]% Strength bonus for [Military] units within [4] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+15]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+5]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+15]% Strength bonus for [Military] units within [3] tiles <after adopting [Military Caste]> <hidden from users>",
+//华子版本
+			"[+20]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <if [Cao] is constructed> <hidden from users>",
+			"[+20]% Strength bonus for [Military] units within [3] tiles <after adopting [Military Caste]> <if [Cao] is constructed> <hidden from users>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
@@ -2108,14 +2107,7 @@
 			"Comment [推行荣誉政策会导致效果变化，但此处描述不变]",
 			"Comment [总的来说，可汗额外使周围单位+1%战斗力]",
 			"[+16]% Strength bonus for [Military] units within [2] tiles <before adopting [Military Caste]> <hidden from users>",
-			"[+16]% Strength bonus for [Military] units within [0] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+11]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+6]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Military Caste]> <hidden from users>",
-			"[+16]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorRight]> <after adopting [Military Caste]> <hidden from users>",
-			"[+16]% Strength bonus for [Military] units within [4] tiles <when above [0] [HonorRight]> <after adopting [Professional Army]> <hidden from users>",
-			"[+16]% Strength bonus for [Military] units within [1] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+11]% Strength bonus for [Military] units within [2] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
-			"[+6]% Strength bonus for [Military] units within [3] tiles <when above [0] [HonorLeft]> <after adopting [Professional Army]> <hidden from users>",
+			"[+16]% Strength bonus for [Military] units within [3] tiles <after adopting [Military Caste]> <hidden from users>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
